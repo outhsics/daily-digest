@@ -21,10 +21,12 @@ SOURCES = {
 }
 
 # ===== AI 配置 =====
-AI_PROVIDER = "deepseek"  # deepseek / openai / siliconflow
-AI_MODEL = "deepseek-chat"
-AI_BASE_URL = "https://api.deepseek.com"
-AI_API_KEY_ENV = "DEEPSEEK_API_KEY"  # 环境变量名
+# 优先级: DeepSeek > SiliconFlow > OpenAI
+AI_PROVIDERS = [
+    {"name": "deepseek", "base_url": "https://api.deepseek.com", "model": "deepseek-chat", "env_key": "DEEPSEEK_API_KEY"},
+    {"name": "siliconflow", "base_url": "https://api.siliconflow.cn/v1", "model": "Qwen/Qwen2.5-7B-Instruct", "env_key": "SILICONFLOW_API_KEY"},
+    {"name": "openai", "base_url": "https://api.openai.com/v1", "model": "gpt-4o-mini", "env_key": "OPENAI_API_KEY"},
+]
 
 # ===== RSS 源 =====
 RSS_FEEDS = {

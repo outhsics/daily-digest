@@ -4,7 +4,17 @@ AI 摘要生成器
 import httpx
 import json
 import os
-from src.config import AI_PROVIDER, AI_MODEL, AI_BASE_URL, AI_API_KEY_ENV
+from src.config import AI_PROVIDERS
+
+
+def _get_active_provider() -> dict | None:
+    """找到第一个有 API key 的 AI 提供商"""
+    import os
+    for provider in AI_PROVIDERS:
+        key = os.environ.get(provider["env_key"], "")
+        if key:
+            return {**provider, "key": key}
+    return None
 
 
 async def generate_summary(items: list[dict], source_name: str) -> str:
@@ -33,18 +43,17 @@ async def generate_summary(items: list[dict], source_name: str) -> str:
 内容：
 {items_text}"""
 
-    api_key = os.environ.get(AI_API_KEY_ENV, "")
-    if not api_key:
-        # 无 API key 时，直接返回原始标题列表
+    provider = _get_active_provider()
+    if not provider:
         return _fallback_summary(items, source_name)
 
     try:
         async with httpx.AsyncClient(timeout=60) as client:
             resp = await client.post(
-                f"{AI_BASE_URL}/chat/completions",
-                headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+                f"{provider['base_url']}/chat/completions",
+                headers={"Authorization": f"Bearer {provider['key']}", "Content-Type": "application/json"},
                 json={
-                    "model": AI_MODEL,
+                    "model": provider["model"],
                     "messages": [{"role": "user", "content": prompt}],
                     "temperature": 0.3,
                     "max_tokens": 2000,
@@ -53,7 +62,7 @@ async def generate_summary(items: list[dict], source_name: str) -> str:
             data = resp.json()
             return data["choices"][0]["message"]["content"]
     except Exception as e:
-        print(f"AI summary error: {e}")
+        print(f"AI summary error ({provider['name']}): {e}")
         return _fallback_summary(items, source_name)
 
 
@@ -76,17 +85,17 @@ async def generate_daily_briefing(all_sections: dict[str, list[dict]]) -> str:
 今日各平台热门标题：
 {chr(10).join(highlights[:30])}"""
 
-    api_key = os.environ.get(AI_API_KEY_ENV, "")
-    if not api_key:
+    provider = _get_active_provider()
+    if not provider:
         return _fallback_briefing(all_sections)
 
     try:
         async with httpx.AsyncClient(timeout=60) as client:
             resp = await client.post(
-                f"{AI_BASE_URL}/chat/completions",
-                headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+                f"{provider['base_url']}/chat/completions",
+                headers={"Authorization": f"Bearer {provider['key']}", "Content-Type": "application/json"},
                 json={
-                    "model": AI_MODEL,
+                    "model": provider["model"],
                     "messages": [{"role": "user", "content": prompt}],
                     "temperature": 0.3,
                     "max_tokens": 1500,
@@ -95,7 +104,7 @@ async def generate_daily_briefing(all_sections: dict[str, list[dict]]) -> str:
             data = resp.json()
             return data["choices"][0]["message"]["content"]
     except Exception as e:
-        print(f"AI briefing error: {e}")
+        print(f"AI briefing error ({provider['name']}): {e}")
         return _fallback_briefing(all_sections)
 
 
