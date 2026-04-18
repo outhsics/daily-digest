@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026-04-12 - Daily Digest</title>
+  <style>
+:root {
+  --bg: #0d1117;
+  --bg-card: #161b22;
+  --bg-hover: #1c2333;
+  --text: #e6edf3;
+  --text-muted: #8b949e;
+  --accent: #58a6ff;
+  --accent-green: #3fb950;
+  --border: #30363d;
+  --orange: #f0883e;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px 30px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+  background: linear-gradient(135deg, var(--accent), #a371f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+/* 导航 */
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.nav-list a {
+  color: var(--text-muted);
+  text-decoration: none;
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+
+.nav-list a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+/* 日期列表页 */
+.date-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.date-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px 24px;
+  text-decoration: none;
+  color: var(--text);
+  transition: all 0.2s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date-card:hover {
+  background: var(--bg-hover);
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.date-card .date {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.date-card .meta {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+/* 文章页 */
+article h1 {
+  font-size: 1.6rem;
+  margin: 30px 0 10px;
+}
+
+article h2 {
+  font-size: 1.3rem;
+  margin: 35px 0 15px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+  color: var(--accent);
+}
+
+article h3 {
+  font-size: 1.1rem;
+  margin: 25px 0 10px;
+}
+
+article p {
+  margin: 10px 0;
+  color: var(--text);
+}
+
+article a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+article a:hover {
+  text-decoration: underline;
+}
+
+article blockquote {
+  border-left: 3px solid var(--accent);
+  padding: 10px 15px;
+  margin: 15px 0;
+  background: var(--bg-card);
+  border-radius: 0 8px 8px 0;
+  color: var(--text-muted);
+}
+
+article ul, article ol {
+  padding-left: 25px;
+  margin: 10px 0;
+}
+
+article li {
+  margin: 6px 0;
+  color: var(--text);
+}
+
+article li a {
+  color: var(--accent);
+}
+
+article hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 25px 0;
+}
+
+article code {
+  background: var(--bg-card);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+article details {
+  margin: 15px 0;
+}
+
+article summary {
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  padding: 8px 0;
+}
+
+article details[open] summary {
+  margin-bottom: 10px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  background: rgba(88,166,255,0.15);
+  color: var(--accent);
+}
+
+/* 返回顶部 */
+.back-link {
+  display: inline-block;
+  margin: 20px 0;
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.back-link:hover { color: var(--accent); }
+
+/* 页脚 */
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  border-top: 1px solid var(--border);
+  margin-top: 40px;
+}
+
+/* 响应式 */
+@media (max-width: 600px) {
+  .container { padding: 15px; }
+  header h1 { font-size: 1.5rem; }
+  article h2 { font-size: 1.1rem; }
+  .date-card { padding: 15px; }
+}
+</style>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📰</text></svg>">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📰 Daily Digest</h1>
+      <p>每日科技热点聚合 · AI 驱动的新闻日报</p>
+    </header>
+    
+    <main>
+      
+    <a class="back-link" href="index.html">← 返回所有日报</a>
+    <article>
+      <p><h1>Daily Digest - 2026-04-12</h1></p><p>> 自动生成于 2026-04-12 23:09 CST
+> 数据源：9 个平台，共 135 条内容</p><p>---</p><p><h2>📌 今日要点</h2></p><p><h2>今日要点</h2></p><p>各平台热门内容已聚合，详见下方各板块。</p><p>---</p><p><h2>📰 RSS聚合</h2></p><p><li><strong>From LLMs to hallucinations, here’s a simple guide to common AI terms</strong></li>
+  https://techcrunch.com/2026/04/12/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/
+<li><strong>At the HumanX conference, everyone was talking about Claude</strong></li>
+  https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/
+<li><strong>Slate Auto: Everything you need to know about the Bezos-backed EV startup</strong></li>
+  https://techcrunch.com/2026/04/12/slate-auto-everything-you-need-to-know-about-the-bezos-backed-ev-startup/
+<li><strong>Walmart-owned Flipkart, Amazon are squeezing India’s quick commerce startups</strong></li>
+  https://techcrunch.com/2026/04/11/walmart-owned-flipkart-amazon-are-squeezing-indias-quick-commerce-startups/
+<li><strong>Kalshi wins temporary pause in Arizona criminal case</strong></li>
+  https://techcrunch.com/2026/04/11/kalshi-wins-temporary-pause-in-arizona-criminal-case/
+<li><strong>AMC will stream ‘The Audacity’ premiere in 21 parts on TikTok</strong></li>
+  https://techcrunch.com/2026/04/11/amc-will-stream-the-audacity-premiere-in-21-parts-on-tiktok/
+<li><strong>Sam Altman responds to ‘incendiary’ New Yorker article after attack on his home</strong></li>
+  https://techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new-yorker-article-after-attack-on-his-home/
+<li><strong>Nvidia-backed SiFive hits $3.65 billion valuation for open AI chips</strong></li>
+  https://techcrunch.com/2026/04/11/nvidia-backed-sifive-hits-3-65-billion-valuation-for-open-ai-chips/
+<li><strong>NASA Artemis II splashes down in Pacific Ocean in ‘perfect’ landing for Moon mission</strong></li>
+  https://techcrunch.com/2026/04/10/nasa-artemis-ii-landing-pacific-ocean-splash-down/
+<li><strong>How to watch NASA’s Artemis II splash back down to Earth</strong></li>
+  https://techcrunch.com/2026/04/10/how-to-watch-nasa-artemis-ii-landing/</p><p><details>
+<summary>📋 完整列表 (70 条)</summary></p><p><li><a href="https://techcrunch.com/2026/04/12/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/">From LLMs to hallucinations, here’s a simple guide to common AI terms</a> — The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions </li>
+<li><a href="https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/">At the HumanX conference, everyone was talking about Claude</a> — Anthropic was the star of the show at San Francisco's AI-centric conference.</li>
+<li><a href="https://techcrunch.com/2026/04/12/slate-auto-everything-you-need-to-know-about-the-bezos-backed-ev-startup/">Slate Auto: Everything you need to know about the Bezos-backed EV startup</a> — Slate auto burst onto the scene in April 2025. Here is a timeline that covers its origins, backers, </li>
+<li><a href="https://techcrunch.com/2026/04/11/walmart-owned-flipkart-amazon-are-squeezing-indias-quick-commerce-startups/">Walmart-owned Flipkart, Amazon are squeezing India’s quick commerce startups</a> — Flipkart's ongoing expansion beyond major cities and heavy discounting is raising risks for India's </li>
+<li><a href="https://techcrunch.com/2026/04/11/kalshi-wins-temporary-pause-in-arizona-criminal-case/">Kalshi wins temporary pause in Arizona criminal case</a> — The Commodity Futures Trading Commission announced Friday that it has won a temporary restraining or</li>
+<li><a href="https://techcrunch.com/2026/04/11/amc-will-stream-the-audacity-premiere-in-21-parts-on-tiktok/">AMC will stream ‘The Audacity’ premiere in 21 parts on TikTok</a> — Is this a smart way to build buzz, or just an odd attempt to recreate Quibi?</li>
+<li><a href="https://techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new-yorker-article-after-attack-on-his-home/">Sam Altman responds to ‘incendiary’ New Yorker article after attack on his home</a> — The OpenAI CEO's new blog post responds to both an apparent attack on his home and an in-depth New Y</li>
+<li><a href="https://techcrunch.com/2026/04/11/nvidia-backed-sifive-hits-3-65-billion-valuation-for-open-ai-chips/">Nvidia-backed SiFive hits $3.65 billion valuation for open AI chips</a> — The deal is interesting for a number of reasons, including that SiFive's chip designs are based on R</li>
+<li><a href="https://techcrunch.com/2026/04/10/nasa-artemis-ii-landing-pacific-ocean-splash-down/">NASA Artemis II splashes down in Pacific Ocean in ‘perfect’ landing for Moon mission</a> — The Integrity craft splashed down in the Pacific Ocean off the coast of San Diego just after 5:07 p.</li>
+<li><a href="https://techcrunch.com/2026/04/10/how-to-watch-nasa-artemis-ii-landing/">How to watch NASA’s Artemis II splash back down to Earth</a> — NASA's Artemis II mission has traveled farther from Earth than any mission before. Here's how to wat</li>
+<li><a href="https://www.theverge.com/gadgets/910482/2021-amazon-kindle-paperwhite-signature-edition-refurbished-woot-deal-sale">You can grab a refurbished 2021 Kindle Paperwhite starting at just $49.99</a> — We spend a lot of time at The Verge waxing poetic about the latest gadgets, but sometimes it’s the l</li>
+<li><a href="https://www.theverge.com/tech/910537/hisense-ur9-rgb-led-tv-review">The Hisense UR9 is a great first shot against OLED’s bow</a> — RGB LED TVs have been the talk of the TV world this year, with models coming from all the manufactur</li>
+<li><a href="https://www.theverge.com/podcast/910725/western-electric-500-att-version-history">How AT&#038;T created the most iconic phone ever</a> — For years, even decades, virtually everyone in the United States had the same phone. Nobody really t</li>
+<li><a href="https://www.theverge.com/column/910019/ai-coding-wars-openai-google-anthropic">The AI code wars are heating up</a> — This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For</li>
+<li><a href="https://www.theverge.com/tech/910061/ricoh-gr-iv-monochrome-review">Allow me to explain why I love this camera that can’t shoot color</a> — I love black-and-white photography. I also adore compact cameras you can always have by your side. S</li></p><p></details></p><p>---</p><p><h2>🟠 Hacker News</h2></p><p><li><strong>Pro Max 5x Quota Exhausted in 1.5 Hours Despite Moderate Usage</strong> (↑300)</li>
+  https://github.com/anthropics/claude-code/issues/45756
+<li><strong>Bring Back Idiomatic Design</strong> (↑59)</li>
+  https://essays.johnloeber.com/p/4-bring-back-idiomatic-design
+<li><strong>Show HN: Oberon System 3 runs natively on Raspberry Pi 3 (with ready SD card)</strong> (↑28)</li>
+  https://github.com/rochus-keller/OberonSystem3Native/releases
+<li><strong>JVM Options Explorer</strong> (↑94)</li>
+  https://chriswhocodes.com/vm-options-explorer.html
+<li><strong>Tell HN: OpenAI silently removed Study Mode from ChatGPT</strong> (↑65)</li>
+  https://news.ycombinator.com/item?id=47739305
+<li><strong>We have a 99% email reputation. Gmail disagrees</strong> (↑87)</li>
+  https://blogfontawesome.wpcomstaging.com/we-have-a-99-email-reputation-gmail-disagrees/
+<li><strong>Seven countries now generate 100% of their electricity from renewable energy</strong> (↑92)</li>
+  https://www.the-independent.com/tech/renewable-energy-solar-nepal-bhutan-iceland-b2533699.html
+<li><strong>Tell HN: docker pull fails in spain due to football cloudflare block</strong> (↑111)</li>
+  https://news.ycombinator.com/item?id=47738883
+<li><strong>AI Will Be Met with Violence, and Nothing Good Will Come of It</strong> (↑191)</li>
+  https://www.thealgorithmicbridge.com/p/ai-will-be-met-with-violence-and
+<li><strong>Phyphox – Physical Experiments Using a Smartphone</strong> (↑89)</li>
+  https://phyphox.org/</p><p><details>
+<summary>📋 完整列表 (20 条)</summary></p><p><li><a href="https://github.com/anthropics/claude-code/issues/45756">Pro Max 5x Quota Exhausted in 1.5 Hours Despite Moderate Usage</a> <code>↑300</code></li>
+<li><a href="https://essays.johnloeber.com/p/4-bring-back-idiomatic-design">Bring Back Idiomatic Design</a> <code>↑59</code></li>
+<li><a href="https://github.com/rochus-keller/OberonSystem3Native/releases">Show HN: Oberon System 3 runs natively on Raspberry Pi 3 (with ready SD card)</a> <code>↑28</code></li>
+<li><a href="https://chriswhocodes.com/vm-options-explorer.html">JVM Options Explorer</a> <code>↑94</code></li>
+<li><a href="https://news.ycombinator.com/item?id=47739305">Tell HN: OpenAI silently removed Study Mode from ChatGPT</a> <code>↑65</code></li>
+<li><a href="https://blogfontawesome.wpcomstaging.com/we-have-a-99-email-reputation-gmail-disagrees/">We have a 99% email reputation. Gmail disagrees</a> <code>↑87</code></li>
+<li><a href="https://www.the-independent.com/tech/renewable-energy-solar-nepal-bhutan-iceland-b2533699.html">Seven countries now generate 100% of their electricity from renewable energy</a> <code>↑92</code></li>
+<li><a href="https://news.ycombinator.com/item?id=47738883">Tell HN: docker pull fails in spain due to football cloudflare block</a> <code>↑111</code></li>
+<li><a href="https://www.thealgorithmicbridge.com/p/ai-will-be-met-with-violence-and">AI Will Be Met with Violence, and Nothing Good Will Come of It</a> <code>↑191</code></li>
+<li><a href="https://phyphox.org/">Phyphox – Physical Experiments Using a Smartphone</a> <code>↑89</code></li>
+<li><a href="https://github.com/anthropics/claude-code/issues/46829">Anthropic downgraded cache TTL on March 6th</a> <code>↑225</code></li>
+<li><a href="https://pudding.cool/2026/02/happy-map/">Happy Map</a> <code>↑87</code></li>
+<li><a href="https://blinry.org/oodi/">A Tour of Oodi</a> <code>↑32</code></li>
+<li><a href="https://github.com/xsawyerx/curl-doom">Doom, Played over Curl</a> <code>↑32</code></li>
+<li><a href="https://blog.reversesociety.co/blog/2026/kernel-rw-not-enough-extract-offsets-from-xnu-kernelcaches">Compute iOS XNU offset from kernel cache</a> <code>↑4</code></li></p><p></details></p><p>---</p><p><h2>🐦 Twitter/X</h2></p><p><li><strong>#日ドラ10回切って</strong></li>
+  https://twitter.com/search?q=%23日ドラ10回切って
+<li><strong>#SuperFluid2026xJASPER</strong></li>
+  https://twitter.com/search?q=%23SuperFluid2026xJASPER
+<li><strong>#櫻坂5thアニラ_国立競技場_DAY2</strong></li>
+  https://twitter.com/search?q=%23櫻坂5thアニラ_国立競技場_DAY2
+<li><strong>#ParisRoubaix</strong></li>
+  https://twitter.com/search?q=%23ParisRoubaix
+<li><strong>#日曜劇場ギフト</strong></li>
+  https://twitter.com/search?q=%23日曜劇場ギフト
+<li><strong>Wout</strong></li>
+  https://twitter.com/search?q=Wout
+<li><strong>Sant RampalJi YtChannel</strong></li>
+  https://twitter.com/search?q=Sant RampalJi YtChannel
+<li><strong>Romero</strong></li>
+  https://twitter.com/search?q=Romero
+<li><strong>Brobbey</strong></li>
+  https://twitter.com/search?q=Brobbey
+<li><strong>Tottenham</strong></li>
+  https://twitter.com/search?q=Tottenham</p><p><details>
+<summary>📋 完整列表 (15 条)</summary></p><p><li><a href="https://twitter.com/search?q=%23日ドラ10回切って">#日ドラ10回切って</a></li>
+<li><a href="https://twitter.com/search?q=%23SuperFluid2026xJASPER">#SuperFluid2026xJASPER</a></li>
+<li><a href="https://twitter.com/search?q=%23櫻坂5thアニラ_国立競技場_DAY2">#櫻坂5thアニラ_国立競技場_DAY2</a></li>
+<li><a href="https://twitter.com/search?q=%23ParisRoubaix">#ParisRoubaix</a></li>
+<li><a href="https://twitter.com/search?q=%23日曜劇場ギフト">#日曜劇場ギフト</a></li>
+<li><a href="https://twitter.com/search?q=Wout">Wout</a></li>
+<li><a href="https://twitter.com/search?q=Sant RampalJi YtChannel">Sant RampalJi YtChannel</a></li>
+<li><a href="https://twitter.com/search?q=Romero">Romero</a></li>
+<li><a href="https://twitter.com/search?q=Brobbey">Brobbey</a></li>
+<li><a href="https://twitter.com/search?q=Tottenham">Tottenham</a></li>
+<li><a href="https://twitter.com/search?q=ハイスタ">ハイスタ</a></li>
+<li><a href="https://twitter.com/search?q=ミンソク">ミンソク</a></li>
+<li><a href="https://twitter.com/search?q=Sunderland">Sunderland</a></li>
+<li><a href="https://twitter.com/search?q=Pogacar">Pogacar</a></li>
+<li><a href="https://twitter.com/search?q=アジアツアー">アジアツアー</a></li></p><p></details></p><p>---</p><p><h2>👽 Reddit</h2></p><p><li><strong>Palantir CEO says AI 'will destroy' humanities jobs</strong> (↑6365)</li>
+  https://reddit.com/r/technology/comments/1sj4l63/palantir_ceo_says_ai_will_destroy_humanities_jobs/
+<li><strong>Microsoft confirms Windows 11 KB5077212, KB5079420 break PC reset on 25H2 and 24H2 systems</strong> (↑3721)</li>
+  https://reddit.com/r/technology/comments/1siwupm/microsoft_confirms_windows_11_kb5077212_kb5079420/
+<li><strong>Universe expected to decay in 10⁷⁸ years, much sooner than previously thought</strong> (↑3019)</li>
+  https://reddit.com/r/technology/comments/1sjaqdl/universe_expected_to_decay_in_10⁷⁸_years_much/
+<li><strong>Rockstar Games confirms it was hacked by malicious group — 'ShinyHunters' takes credit, gives until April 14 to pay ransom or it will release confidential data</strong> (↑2792)</li>
+  https://reddit.com/r/technology/comments/1sj2v3m/rockstar_games_confirms_it_was_hacked_by/
+<li><strong>Experimental Drug Can Reverse Osteoarthritis in Weeks, Animal Research Shows</strong> (↑2356)</li>
+  https://reddit.com/r/technology/comments/1siz6ya/experimental_drug_can_reverse_osteoarthritis_in/
+<li><strong>Microsoft starts removing unnecessary Copilot buttons in Windows 11</strong> (↑1247)</li>
+  https://reddit.com/r/technology/comments/1sj3xwp/microsoft_starts_removing_unnecessary_copilot/
+<li><strong>Politico survey finds 84% of EU people distrust US tech companies to handle their personal data responsibly, rising to 93% distrust for Chinese tech firms</strong> (↑819)</li>
+  https://reddit.com/r/technology/comments/1sje945/politico_survey_finds_84_of_eu_people_distrust_us/
+<li><strong>I built a free tool to turn boring barcodes into artistic, scannable SVG art.</strong> (↑645)</li>
+  https://reddit.com/r/SideProject/comments/1simraq/i_built_a_free_tool_to_turn_boring_barcodes_into/
+<li><strong>OpenAI is backing an Illinois state bill to shield AI companies from lawsuits for catastrophic harm</strong> (↑609)</li>
+  https://reddit.com/r/technology/comments/1sjbyv4/openai_is_backing_an_illinois_state_bill_to/
+<li><strong>The shuffle is not random. Spotify's patents show how the recommendation engine works.</strong> (↑557)</li>
+  https://reddit.com/r/technology/comments/1sjd5tc/the_shuffle_is_not_random_spotifys_patents_show/</p><p><details>
+<summary>📋 完整列表 (10 条)</summary></p><p><li><a href="https://reddit.com/r/technology/comments/1sj4l63/palantir_ceo_says_ai_will_destroy_humanities_jobs/">Palantir CEO says AI 'will destroy' humanities jobs</a> <code>↑6365</code></li>
+<li><a href="https://reddit.com/r/technology/comments/1siwupm/microsoft_confirms_windows_11_kb5077212_kb5079420/">Microsoft confirms Windows 11 KB5077212, KB5079420 break PC reset on 25H2 and 24H2 systems</a> <code>↑3721</code></li>
+<li><a href="https://reddit.com/r/technology/comments/1sjaqdl/universe_expected_to_decay_in_10⁷⁸_years_much/">Universe expected to decay in 10⁷⁸ years, much sooner than previously thought</a> <code>↑3019</code></li>
+<li><a href="https://reddit.com/r/technology/comments/1sj2v3m/rockstar_games_confirms_it_was_hacked_by/">Rockstar Games confirms it was hacked by malicious group — 'ShinyHunters' takes credit, gives until April 14 to pay ransom or it will release confidential data</a> <code>↑2792</code></li>
+<li><a href="https://reddit.com/r/technology/comments/1siz6ya/experimental_drug_can_reverse_osteoarthritis_in/">Experimental Drug Can Reverse Osteoarthritis in Weeks, Animal Research Shows</a> <code>↑2356</code></li>
+<li><a href="https://reddit.com/r/technology/comments/1sj3xwp/microsoft_starts_removing_unnecessary_copilot/">Microsoft starts removing unnecessary Copilot buttons in Windows 11</a> <code>↑1247</code></li>
+<li><a href="https://reddit.com/r/technology/comments/1sje945/politico_survey_finds_84_of_eu_people_distrust_us/">Politico survey finds 84% of EU people distrust US tech companies to handle their personal data responsibly, rising to 93% distrust for Chinese tech firms</a> <code>↑819</code></li>
+<li><a href="https://reddit.com/r/SideProject/comments/1simraq/i_built_a_free_tool_to_turn_boring_barcodes_into/">I built a free tool to turn boring barcodes into artistic, scannable SVG art.</a> <code>↑645</code></li>
+<li><a href="https://reddit.com/r/technology/comments/1sjbyv4/openai_is_backing_an_illinois_state_bill_to/">OpenAI is backing an Illinois state bill to shield AI companies from lawsuits for catastrophic harm</a> <code>↑609</code></li>
+<li><a href="https://reddit.com/r/technology/comments/1sjd5tc/the_shuffle_is_not_random_spotifys_patents_show/">The shuffle is not random. Spotify's patents show how the recommendation engine works.</a> <code>↑557</code></li></p><p></details></p><p>---</p><p><h2>👩‍💻 Dev.to</h2></p><p><li><strong>The Final 1% of Every GitHub Project: Sealing It Properly</strong> (↑22)</li>
+  https://dev.to/georgekobaidze/the-final-1-of-every-github-project-sealing-it-properly-2app
+<li><strong>Building a Football Analytics Pipeline: Patterns, Tradeoffs, and What Production Would Look Like</strong> (↑2)</li>
+  https://dev.to/ayoabass777/building-a-football-analytics-pipeline-patterns-tradeoffs-and-what-production-would-look-like-n66
+<li><strong>How to Programmatically Install Firefox Extensions (And Why It Breaks)</strong> (↑2)</li>
+  https://dev.to/alanwest/how-to-programmatically-install-firefox-extensions-and-why-it-breaks-2b01
+<li><strong>Building Cipher: Where We Are, What Broke, and What’s Coming Next</strong> (↑1)</li>
+  https://dev.to/rezzzdev/building-cipher-where-we-are-what-broke-and-whats-coming-next-3enl
+<li><strong>GitOps vs GitHub Actions: Security-First in Production</strong></li>
+  https://dev.to/orthogonalinfo/gitops-vs-github-actions-security-first-in-production-18in
+<li><strong>UTLX the ultimate mapping capability</strong></li>
+  https://dev.to/grauwen/utlx-the-ultimate-mapping-capability-5f8
+<li><strong>The problem ended up being 80ms between nodes.</strong></li>
+  https://dev.to/aldotek_llc/the-problem-ended-up-being-80ms-between-nodes-1n83
+<li><strong>I picked a 5ms keyword router over an LLM meta-router for my AI app. Here's the math.</strong></li>
+  https://dev.to/samarth0211/i-picked-a-5ms-keyword-router-over-an-llm-meta-router-for-my-ai-app-heres-the-math-23p2
+<li><strong>Why Cursor Keeps Generating Wildcard CORS -- And How to Fix It</strong></li>
+  https://dev.to/chandan_karn_fb750e731394/why-cursor-keeps-generating-wildcard-cors-and-how-to-fix-it-3ef
+<li><strong>I built a Telegram bot that reads 70 arXiv papers a day so I don't have to</strong></li>
+  https://dev.to/landigf/i-built-a-telegram-bot-that-reads-70-arxiv-papers-a-day-so-i-dont-have-to-19b5</p><p><details>
+<summary>📋 完整列表 (10 条)</summary></p><p><li><a href="https://dev.to/georgekobaidze/the-final-1-of-every-github-project-sealing-it-properly-2app">The Final 1% of Every GitHub Project: Sealing It Properly</a> <code>↑22</code> — Table of Contents    Introduction What Does It Mean to "Seal" a Project?  The Release...</li>
+<li><a href="https://dev.to/ayoabass777/building-a-football-analytics-pipeline-patterns-tradeoffs-and-what-production-would-look-like-n66">Building a Football Analytics Pipeline: Patterns, Tradeoffs, and What Production Would Look Like</a> <code>↑2</code> — Football is the most watched sport on the planet. Millions of fans follow their teams across leagues</li>
+<li><a href="https://dev.to/alanwest/how-to-programmatically-install-firefox-extensions-and-why-it-breaks-2b01">How to Programmatically Install Firefox Extensions (And Why It Breaks)</a> <code>↑2</code> — A deep dive into programmatically installing Firefox extensions, why naive approaches fail, and the </li>
+<li><a href="https://dev.to/rezzzdev/building-cipher-where-we-are-what-broke-and-whats-coming-next-3enl">Building Cipher: Where We Are, What Broke, and What’s Coming Next</a> <code>↑1</code> — Most AI tools stop at generating code.  Cipher doesn’t.  It walks straight into Unreal Engine and...</li>
+<li><a href="https://dev.to/orthogonalinfo/gitops-vs-github-actions-security-first-in-production-18in">GitOps vs GitHub Actions: Security-First in Production</a> — A security-focused comparison of GitOps and GitHub Actions for Kubernetes deployments, with practica</li>
+<li><a href="https://dev.to/grauwen/utlx-the-ultimate-mapping-capability-5f8">UTLX the ultimate mapping capability</a> — Why I Built My Own Data Transformation Language   Integration mapping hasn't meaningfully...</li>
+<li><a href="https://dev.to/aldotek_llc/the-problem-ended-up-being-80ms-between-nodes-1n83">The problem ended up being 80ms between nodes.</a> — A few days ago we had one of those annoying infra issues where nothing looked fully broken, but...</li>
+<li><a href="https://dev.to/samarth0211/i-picked-a-5ms-keyword-router-over-an-llm-meta-router-for-my-ai-app-heres-the-math-23p2">I picked a 5ms keyword router over an LLM meta-router for my AI app. Here's the math.</a> — I picked a 5ms keyword router over an LLM meta-router for my AI app. Here's the...</li>
+<li><a href="https://dev.to/chandan_karn_fb750e731394/why-cursor-keeps-generating-wildcard-cors-and-how-to-fix-it-3ef">Why Cursor Keeps Generating Wildcard CORS -- And How to Fix It</a> — TL;DR    AI editors almost always default to cors() with no config -- which sets...</li>
+<li><a href="https://dev.to/landigf/i-built-a-telegram-bot-that-reads-70-arxiv-papers-a-day-so-i-dont-have-to-19b5">I built a Telegram bot that reads 70 arXiv papers a day so I don't have to</a> — I built a Telegram bot that reads 70 arXiv papers a day so I don't have to            The...</li></p><p></details></p><p>---</p><p><h2>💬 V2EX</h2></p><p><li><strong>被这个事情困扰挺久，我感觉跟那位女同事走得太近了</strong></li>
+  https://www.v2ex.com/t/1205209
+<li><strong>[送！]害 这么多中转站 我也弄一个！ 我的原始股东们呢？</strong></li>
+  https://www.v2ex.com/t/1205199
+<li><strong>咸鱼 codex 模型注水，用千问 0.6b 代替 codex5.4</strong></li>
+  https://www.v2ex.com/t/1205234
+<li><strong>终端软件 大家有什么核心需求吗？</strong></li>
+  https://www.v2ex.com/t/1205213
+<li><strong>求鼠标滚轮耐用的推荐</strong></li>
+  https://www.v2ex.com/t/1205215
+<li><strong>[合肥] 初级小程序全栈工程师</strong></li>
+  https://www.v2ex.com/t/1205233
+<li><strong>注册尼日利亚区域的方法，包括如何更改区域</strong></li>
+  https://www.v2ex.com/t/1205255
+<li><strong>爱上合租妹子 2 - 看电影</strong></li>
+  https://www.v2ex.com/t/1205228
+<li><strong>Vex——更现代的 V2EX ios 客户端</strong></li>
+  https://www.v2ex.com/t/1205310
+<li><strong>Gemini 访问不了，换了台湾家宽也不行，用什么梯子能访问啊？</strong></li>
+  https://www.v2ex.com/t/1205253</p><p><details>
+<summary>📋 完整列表 (10 条)</summary></p><p><li><a href="https://www.v2ex.com/t/1205209">被这个事情困扰挺久，我感觉跟那位女同事走得太近了</a> <code>↑93</code></li>
+<li><a href="https://www.v2ex.com/t/1205199">[送！]害 这么多中转站 我也弄一个！ 我的原始股东们呢？</a> <code>↑88</code></li>
+<li><a href="https://www.v2ex.com/t/1205234">咸鱼 codex 模型注水，用千问 0.6b 代替 codex5.4</a> <code>↑50</code></li>
+<li><a href="https://www.v2ex.com/t/1205213">终端软件 大家有什么核心需求吗？</a> <code>↑48</code></li>
+<li><a href="https://www.v2ex.com/t/1205215">求鼠标滚轮耐用的推荐</a> <code>↑47</code></li>
+<li><a href="https://www.v2ex.com/t/1205233">[合肥] 初级小程序全栈工程师</a> <code>↑43</code></li>
+<li><a href="https://www.v2ex.com/t/1205255">注册尼日利亚区域的方法，包括如何更改区域</a> <code>↑38</code></li>
+<li><a href="https://www.v2ex.com/t/1205228">爱上合租妹子 2 - 看电影</a> <code>↑37</code></li>
+<li><a href="https://www.v2ex.com/t/1205310">Vex——更现代的 V2EX ios 客户端</a> <code>↑35</code></li>
+<li><a href="https://www.v2ex.com/t/1205253">Gemini 访问不了，换了台湾家宽也不行，用什么梯子能访问啊？</a> <code>↑34</code></li></p><p></details></p><p>---</p><p>---</p><p>*Generated by <a href="https://github.com">Daily Digest</a> · Powered by GitHub Actions + AI*</p>
+    </article>
+    <a class="back-link" href="index.html">← 返回所有日报</a>
+    
+    </main>
+    <footer>
+      <p>Powered by GitHub Actions + AI · 自动生成</p>
+      <p>Data from Hacker News, GitHub, Reddit, Twitter/X, Product Hunt, V2EX, and more</p>
+    </footer>
+  </div>
+</body>
+</html>

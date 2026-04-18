@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026-04-17 - Daily Digest</title>
+  <style>
+:root {
+  --bg: #0d1117;
+  --bg-card: #161b22;
+  --bg-hover: #1c2333;
+  --text: #e6edf3;
+  --text-muted: #8b949e;
+  --accent: #58a6ff;
+  --accent-green: #3fb950;
+  --border: #30363d;
+  --orange: #f0883e;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px 30px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+  background: linear-gradient(135deg, var(--accent), #a371f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+/* 导航 */
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.nav-list a {
+  color: var(--text-muted);
+  text-decoration: none;
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+
+.nav-list a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+/* 日期列表页 */
+.date-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.date-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px 24px;
+  text-decoration: none;
+  color: var(--text);
+  transition: all 0.2s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date-card:hover {
+  background: var(--bg-hover);
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.date-card .date {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.date-card .meta {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+/* 文章页 */
+article h1 {
+  font-size: 1.6rem;
+  margin: 30px 0 10px;
+}
+
+article h2 {
+  font-size: 1.3rem;
+  margin: 35px 0 15px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+  color: var(--accent);
+}
+
+article h3 {
+  font-size: 1.1rem;
+  margin: 25px 0 10px;
+}
+
+article p {
+  margin: 10px 0;
+  color: var(--text);
+}
+
+article a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+article a:hover {
+  text-decoration: underline;
+}
+
+article blockquote {
+  border-left: 3px solid var(--accent);
+  padding: 10px 15px;
+  margin: 15px 0;
+  background: var(--bg-card);
+  border-radius: 0 8px 8px 0;
+  color: var(--text-muted);
+}
+
+article ul, article ol {
+  padding-left: 25px;
+  margin: 10px 0;
+}
+
+article li {
+  margin: 6px 0;
+  color: var(--text);
+}
+
+article li a {
+  color: var(--accent);
+}
+
+article hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 25px 0;
+}
+
+article code {
+  background: var(--bg-card);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+article details {
+  margin: 15px 0;
+}
+
+article summary {
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  padding: 8px 0;
+}
+
+article details[open] summary {
+  margin-bottom: 10px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  background: rgba(88,166,255,0.15);
+  color: var(--accent);
+}
+
+/* 返回顶部 */
+.back-link {
+  display: inline-block;
+  margin: 20px 0;
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.back-link:hover { color: var(--accent); }
+
+/* 页脚 */
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  border-top: 1px solid var(--border);
+  margin-top: 40px;
+}
+
+/* 响应式 */
+@media (max-width: 600px) {
+  .container { padding: 15px; }
+  header h1 { font-size: 1.5rem; }
+  article h2 { font-size: 1.1rem; }
+  .date-card { padding: 15px; }
+}
+</style>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📰</text></svg>">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📰 Daily Digest</h1>
+      <p>每日科技热点聚合 · AI 驱动的新闻日报</p>
+    </header>
+    
+    <main>
+      
+    <a class="back-link" href="index.html">← 返回所有日报</a>
+    <article>
+      <p><h1>Daily Digest - 2026-04-17</h1></p><p>> 自动生成于 2026-04-17 01:01 CST
+> 数据源：9 个平台，共 148 条内容</p><p>---</p><p><h2>📌 今日要点</h2></p><p><h2>今日要点</h2></p><p>各平台热门内容已聚合，详见下方各板块。</p><p>---</p><p><h2>📰 RSS聚合</h2></p><p><li><strong>Google now lets you explore the web side-by-side with AI Mode</strong></li>
+  https://techcrunch.com/2026/04/16/google-now-lets-you-explore-the-web-side-by-side-with-ai-mode/
+<li><strong>Two Americans sentenced for helping North Korea steal $5 million in fake IT worker scheme</strong></li>
+  https://techcrunch.com/2026/04/16/two-americans-sentenced-for-helping-north-korea-steal-5-million-in-fake-it-worker-scheme/
+<li><strong>InsightFinder raises $15M to help companies figure out where AI agents go wrong</strong></li>
+  https://techcrunch.com/2026/04/16/insightfinder-raises-15m-to-help-companies-figure-out-where-ai-agents-go-wrong/
+<li><strong>AI traffic to US retailers rose 393% in Q1, and it’s boosting their revenue too</strong></li>
+  https://techcrunch.com/2026/04/16/ai-traffic-to-us-retailers-rose-393-in-q1-and-its-boosting-their-revenue-too/
+<li><strong>Roblox’s AI assistant gets new agentic tools to plan, build, and test games</strong></li>
+  https://techcrunch.com/2026/04/16/robloxs-ai-assistant-gets-new-agentic-tools-to-plan-build-and-test-games/
+<li><strong>Google adds Nano Banana-powered image generation to Gemini’s Personal Intelligence</strong></li>
+  https://techcrunch.com/2026/04/16/google-adds-nano-banana-powered-image-generation-to-geminis-personal-intelligence/
+<li><strong>Google is now targeting bad ads over bad actors</strong></li>
+  https://techcrunch.com/2026/04/16/google-blocked-more-ads-but-banned-fewer-advertisers-as-ai-reshapes-enforcement/
+<li><strong>You’ve heard of hybrid cars. Now meet a hybrid cement plant.</strong></li>
+  https://techcrunch.com/2026/04/16/youve-heard-of-hybrid-cars-now-meet-a-hybrid-cement-plant/
+<li><strong>Runway CEO says AI could help Hollywood make 50 films instead of one $100M blockbuster</strong></li>
+  https://techcrunch.com/2026/04/16/runway-ceo-says-ai-could-help-hollywood-make-50-films-instead-of-one-100m-blockbuster/
+<li><strong>Meta raises Quest 3 and Quest 3S prices due to RAM shortage</strong></li>
+  https://techcrunch.com/2026/04/16/meta-raises-quest-3-and-quest-3s-prices-due-to-ram-shortage/</p><p><details>
+<summary>📋 完整列表 (70 条)</summary></p><p><li><a href="https://techcrunch.com/2026/04/16/google-now-lets-you-explore-the-web-side-by-side-with-ai-mode/">Google now lets you explore the web side-by-side with AI Mode</a> — Now, when you're using AI Mode on Chrome desktop, clicking a link will open the webpage side-by-side</li>
+<li><a href="https://techcrunch.com/2026/04/16/two-americans-sentenced-for-helping-north-korea-steal-5-million-in-fake-it-worker-scheme/">Two Americans sentenced for helping North Korea steal $5 million in fake IT worker scheme</a> — The U.S. Department of Justice announced that two Americans were sentenced to years in prison for he</li>
+<li><a href="https://techcrunch.com/2026/04/16/insightfinder-raises-15m-to-help-companies-figure-out-where-ai-agents-go-wrong/">InsightFinder raises $15M to help companies figure out where AI agents go wrong</a> — According to CEO Helen Gu, the biggest problem facing the industry today is not just monitoring and </li>
+<li><a href="https://techcrunch.com/2026/04/16/ai-traffic-to-us-retailers-rose-393-in-q1-and-its-boosting-their-revenue-too/">AI traffic to US retailers rose 393% in Q1, and it’s boosting their revenue too</a> — Adobe says AI traffic to U.S. retail sites also jumped 269% in March, with visitors converting bette</li>
+<li><a href="https://techcrunch.com/2026/04/16/robloxs-ai-assistant-gets-new-agentic-tools-to-plan-build-and-test-games/">Roblox’s AI assistant gets new agentic tools to plan, build, and test games</a> — The new new tools are designed to help creators throughout the entire development process.</li>
+<li><a href="https://techcrunch.com/2026/04/16/google-adds-nano-banana-powered-image-generation-to-geminis-personal-intelligence/">Google adds Nano Banana-powered image generation to Gemini’s Personal Intelligence</a> — The feature will be initially available to paid users in the U.S.</li>
+<li><a href="https://techcrunch.com/2026/04/16/google-blocked-more-ads-but-banned-fewer-advertisers-as-ai-reshapes-enforcement/">Google is now targeting bad ads over bad actors</a> — Google blocked 8.3 billion ads in 2025 but suspended fewer advertisers.</li>
+<li><a href="https://techcrunch.com/2026/04/16/youve-heard-of-hybrid-cars-now-meet-a-hybrid-cement-plant/">You’ve heard of hybrid cars. Now meet a hybrid cement plant.</a> — Why choose fossil fuels or electricity when you can have both? NOC Energy has figured out how to hyb</li>
+<li><a href="https://techcrunch.com/2026/04/16/runway-ceo-says-ai-could-help-hollywood-make-50-films-instead-of-one-100m-blockbuster/">Runway CEO says AI could help Hollywood make 50 films instead of one $100M blockbuster</a> — Runway’s CEO says AI could help studios make dozens of films for the cost of one, betting volume wil</li>
+<li><a href="https://techcrunch.com/2026/04/16/meta-raises-quest-3-and-quest-3s-prices-due-to-ram-shortage/">Meta raises Quest 3 and Quest 3S prices due to RAM shortage</a> — Starting April 19, the price of the Meta Quest 3S (128GB) and Meta Quest 3S (256GB) will go up by $5</li>
+<li><a href="https://www.theverge.com/news/913218/microsoft-surface-laptop-oled-display-rumor">Microsoft planning Surface Laptop with an OLED display</a> — Microsoft is preparing to launch new Surface Pro and Surface Laptop models in the coming months. Win</li>
+<li><a href="https://www.theverge.com/tech/913093/microsoft-new-xbox-ceo-asha-sharma-memo-notepad">Microsoft’s new Xbox chief starts making her mark</a> — Microsoft's new Xbox chief has had a busy couple of months after promising "the return of Xbox." Ash</li>
+<li><a href="https://www.theverge.com/tech/913202/gemini-personal-intelligence-images-nano-banana">Gemini can now pull from Google Photos to generate personalized images</a> — Google's Personal Intelligence feature, which lets Gemini pull data from apps like Google Photos to </li>
+<li><a href="https://www.theverge.com/ai-artificial-intelligence/913184/anthropic-claude-opus-4-7-cybersecurity">Anthropic releases a new Opus model amid Mythos Preview buzz</a> — Anthropic has released its most powerful "generally available" model to date: Claude Opus 4.7. The c</li>
+<li><a href="https://www.theverge.com/column/913101/netflix-korean-movies-tv-shows">How Netflix made us fall in love with K-dramas</a> — This is Lowpass by Janko Roettgers, a newsletter on the ever-evolving intersection of tech and enter</li></p><p></details></p><p>---</p><p><h2>🟠 Hacker News</h2></p><p><li><strong>Claude Opus 4.7</strong> (↑670)</li>
+  https://www.anthropic.com/news/claude-opus-4-7
+<li><strong>Cloudflare Email Service</strong> (↑257)</li>
+  https://blog.cloudflare.com/email-for-agents/
+<li><strong>Mozilla Thunderbolt</strong> (↑227)</li>
+  https://www.thunderbolt.io/
+<li><strong>We gave an AI a 3 year retail lease and asked it to make a profit</strong> (↑66)</li>
+  https://andonlabs.com/blog/andon-market-launch
+<li><strong>Qwen3.6-35B-A3B: Agentic Coding Power, Now Open to All</strong> (↑460)</li>
+  https://qwen.ai/blog?id=qwen3.6-35b-a3b
+<li><strong>IPv6 traffic crosses the 50% mark</strong> (↑649)</li>
+  https://www.google.com/intl/en/ipv6/statistics.html?yzh=28197
+<li><strong>Launch HN: Kampala (YC W26) – Reverse-Engineer Apps into APIs</strong> (↑25)</li>
+  https://www.zatanna.ai/kampala
+<li><strong>Put your SSH keys in your TPM chip</strong> (↑32)</li>
+  https://raymii.org/s/tutorials/Put_your_SSH_keys_in_your_TPM_chip.html
+<li><strong>Cloudflare's AI Platform: an inference layer designed for agents</strong> (↑103)</li>
+  https://blog.cloudflare.com/ai-platform/
+<li><strong>The future of everything is lies, I guess: Where do we go from here?</strong> (↑244)</li>
+  https://aphyr.com/posts/420-the-future-of-everything-is-lies-i-guess-where-do-we-go-from-here</p><p><details>
+<summary>📋 完整列表 (20 条)</summary></p><p><li><a href="https://www.anthropic.com/news/claude-opus-4-7">Claude Opus 4.7</a> <code>↑670</code></li>
+<li><a href="https://blog.cloudflare.com/email-for-agents/">Cloudflare Email Service</a> <code>↑257</code></li>
+<li><a href="https://www.thunderbolt.io/">Mozilla Thunderbolt</a> <code>↑227</code></li>
+<li><a href="https://andonlabs.com/blog/andon-market-launch">We gave an AI a 3 year retail lease and asked it to make a profit</a> <code>↑66</code></li>
+<li><a href="https://qwen.ai/blog?id=qwen3.6-35b-a3b">Qwen3.6-35B-A3B: Agentic Coding Power, Now Open to All</a> <code>↑460</code></li>
+<li><a href="https://www.google.com/intl/en/ipv6/statistics.html?yzh=28197">IPv6 traffic crosses the 50% mark</a> <code>↑649</code></li>
+<li><a href="https://www.zatanna.ai/kampala">Launch HN: Kampala (YC W26) – Reverse-Engineer Apps into APIs</a> <code>↑25</code></li>
+<li><a href="https://raymii.org/s/tutorials/Put_your_SSH_keys_in_your_TPM_chip.html">Put your SSH keys in your TPM chip</a> <code>↑32</code></li>
+<li><a href="https://blog.cloudflare.com/ai-platform/">Cloudflare's AI Platform: an inference layer designed for agents</a> <code>↑103</code></li>
+<li><a href="https://aphyr.com/posts/420-the-future-of-everything-is-lies-i-guess-where-do-we-go-from-here">The future of everything is lies, I guess: Where do we go from here?</a> <code>↑244</code></li>
+<li><a href="https://github.com/SeanFDZ/macmind">Show HN: MacMind – A transformer neural network in HyperCard on a 1989 Macintosh</a> <code>↑52</code></li>
+<li><a href="https://darkbloom.dev">Darkbloom – Private inference on idle Macs</a> <code>↑410</code></li>
+<li><a href="https://antirez.com/news/163">AI cybersecurity is not proof of work</a> <code>↑140</code></li>
+<li><a href="https://ajitem.com/blog/iron-core-part-2-six-characters/">Six Characters</a> <code>↑26</code></li>
+<li><a href="https://jsomers.net/blog/the-paper-computer">The paper computer</a> <code>↑221</code></li></p><p></details></p><p>---</p><p><h2>🐦 Twitter/X</h2></p><p><li><strong>#KeepAsiaGreen</strong></li>
+  https://twitter.com/search?q=%23KeepAsiaGreen
+<li><strong>Opus 4.7</strong></li>
+  https://twitter.com/search?q=Opus 4.7
+<li><strong>#SEVEN_DEBUTED_SEVEN_STAY</strong></li>
+  https://twitter.com/search?q=%23SEVEN_DEBUTED_SEVEN_STAY
+<li><strong>#RESPECT_THE_2M_VOICES</strong></li>
+  https://twitter.com/search?q=%23RESPECT_THE_2M_VOICES
+<li><strong>#OkullardaKatliamaHayır</strong></li>
+  https://twitter.com/search?q=%23OkullardaKatliamaHayır
+<li><strong>#MIvsPBKS</strong></li>
+  https://twitter.com/search?q=%23MIvsPBKS
+<li><strong>Annapurna Muhim Sant RampalJi</strong></li>
+  https://twitter.com/search?q=Annapurna Muhim Sant RampalJi
+<li><strong>THE AIR OFFICIAL TEASER</strong></li>
+  https://twitter.com/search?q=THE AIR OFFICIAL TEASER
+<li><strong>ONLY YOU COVER BY DUANG</strong></li>
+  https://twitter.com/search?q=ONLY YOU COVER BY DUANG
+<li><strong>Pulp Fiction</strong></li>
+  https://twitter.com/search?q=Pulp Fiction</p><p><details>
+<summary>📋 完整列表 (15 条)</summary></p><p><li><a href="https://twitter.com/search?q=%23KeepAsiaGreen">#KeepAsiaGreen</a></li>
+<li><a href="https://twitter.com/search?q=Opus 4.7">Opus 4.7</a></li>
+<li><a href="https://twitter.com/search?q=%23SEVEN_DEBUTED_SEVEN_STAY">#SEVEN_DEBUTED_SEVEN_STAY</a></li>
+<li><a href="https://twitter.com/search?q=%23RESPECT_THE_2M_VOICES">#RESPECT_THE_2M_VOICES</a></li>
+<li><a href="https://twitter.com/search?q=%23OkullardaKatliamaHayır">#OkullardaKatliamaHayır</a></li>
+<li><a href="https://twitter.com/search?q=%23MIvsPBKS">#MIvsPBKS</a></li>
+<li><a href="https://twitter.com/search?q=Annapurna Muhim Sant RampalJi">Annapurna Muhim Sant RampalJi</a></li>
+<li><a href="https://twitter.com/search?q=THE AIR OFFICIAL TEASER">THE AIR OFFICIAL TEASER</a></li>
+<li><a href="https://twitter.com/search?q=ONLY YOU COVER BY DUANG">ONLY YOU COVER BY DUANG</a></li>
+<li><a href="https://twitter.com/search?q=Pulp Fiction">Pulp Fiction</a></li>
+<li><a href="https://twitter.com/search?q=曜ちゃん">曜ちゃん</a></li>
+<li><a href="https://twitter.com/search?q=Street Fighter">Street Fighter</a></li>
+<li><a href="https://twitter.com/search?q=トモコレ">トモコレ</a></li>
+<li><a href="https://twitter.com/search?q=Shreyas Iyer">Shreyas Iyer</a></li>
+<li><a href="https://twitter.com/search?q=Quinton de Kock">Quinton de Kock</a></li></p><p></details></p><p>---</p><p><h2>⭐ GitHub Trending</h2></p><p><li>****</li>
+  https://github.com/forrestchang/andrej-karpathy-skills
+<li>****</li>
+  https://github.com/thedotmack/claude-mem
+<li>****</li>
+  https://github.com/lsdefine/GenericAgent
+<li>****</li>
+  https://github.com/jamiepine/voicebox
+<li>****</li>
+  https://github.com/vercel-labs/open-agents
+<li>****</li>
+  https://github.com/google/magika
+<li>****</li>
+  https://github.com/steipete/wacli
+<li>****</li>
+  https://github.com/topoteretes/cognee
+<li>****</li>
+  https://github.com/z-lab/dflash
+<li>****</li>
+  https://github.com/Lordog/dive-into-llms</p><p><details>
+<summary>📋 完整列表 (14 条)</summary></p><p><li>[](https://github.com/forrestchang/andrej-karpathy-skills) — A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations</li>
+<li>[](https://github.com/thedotmack/claude-mem) <code>TypeScript</code> — A Claude Code plugin that automatically captures everything Claude does during your coding sessions,</li>
+<li>[](https://github.com/lsdefine/GenericAgent) <code>Python</code> — Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x les</li>
+<li>[](https://github.com/jamiepine/voicebox) <code>TypeScript</code> — The open-source voice synthesis studio</li>
+<li>[](https://github.com/vercel-labs/open-agents) <code>TypeScript</code> — An open source template for building cloud agents.</li>
+<li>[](https://github.com/google/magika) <code>Python</code> — Fast and accurate AI powered file content types detection</li>
+<li>[](https://github.com/steipete/wacli) <code>Go</code> — WhatsApp CLI</li>
+<li>[](https://github.com/topoteretes/cognee) <code>Python</code> — Knowledge Engine for AI Agent Memory in 6 lines of code</li>
+<li>[](https://github.com/z-lab/dflash) <code>Python</code> — DFlash: Block Diffusion for Flash Speculative Decoding</li>
+<li>[](https://github.com/Lordog/dive-into-llms) <code>Jupyter Notebook</code> — 《动手学大模型Dive into LLMs》系列编程实践教程</li>
+<li>[](https://github.com/openai/openai-agents-python) <code>Python</code> — A lightweight, powerful framework for multi-agent workflows</li>
+<li>[](https://github.com/EvoMap/evolver) <code>JavaScript</code> — The GEP-Powered Self-Evolution Engine for AI Agents. Genome Evolution Protocol. | evomap.ai</li>
+<li>[](https://github.com/SimoneAvogadro/android-reverse-engineering-skill) <code>Shell</code> — Claude Code skill to support Android app's reverse engineering</li>
+<li>[](https://github.com/BasedHardware/omi) <code>Dart</code> — AI that sees your screen, listens to your conversations and tells you what to do</li></p><p></details></p><p>---</p><p><h2>👽 Reddit</h2></p><p><li><strong>Ticketmaster is an illegal monopoly, jury rules / This verdict is the first step toward a potential breakup of Live Nation-Ticketmaster.</strong> (↑56321)</li>
+  https://reddit.com/r/technology/comments/1smfq4p/ticketmaster_is_an_illegal_monopoly_jury_rules/
+<li><strong>Mark Ruffalo Blasts Paramount-Warner Bros. Merger at Senate Hearing: ‘Don’t Trust Empty Promises from Billionaires’</strong> (↑14983)</li>
+  https://reddit.com/r/technology/comments/1smhzbe/mark_ruffalo_blasts_paramountwarner_bros_merger/
+<li><strong>YouTube now lets you turn off Shorts</strong> (↑8701)</li>
+  https://reddit.com/r/technology/comments/1smkyok/youtube_now_lets_you_turn_off_shorts/
+<li><strong>Virginia voter support for new data centers collapses from 69% in 2023 to 35% in new poll</strong> (↑6423)</li>
+  https://reddit.com/r/technology/comments/1sn1i2o/virginia_voter_support_for_new_data_centers/
+<li><strong>Meta 'financially enabling' settler attacks against Palestinians, report says</strong> (↑2725)</li>
+  https://reddit.com/r/technology/comments/1smqcs1/meta_financially_enabling_settler_attacks_against/
+<li><strong>Here's the severance package Disney is giving to laid-off employees</strong> (↑2599)</li>
+  https://reddit.com/r/technology/comments/1smrssj/heres_the_severance_package_disney_is_giving_to/
+<li><strong>SpaceX Bought 18% of Tesla Cybertrucks Sold in US During Q4 2025, Data Shows</strong> (↑2572)</li>
+  https://reddit.com/r/technology/comments/1sn6itx/spacex_bought_18_of_tesla_cybertrucks_sold_in_us/
+<li><strong>Attempted fire-bombing has tech titans worried about AI backlash</strong> (↑2002)</li>
+  https://reddit.com/r/technology/comments/1sn053l/attempted_firebombing_has_tech_titans_worried/
+<li><strong>Clicking "reject cookies" might not actually do anything</strong> (↑1503)</li>
+  https://reddit.com/r/technology/comments/1sn3rbn/clicking_reject_cookies_might_not_actually_do/
+<li><strong>🚨 RED ALERT: Tennessee is about to make building chatbots a Class A felony (15-25 years in prison). This is not a drill.</strong> (↑966)</li>
+  https://reddit.com/r/artificial/comments/1slu23a/red_alert_tennessee_is_about_to_make_building/</p><p><details>
+<summary>📋 完整列表 (10 条)</summary></p><p><li><a href="https://reddit.com/r/technology/comments/1smfq4p/ticketmaster_is_an_illegal_monopoly_jury_rules/">Ticketmaster is an illegal monopoly, jury rules / This verdict is the first step toward a potential breakup of Live Nation-Ticketmaster.</a> <code>↑56321</code></li>
+<li><a href="https://reddit.com/r/technology/comments/1smhzbe/mark_ruffalo_blasts_paramountwarner_bros_merger/">Mark Ruffalo Blasts Paramount-Warner Bros. Merger at Senate Hearing: ‘Don’t Trust Empty Promises from Billionaires’</a> <code>↑14983</code></li>
+<li><a href="https://reddit.com/r/technology/comments/1smkyok/youtube_now_lets_you_turn_off_shorts/">YouTube now lets you turn off Shorts</a> <code>↑8701</code></li>
+<li><a href="https://reddit.com/r/technology/comments/1sn1i2o/virginia_voter_support_for_new_data_centers/">Virginia voter support for new data centers collapses from 69% in 2023 to 35% in new poll</a> <code>↑6423</code></li>
+<li><a href="https://reddit.com/r/technology/comments/1smqcs1/meta_financially_enabling_settler_attacks_against/">Meta 'financially enabling' settler attacks against Palestinians, report says</a> <code>↑2725</code></li>
+<li><a href="https://reddit.com/r/technology/comments/1smrssj/heres_the_severance_package_disney_is_giving_to/">Here's the severance package Disney is giving to laid-off employees</a> <code>↑2599</code></li>
+<li><a href="https://reddit.com/r/technology/comments/1sn6itx/spacex_bought_18_of_tesla_cybertrucks_sold_in_us/">SpaceX Bought 18% of Tesla Cybertrucks Sold in US During Q4 2025, Data Shows</a> <code>↑2572</code></li>
+<li><a href="https://reddit.com/r/technology/comments/1sn053l/attempted_firebombing_has_tech_titans_worried/">Attempted fire-bombing has tech titans worried about AI backlash</a> <code>↑2002</code></li>
+<li><a href="https://reddit.com/r/technology/comments/1sn3rbn/clicking_reject_cookies_might_not_actually_do/">Clicking "reject cookies" might not actually do anything</a> <code>↑1503</code></li>
+<li><a href="https://reddit.com/r/artificial/comments/1slu23a/red_alert_tennessee_is_about_to_make_building/">🚨 RED ALERT: Tennessee is about to make building chatbots a Class A felony (15-25 years in prison). This is not a drill.</a> <code>↑966</code></li></p><p></details></p><p>---</p><p><h2>👩‍💻 Dev.to</h2></p><p><li><strong>Turning the Raspberry Pi Zero into a Hacking Gadget</strong> (↑33)</li>
+  https://dev.to/admantium/turning-the-raspberry-pi-zero-into-a-hacking-gadget-2ekl
+<li><strong>Join the OpenClaw Challenge: $1,200 Prize Pool!</strong> (↑32)</li>
+  https://dev.to/devteam/join-the-openclaw-challenge-1200-prize-pool-5682
+<li><strong>Most Apps Are Slower Than They Need to Be — Here’s Why (Live Demo🛸)</strong> (↑40)</li>
+  https://dev.to/sylwia-lask/most-apps-are-slower-than-they-need-to-be-heres-why-live-demo-2hh8
+<li><strong>Architecture Documentation as a First-Class Engineering Asset</strong> (↑27)</li>
+  https://dev.to/gdg/architecture-documentation-as-a-first-class-engineering-asset-4a1j
+<li><strong>Build a voice-enabled Telegram Bot with the Gemini Interactions API</strong> (↑21)</li>
+  https://dev.to/googleai/build-a-voice-enabled-telegram-bot-with-the-gemini-interactions-api-nm5
+<li><strong>What brings you by a conference booth?</strong> (↑12)</li>
+  https://dev.to/missamarakay/what-brings-you-by-a-conference-booth-43e3
+<li><strong>AI Doesn't Fix Weak Engineering. It Just Speeds It Up.</strong> (↑11)</li>
+  https://dev.to/jonoherrington/ai-doesnt-fix-weak-engineering-it-just-speeds-it-up-5bak
+<li><strong>Multi-Agent A2A with the Agent Development Kit(ADK), Amazon Fargate, and Gemini CLI</strong> (↑32)</li>
+  https://dev.to/gde/multi-agent-a2a-with-the-agent-development-kitadk-amazon-fargate-and-gemini-cli-5jd
+<li><strong>Our SwiftUI snapshot tests passed locally but failed on CI. Here's the actual fix.</strong> (↑25)</li>
+  https://dev.to/d4g4/our-swiftui-snapshot-tests-passed-locally-but-failed-on-ci-heres-the-actual-fix-5fhd
+<li><strong>A GitHub agentic workflow</strong> (↑5)</li>
+  https://dev.to/nfrankel/a-github-agentic-workflow-9b7</p><p><details>
+<summary>📋 完整列表 (10 条)</summary></p><p><li><a href="https://dev.to/admantium/turning-the-raspberry-pi-zero-into-a-hacking-gadget-2ekl">Turning the Raspberry Pi Zero into a Hacking Gadget</a> <code>↑33</code> — Single Board Computers with the ability to run a full-fledged Linux distribution can be used as...</li>
+<li><a href="https://dev.to/devteam/join-the-openclaw-challenge-1200-prize-pool-5682">Join the OpenClaw Challenge: $1,200 Prize Pool!</a> <code>↑32</code> — If you've spent any time on the internet, you know OpenClaw has been making waves lately. We recentl</li>
+<li><a href="https://dev.to/sylwia-lask/most-apps-are-slower-than-they-need-to-be-heres-why-live-demo-2hh8">Most Apps Are Slower Than They Need to Be — Here’s Why (Live Demo🛸)</a> <code>↑40</code> — We’re a quarter into the 21st century, and the browser has quietly evolved into something much more.</li>
+<li><a href="https://dev.to/gdg/architecture-documentation-as-a-first-class-engineering-asset-4a1j">Architecture Documentation as a First-Class Engineering Asset</a> <code>↑27</code> — How autonomous AI agents can generate a complete architecture snapshot of your microservices platfor</li>
+<li><a href="https://dev.to/googleai/build-a-voice-enabled-telegram-bot-with-the-gemini-interactions-api-nm5">Build a voice-enabled Telegram Bot with the Gemini Interactions API</a> <code>↑21</code> — What if your Telegram bot could listen?  Not just read text — actually understand voice messages,...</li>
+<li><a href="https://dev.to/missamarakay/what-brings-you-by-a-conference-booth-43e3">What brings you by a conference booth?</a> <code>↑12</code> — What makes you stop by and chat at a booth?</li>
+<li><a href="https://dev.to/jonoherrington/ai-doesnt-fix-weak-engineering-it-just-speeds-it-up-5bak">AI Doesn't Fix Weak Engineering. It Just Speeds It Up.</a> <code>↑11</code> — "Weak engineers with AI still produce weak output. Just faster." That was the whole point. AI change</li>
+<li><a href="https://dev.to/gde/multi-agent-a2a-with-the-agent-development-kitadk-amazon-fargate-and-gemini-cli-5jd">Multi-Agent A2A with the Agent Development Kit(ADK), Amazon Fargate, and Gemini CLI</a> <code>↑32</code> — Leveraging the Google Agent Development Kit (ADK) and the underlying Gemini LLM to build Multi-Agent</li>
+<li><a href="https://dev.to/d4g4/our-swiftui-snapshot-tests-passed-locally-but-failed-on-ci-heres-the-actual-fix-5fhd">Our SwiftUI snapshot tests passed locally but failed on CI. Here's the actual fix.</a> <code>↑25</code> — 500+ snapshot tests, all green on every developer's Mac, all red on GitHub Actions. Sound...</li>
+<li><a href="https://dev.to/nfrankel/a-github-agentic-workflow-9b7">A GitHub agentic workflow</a> <code>↑5</code> — Last month, I became aware of GitHub agentic workflows. I read the site carefully, but the use cases</li></p><p></details></p><p>---</p><p><h2>💬 V2EX</h2></p><p><li><strong>有人说 [外包] 太难听了，很土，有没有什么别的、更好听的名称。</strong></li>
+  https://www.v2ex.com/t/1206278
+<li><strong>万把块钱搞什么投资（投机？）好呢</strong></li>
+  https://www.v2ex.com/t/1206257
+<li><strong>公司裁员，目前没有工作。想试试摆摊，做一个移动鲜啤打酒车</strong></li>
+  https://www.v2ex.com/t/1206375
+<li><strong>分享一下自己身上出现过哪些重大线上事故</strong></li>
+  https://www.v2ex.com/t/1206336
+<li><strong>Gemini app, now on Mac</strong></li>
+  https://www.v2ex.com/t/1206235
+<li><strong>京东家政 2 小时预约火爆，为什么</strong></li>
+  https://www.v2ex.com/t/1206231
+<li><strong>你们的父母爱你们吗</strong></li>
+  https://www.v2ex.com/t/1206341
+<li><strong>copilot 体验下来不错，是我的错觉吗？</strong></li>
+  https://www.v2ex.com/t/1206248
+<li><strong>内存减产,涨价的真正主要原因不是 AI,而是内存物理接口将发生天翻地覆的变化</strong></li>
+  https://www.v2ex.com/t/1206337</p><p><details>
+<summary>📋 完整列表 (9 条)</summary></p><p><li><a href="https://www.v2ex.com/t/1206278">有人说 [外包] 太难听了，很土，有没有什么别的、更好听的名称。</a> <code>↑217</code></li>
+<li><a href="https://www.v2ex.com/t/1206257">万把块钱搞什么投资（投机？）好呢</a> <code>↑87</code></li>
+<li><a href="https://www.v2ex.com/t/1206375">公司裁员，目前没有工作。想试试摆摊，做一个移动鲜啤打酒车</a> <code>↑80</code></li>
+<li><a href="https://www.v2ex.com/t/1206336">分享一下自己身上出现过哪些重大线上事故</a> <code>↑75</code></li>
+<li><a href="https://www.v2ex.com/t/1206235">Gemini app, now on Mac</a> <code>↑69</code></li>
+<li><a href="https://www.v2ex.com/t/1206231">京东家政 2 小时预约火爆，为什么</a> <code>↑62</code></li>
+<li><a href="https://www.v2ex.com/t/1206341">你们的父母爱你们吗</a> <code>↑60</code></li>
+<li><a href="https://www.v2ex.com/t/1206248">copilot 体验下来不错，是我的错觉吗？</a> <code>↑59</code></li>
+<li><a href="https://www.v2ex.com/t/1206337">内存减产,涨价的真正主要原因不是 AI,而是内存物理接口将发生天翻地覆的变化</a> <code>↑56</code></li></p><p></details></p><p>---</p><p>---</p><p>*Generated by <a href="https://github.com">Daily Digest</a> · Powered by GitHub Actions + AI*</p>
+    </article>
+    <a class="back-link" href="index.html">← 返回所有日报</a>
+    
+    </main>
+    <footer>
+      <p>Powered by GitHub Actions + AI · 自动生成</p>
+      <p>Data from Hacker News, GitHub, Reddit, Twitter/X, Product Hunt, V2EX, and more</p>
+    </footer>
+  </div>
+</body>
+</html>

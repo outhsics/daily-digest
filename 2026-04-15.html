@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026-04-15 - Daily Digest</title>
+  <style>
+:root {
+  --bg: #0d1117;
+  --bg-card: #161b22;
+  --bg-hover: #1c2333;
+  --text: #e6edf3;
+  --text-muted: #8b949e;
+  --accent: #58a6ff;
+  --accent-green: #3fb950;
+  --border: #30363d;
+  --orange: #f0883e;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px 30px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+  background: linear-gradient(135deg, var(--accent), #a371f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+/* 导航 */
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.nav-list a {
+  color: var(--text-muted);
+  text-decoration: none;
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+
+.nav-list a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+/* 日期列表页 */
+.date-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.date-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px 24px;
+  text-decoration: none;
+  color: var(--text);
+  transition: all 0.2s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date-card:hover {
+  background: var(--bg-hover);
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.date-card .date {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.date-card .meta {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+/* 文章页 */
+article h1 {
+  font-size: 1.6rem;
+  margin: 30px 0 10px;
+}
+
+article h2 {
+  font-size: 1.3rem;
+  margin: 35px 0 15px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+  color: var(--accent);
+}
+
+article h3 {
+  font-size: 1.1rem;
+  margin: 25px 0 10px;
+}
+
+article p {
+  margin: 10px 0;
+  color: var(--text);
+}
+
+article a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+article a:hover {
+  text-decoration: underline;
+}
+
+article blockquote {
+  border-left: 3px solid var(--accent);
+  padding: 10px 15px;
+  margin: 15px 0;
+  background: var(--bg-card);
+  border-radius: 0 8px 8px 0;
+  color: var(--text-muted);
+}
+
+article ul, article ol {
+  padding-left: 25px;
+  margin: 10px 0;
+}
+
+article li {
+  margin: 6px 0;
+  color: var(--text);
+}
+
+article li a {
+  color: var(--accent);
+}
+
+article hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 25px 0;
+}
+
+article code {
+  background: var(--bg-card);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+article details {
+  margin: 15px 0;
+}
+
+article summary {
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  padding: 8px 0;
+}
+
+article details[open] summary {
+  margin-bottom: 10px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  background: rgba(88,166,255,0.15);
+  color: var(--accent);
+}
+
+/* 返回顶部 */
+.back-link {
+  display: inline-block;
+  margin: 20px 0;
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.back-link:hover { color: var(--accent); }
+
+/* 页脚 */
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  border-top: 1px solid var(--border);
+  margin-top: 40px;
+}
+
+/* 响应式 */
+@media (max-width: 600px) {
+  .container { padding: 15px; }
+  header h1 { font-size: 1.5rem; }
+  article h2 { font-size: 1.1rem; }
+  .date-card { padding: 15px; }
+}
+</style>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📰</text></svg>">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📰 Daily Digest</h1>
+      <p>每日科技热点聚合 · AI 驱动的新闻日报</p>
+    </header>
+    
+    <main>
+      
+    <a class="back-link" href="index.html">← 返回所有日报</a>
+    <article>
+      <p><h1>Daily Digest - 2026-04-15</h1></p><p>> 自动生成于 2026-04-15 01:00 CST
+> 数据源：9 个平台，共 35 条内容</p><p>---</p><p><h2>📌 今日要点</h2></p><p><h2>今日要点</h2></p><p>各平台热门内容已聚合，详见下方各板块。</p><p>---</p><p><h2>📰 RSS聚合</h2></p><p><li><strong>网易互娱架构调整，市场负责人王怡调任海外</strong></li>
+  https://36kr.com/p/3766722584822537?f=rss
+<li><strong>氪星晚报｜高德首款具身机器人将亮相；日产发布转型计划：削减20%车型，冲刺中美百万销量；随着战略转向，OpenAI的8520亿美元估值遭投资者质疑</strong></li>
+  https://36kr.com/p/3766487517594377?f=rss
+<li><strong>宁德时代、智元、银河通用联合投资，六维力传感器头部企业「蓝点触控」完成超亿元C+轮融资 | 36氪首发</strong></li>
+  https://36kr.com/p/3766434507440903?f=rss
+<li><strong>「美股例外」何时休？</strong></li>
+  https://36kr.com/p/3766410231726855?f=rss
+<li><strong>最前线 | 远见智存发布HBM3/3e高带宽存储芯片，带宽迈入800GB/s级别</strong></li>
+  https://36kr.com/p/3765986197684736?f=rss
+<li><strong>半年融资近2亿，他要用AI发球机器人解决全球1亿人的训练难题｜硬氪专访</strong></li>
+  https://36kr.com/p/3764953900990977?f=rss
+<li><strong>8点1氪丨“马斯克版微信”将于4月17日上线；美军开始拦截进出霍尔木兹海峡船只；字节与荣耀合作“豆包手机”细节尚未达成一致</strong></li>
+  https://36kr.com/p/3765932138103554?f=rss
+<li><strong>荣耀做了个“养虾本”，预制5大主虾，要重新定义AI PC｜最前线</strong></li>
+  https://36kr.com/p/3765331768967686?f=rss
+<li><strong>图速科技发布三款新品：其具身打磨机器人全栈自研，打磨效率为人工3-4倍丨最前线</strong></li>
+  https://36kr.com/p/3765207394009602?f=rss
+<li><strong>氪星晚报｜“马斯克版微信”或在本周五上线；Meta押注AI数字人，正打造AI版扎克伯格；AI潮玩品牌“MOMOTOY”完成数千万元融资</strong></li>
+  https://36kr.com/p/3765146768376326?f=rss</p><p><details>
+<summary>📋 完整列表 (20 条)</summary></p><p><li><a href="https://36kr.com/p/3766722584822537?f=rss">网易互娱架构调整，市场负责人王怡调任海外</a> — 文 | 贝果树 编辑 | 果脯 4月14日，网易互娱回应了“网易互娱市场中心负责人网怡离职”的传闻。网易互娱表示上述信息不实，“裁撤营销中台”也属子虚乌有，王怡因个人原因提出调任，已获公司批准。 网易</li>
+<li><a href="https://36kr.com/p/3766487517594377?f=rss">氪星晚报｜高德首款具身机器人将亮相；日产发布转型计划：削减20%车型，冲刺中美百万销量；随着战略转向，OpenAI的8520亿美元估值遭投资者质疑</a> — 大公司： 全球最大零食店“零食王国”将于4月17日开业 36氪获悉，由鸣鸣很忙集团创建的全球规模最大的沉浸式零食体验空间“零食王国”，将于4月17日在湖南长沙芙蓉广场正式开业。该项目拥有超1.2万㎡的</li>
+<li><a href="https://36kr.com/p/3766434507440903?f=rss">宁德时代、智元、银河通用联合投资，六维力传感器头部企业「蓝点触控」完成超亿元C+轮融资 | 36氪首发</a> — 文&nbsp;|&nbsp;张冰冰 编辑&nbsp;|&nbsp;阿至 36氪获悉，蓝点触控（北京）科技有限公司（以下简称「蓝点触控」）近日宣布完成超亿元C+轮融资，由宁德时代旗下溥泉资本、智元机器人</li>
+<li><a href="https://36kr.com/p/3766410231726855?f=rss">「美股例外」何时休？</a> — 作者&nbsp;|&nbsp;黄绎达 编辑&nbsp;|&nbsp;张帆 进入4月以来，受地缘关系缓和、“再通胀”预期走弱等利好的持续释放，美股三大指数持续走强。截至4月13日，标普500在4月的前8</li>
+<li><a href="https://36kr.com/p/3765986197684736?f=rss">最前线 | 远见智存发布HBM3/3e高带宽存储芯片，带宽迈入800GB/s级别</a> — 作者&nbsp;|&nbsp;乔钰杰 编辑&nbsp;|&nbsp;袁斯来 近期，深圳远见智存科技有限公司发布其HBM3/3e高带宽存储芯片产品，提供12GB与24GB两种容量规格，带宽达819GB/</li>
+<li><a href="https://36kr.com/p/3764953900990977?f=rss">半年融资近2亿，他要用AI发球机器人解决全球1亿人的训练难题｜硬氪专访</a> — 作者｜黄楠 编辑｜袁斯来 如果你想找庞伯特创始人张海波，大概率得去公司附近的各种球场。 张海波早把自己训练成了各种球类的高手。 2025年10月，公司网球场刚建成不久，他就拎着自家的发球机器人，从��</li>
+<li><a href="https://36kr.com/p/3765932138103554?f=rss">8点1氪丨“马斯克版微信”将于4月17日上线；美军开始拦截进出霍尔木兹海峡船只；字节与荣耀合作“豆包手机”细节尚未达成一致</a> — 今日热点导览 张雪回应机车新手禁令 西班牙首相桑切斯参观小米科技园 中央网信办：加强网络直播打赏规范管理 小红书跨境电商平台Redshop将于今年6月正式上线 A股景气度投资或回归主线 TOP3大新闻</li>
+<li><a href="https://36kr.com/p/3765331768967686?f=rss">荣耀做了个“养虾本”，预制5大主虾，要重新定义AI PC｜最前线</a> — 4月13日，荣耀正式发布自研终端侧“龙虾”AI智能体YOYO Claw，并宣布其将首发搭载于被称作“养虾本”的荣耀MagicBook系列轻薄本中。 此前，荣耀曾在Magic V6旗舰新品发布会宣布要带</li>
+<li><a href="https://36kr.com/p/3765207394009602?f=rss">图速科技发布三款新品：其具身打磨机器人全栈自研，打磨效率为人工3-4倍丨最前线</a> — 作者丨欧雪 编辑丨袁斯来 在AI+制造 新时代到来的开局之年，工业打磨这一长期依赖人工经验的“隐形工序”，正在迎来技术拐点。 4月10日，图速自动化科技（上海）有限公司正式发布砺眸®LumiSande</li>
+<li><a href="https://36kr.com/p/3765146768376326?f=rss">氪星晚报｜“马斯克版微信”或在本周五上线；Meta押注AI数字人，正打造AI版扎克伯格；AI潮玩品牌“MOMOTOY”完成数千万元融资</a> — 大公司： 金山办公：一季度净利同比预增402%-473% 36氪获悉，金山办公公告，预计2026年第一季度实现归属于上市公司股东的净利润20.22亿元-23.07亿元，同比增长401.89%-472.</li>
+<li><a href="https://www.infoq.cn/article/G27veSK8ZHwhmNdHilNB?utm_source=rss&utm_medium=article">模力工场 036 周 AI 应用周榜：AI不只做“单点能力”，而是在拼“完整工作流”</a> — 点击查看原文></li>
+<li><a href="https://www.infoq.cn/article/UGpjbIzIbbxbZ3XyWeRL?utm_source=rss&utm_medium=article">MiniMax修改开源授权被骂疯了！限制M2.7商用、强制标注来源，却没完全撤下MIT标识</a> — 点击查看原文></li>
+<li><a href="https://www.infoq.cn/article/L15t21Z0dk1HQmxuQDmK?utm_source=rss&utm_medium=article">AI 助力 Dragonwell Native 加速：10 倍性能提升机会的自动发现实践</a> — 点击查看原文></li>
+<li><a href="https://www.infoq.cn/video/4x5kTGc6DUpRuYc3oVwB?utm_source=rss&utm_medium=article">TDSQL-C 全球数据库的容灾切换与发展方向 | 腾讯云数据库 DBTalk</a> — 点击查看原文></li>
+<li><a href="https://www.infoq.cn/article/ZkMveTm0GrGqNOCxTQit?utm_source=rss&utm_medium=article">CNCF 与 Kusari 合作，共同加强云原生项目的软件供应链安全</a> — 点击查看原文></li></p><p></details></p><p>---</p><p><h2>🐦 Twitter/X</h2></p><p><li><strong>#ال_جب</strong></li>
+  https://twitter.com/search?q=%23ال_جب
+<li><strong>#Umi29thBDay</strong></li>
+  https://twitter.com/search?q=%23Umi29thBDay
+<li><strong>#Our_7_Are_One_In_A_Billion</strong></li>
+  https://twitter.com/search?q=%23Our_7_Are_One_In_A_Billion
+<li><strong>#BorderlessBanking</strong></li>
+  https://twitter.com/search?q=%23BorderlessBanking
+<li><strong>#中村海人誕生祭2026</strong></li>
+  https://twitter.com/search?q=%23中村海人誕生祭2026
+<li><strong>Re:vale記念日</strong></li>
+  https://twitter.com/search?q=Re:vale記念日
+<li><strong>くまぐらし</strong></li>
+  https://twitter.com/search?q=くまぐらし
+<li><strong>AMAs</strong></li>
+  https://twitter.com/search?q=AMAs
+<li><strong>どらほー</strong></li>
+  https://twitter.com/search?q=どらほー
+<li><strong>Iraola</strong></li>
+  https://twitter.com/search?q=Iraola</p><p><details>
+<summary>📋 完整列表 (15 条)</summary></p><p><li><a href="https://twitter.com/search?q=%23ال_جب">#ال_جب</a></li>
+<li><a href="https://twitter.com/search?q=%23Umi29thBDay">#Umi29thBDay</a></li>
+<li><a href="https://twitter.com/search?q=%23Our_7_Are_One_In_A_Billion">#Our_7_Are_One_In_A_Billion</a></li>
+<li><a href="https://twitter.com/search?q=%23BorderlessBanking">#BorderlessBanking</a></li>
+<li><a href="https://twitter.com/search?q=%23中村海人誕生祭2026">#中村海人誕生祭2026</a></li>
+<li><a href="https://twitter.com/search?q=Re:vale記念日">Re:vale記念日</a></li>
+<li><a href="https://twitter.com/search?q=くまぐらし">くまぐらし</a></li>
+<li><a href="https://twitter.com/search?q=AMAs">AMAs</a></li>
+<li><a href="https://twitter.com/search?q=どらほー">どらほー</a></li>
+<li><a href="https://twitter.com/search?q=Iraola">Iraola</a></li>
+<li><a href="https://twitter.com/search?q=仰天ニュース">仰天ニュース</a></li>
+<li><a href="https://twitter.com/search?q=プレミアムパス特典">プレミアムパス特典</a></li>
+<li><a href="https://twitter.com/search?q=ガシャ開催期間ごと">ガシャ開催期間ごと</a></li>
+<li><a href="https://twitter.com/search?q=Meloni">Meloni</a></li>
+<li><a href="https://twitter.com/search?q=初回10連無料">初回10連無料</a></li></p><p></details></p><p>---</p><p>---</p><p>*Generated by <a href="https://github.com">Daily Digest</a> · Powered by GitHub Actions + AI*</p>
+    </article>
+    <a class="back-link" href="index.html">← 返回所有日报</a>
+    
+    </main>
+    <footer>
+      <p>Powered by GitHub Actions + AI · 自动生成</p>
+      <p>Data from Hacker News, GitHub, Reddit, Twitter/X, Product Hunt, V2EX, and more</p>
+    </footer>
+  </div>
+</body>
+</html>

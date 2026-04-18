@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026-04-14 - Daily Digest</title>
+  <style>
+:root {
+  --bg: #0d1117;
+  --bg-card: #161b22;
+  --bg-hover: #1c2333;
+  --text: #e6edf3;
+  --text-muted: #8b949e;
+  --accent: #58a6ff;
+  --accent-green: #3fb950;
+  --border: #30363d;
+  --orange: #f0883e;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px 30px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+  background: linear-gradient(135deg, var(--accent), #a371f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+/* 导航 */
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.nav-list a {
+  color: var(--text-muted);
+  text-decoration: none;
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+
+.nav-list a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+/* 日期列表页 */
+.date-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.date-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px 24px;
+  text-decoration: none;
+  color: var(--text);
+  transition: all 0.2s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date-card:hover {
+  background: var(--bg-hover);
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.date-card .date {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.date-card .meta {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+/* 文章页 */
+article h1 {
+  font-size: 1.6rem;
+  margin: 30px 0 10px;
+}
+
+article h2 {
+  font-size: 1.3rem;
+  margin: 35px 0 15px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+  color: var(--accent);
+}
+
+article h3 {
+  font-size: 1.1rem;
+  margin: 25px 0 10px;
+}
+
+article p {
+  margin: 10px 0;
+  color: var(--text);
+}
+
+article a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+article a:hover {
+  text-decoration: underline;
+}
+
+article blockquote {
+  border-left: 3px solid var(--accent);
+  padding: 10px 15px;
+  margin: 15px 0;
+  background: var(--bg-card);
+  border-radius: 0 8px 8px 0;
+  color: var(--text-muted);
+}
+
+article ul, article ol {
+  padding-left: 25px;
+  margin: 10px 0;
+}
+
+article li {
+  margin: 6px 0;
+  color: var(--text);
+}
+
+article li a {
+  color: var(--accent);
+}
+
+article hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 25px 0;
+}
+
+article code {
+  background: var(--bg-card);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+article details {
+  margin: 15px 0;
+}
+
+article summary {
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  padding: 8px 0;
+}
+
+article details[open] summary {
+  margin-bottom: 10px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  background: rgba(88,166,255,0.15);
+  color: var(--accent);
+}
+
+/* 返回顶部 */
+.back-link {
+  display: inline-block;
+  margin: 20px 0;
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.back-link:hover { color: var(--accent); }
+
+/* 页脚 */
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  border-top: 1px solid var(--border);
+  margin-top: 40px;
+}
+
+/* 响应式 */
+@media (max-width: 600px) {
+  .container { padding: 15px; }
+  header h1 { font-size: 1.5rem; }
+  article h2 { font-size: 1.1rem; }
+  .date-card { padding: 15px; }
+}
+</style>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📰</text></svg>">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📰 Daily Digest</h1>
+      <p>每日科技热点聚合 · AI 驱动的新闻日报</p>
+    </header>
+    
+    <main>
+      
+    <a class="back-link" href="index.html">← 返回所有日报</a>
+    <article>
+      <p><h1>Daily Digest - 2026-04-14</h1></p><p>> 自动生成于 2026-04-14 01:01 CST
+> 数据源：9 个平台，共 140 条内容</p><p>---</p><p><h2>📌 今日要点</h2></p><p><h2>今日要点</h2></p><p>各平台热门内容已聚合，详见下方各板块。</p><p>---</p><p><h2>📰 RSS聚合</h2></p><p><li><strong>Vercel CEO Guillermo Rauch signals IPO readiness as AI agents fuel revenue surge</strong></li>
+  https://techcrunch.com/2026/04/13/vercel-ceo-guillermo-rauch-signals-ipo-readiness-as-ai-agents-fuel-revenue-surge/
+<li><strong>Hack at Anodot leaves over a dozen breached companies facing extortion</strong></li>
+  https://techcrunch.com/2026/04/13/hack-at-anodot-leaves-over-a-dozen-breached-companies-facing-extortion/
+<li><strong>Slate Auto raises $650M to fund its affordable EV truck plans</strong></li>
+  https://techcrunch.com/2026/04/13/slate-auto-raises-650m-to-fund-its-affordable-ev-truck-plans/
+<li><strong>Roblox introduces ‘Kids’ and ‘Select’ accounts for age-appropriate access to games and chat</strong></li>
+  https://techcrunch.com/2026/04/13/roblox-introduces-kids-and-select-accounts-for-age-appropriate-access-to-games-and-chat/
+<li><strong>The largest orbital compute cluster is open for business</strong></li>
+  https://techcrunch.com/2026/04/13/the-largest-orbital-compute-cluster-is-open-for-business/
+<li><strong>Trump officials may be encouraging banks to test Anthropic’s Mythos model</strong></li>
+  https://techcrunch.com/2026/04/12/trump-officials-may-be-encouraging-banks-to-test-anthropics-mythos-model/
+<li><strong>Apple reportedly testing four designs for upcoming smart glasses</strong></li>
+  https://techcrunch.com/2026/04/12/apple-reportedly-testing-four-designs-for-upcoming-smart-glasses/
+<li><strong>X says it’s reducing payments to clickbait accounts</strong></li>
+  https://techcrunch.com/2026/04/12/x-says-its-reducing-payments-to-clickbait-accounts/
+<li><strong>TechCrunch Mobility: Who is poaching all the self-driving vehicle talent?</strong></li>
+  https://techcrunch.com/2026/04/12/techcrunch-mobility-who-is-poaching-all-the-self-driving-vehicle-talent/
+<li><strong>From LLMs to hallucinations, here’s a simple guide to common AI terms</strong></li>
+  https://techcrunch.com/2026/04/12/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/</p><p><details>
+<summary>📋 完整列表 (70 条)</summary></p><p><li><a href="https://techcrunch.com/2026/04/13/vercel-ceo-guillermo-rauch-signals-ipo-readiness-as-ai-agents-fuel-revenue-surge/">Vercel CEO Guillermo Rauch signals IPO readiness as AI agents fuel revenue surge</a> — "The company is ready and getting more ready for every day," Rauch said about an IPO at HumanX confe</li>
+<li><a href="https://techcrunch.com/2026/04/13/hack-at-anodot-leaves-over-a-dozen-breached-companies-facing-extortion/">Hack at Anodot leaves over a dozen breached companies facing extortion</a> — The data breach at Anodot, which affects customers like Rockstar Games, is the latest hack aimed at </li>
+<li><a href="https://techcrunch.com/2026/04/13/slate-auto-raises-650m-to-fund-its-affordable-ev-truck-plans/">Slate Auto raises $650M to fund its affordable EV truck plans</a> — Slate Auto's latest funding round was led by existing investor TWG Global, a firm run by LA Dodgers </li>
+<li><a href="https://techcrunch.com/2026/04/13/roblox-introduces-kids-and-select-accounts-for-age-appropriate-access-to-games-and-chat/">Roblox introduces ‘Kids’ and ‘Select’ accounts for age-appropriate access to games and chat</a> — Users aged five to nine will be assigned to a "Roblox Kids" account, and users aged nine to 15 to wi</li>
+<li><a href="https://techcrunch.com/2026/04/13/the-largest-orbital-compute-cluster-is-open-for-business/">The largest orbital compute cluster is open for business</a> — Kepler Communications is flying 40 GPUs in Earth orbit. And its latest customer is Sophia Space.</li>
+<li><a href="https://techcrunch.com/2026/04/12/trump-officials-may-be-encouraging-banks-to-test-anthropics-mythos-model/">Trump officials may be encouraging banks to test Anthropic’s Mythos model</a> — The report is particularly surprising since the Department of Defense recently declared Anthropic a </li>
+<li><a href="https://techcrunch.com/2026/04/12/apple-reportedly-testing-four-designs-for-upcoming-smart-glasses/">Apple reportedly testing four designs for upcoming smart glasses</a> — These glasses are a step back from an ambitious plan that once called for Apple to launch a variety </li>
+<li><a href="https://techcrunch.com/2026/04/12/x-says-its-reducing-payments-to-clickbait-accounts/">X says it’s reducing payments to clickbait accounts</a> — X is cutting back on payments to accounts that are “flooding the timeline” with clickbait and rapid-</li>
+<li><a href="https://techcrunch.com/2026/04/12/techcrunch-mobility-who-is-poaching-all-the-self-driving-vehicle-talent/">TechCrunch Mobility: Who is poaching all the self-driving vehicle talent?</a> — Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ev</li>
+<li><a href="https://techcrunch.com/2026/04/12/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/">From LLMs to hallucinations, here’s a simple guide to common AI terms</a> — The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions </li>
+<li><a href="https://www.theverge.com/ai-artificial-intelligence/911118/openai-memo-cro-ai-competition-anthropic">Read OpenAI&#8217;s latest internal memo about beating the competition — including Anthropic</a> — OpenAI's chief revenue officer, Denise Dresser, sent a four-page memo to employees on Sunday about t</li>
+<li><a href="https://www.theverge.com/transportation/911085/slate-truck-ev-fundraise-twg-global-bezos">Slate raises $650 million to make its budget electric truck</a> — Slate Auto, the EV startup backed by Jeff Bezos, raised $650 million to fund its effort to build an </li>
+<li><a href="https://www.theverge.com/tech/911080/microsoft-ai-openclaw-365-businesses">Microsoft is testing OpenClaw-like AI bots for 365 Copilot</a> — Microsoft is looking into ways it can integrate OpenClaw-style features into 365 Copilot, according </li>
+<li><a href="https://www.theverge.com/gadgets/910966/google-pixel-10a-sony-wf-1000xm6-earbuds-deal-sale">Google’s Pixel 10A is a good midrange phone that’s $50 off</a> — If it’s time for you to upgrade your phone, it’s worth considering the Pixel 10A, Google’s latest mi</li>
+<li><a href="https://www.theverge.com/games/910385/pragmata-review-ps5-xbox-switch-2-pc">Pragmata is just OK, but it could’ve been great</a> — Over the last few years, Capcom has done an exceptional job of solidifying its lineup of big, long-r</li></p><p></details></p><p>---</p><p><h2>🟠 Hacker News</h2></p><p><li><strong>Nothing Ever Happens: Polymarket bot that always buys No on non-sports markets</strong> (↑121)</li>
+  https://github.com/sterlingcrispin/nothing-ever-happens
+<li><strong>Building a CLI for All of Cloudflare</strong> (↑72)</li>
+  https://blog.cloudflare.com/cf-cli-local-explorer/
+<li><strong>The Future of Everything Is Lies, I Guess: Safety</strong> (↑31)</li>
+  https://aphyr.com/posts/417-the-future-of-everything-is-lies-i-guess-safety
+<li><strong>Servo is now available on crates.io</strong> (↑259)</li>
+  https://servo.org/blog/2026/04/13/servo-0.1.0-release/
+<li><strong>Make Tmux Pretty and Usable</strong> (↑139)</li>
+  https://hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/
+<li><strong>MEMS Array Chip Can Project Video the Size of a Grain of Sand</strong> (↑23)</li>
+  https://spectrum.ieee.org/mems-photonics
+<li><strong>Initial mainline video capture and camera support for Rockchip RK3588</strong> (↑36)</li>
+  https://www.collabora.com/news-and-blog/news-and-events/mainline-video-capture-and-camera-support-for-rockchip-rk3588.html
+<li><strong>All elementary functions from a single binary operator</strong> (↑698)</li>
+  https://arxiv.org/abs/2603.21852
+<li><strong>Microsoft isn't removing Copilot from Windows 11, it's just renaming it</strong> (↑132)</li>
+  https://www.neowin.net/opinions/microsoft-isnt-removing-copilot-from-windows-11-its-just-renaming-it/
+<li><strong>US appeals court declares 158-year-old home distilling ban unconstitutional</strong> (↑177)</li>
+  https://nypost.com/2026/04/11/us-news/us-appeals-court-declares-158-year-old-home-distilling-ban-unconstitutional/</p><p><details>
+<summary>📋 完整列表 (20 条)</summary></p><p><li><a href="https://github.com/sterlingcrispin/nothing-ever-happens">Nothing Ever Happens: Polymarket bot that always buys No on non-sports markets</a> <code>↑121</code></li>
+<li><a href="https://blog.cloudflare.com/cf-cli-local-explorer/">Building a CLI for All of Cloudflare</a> <code>↑72</code></li>
+<li><a href="https://aphyr.com/posts/417-the-future-of-everything-is-lies-i-guess-safety">The Future of Everything Is Lies, I Guess: Safety</a> <code>↑31</code></li>
+<li><a href="https://servo.org/blog/2026/04/13/servo-0.1.0-release/">Servo is now available on crates.io</a> <code>↑259</code></li>
+<li><a href="https://hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/">Make Tmux Pretty and Usable</a> <code>↑139</code></li>
+<li><a href="https://spectrum.ieee.org/mems-photonics">MEMS Array Chip Can Project Video the Size of a Grain of Sand</a> <code>↑23</code></li>
+<li><a href="https://www.collabora.com/news-and-blog/news-and-events/mainline-video-capture-and-camera-support-for-rockchip-rk3588.html">Initial mainline video capture and camera support for Rockchip RK3588</a> <code>↑36</code></li>
+<li><a href="https://arxiv.org/abs/2603.21852">All elementary functions from a single binary operator</a> <code>↑698</code></li>
+<li><a href="https://www.neowin.net/opinions/microsoft-isnt-removing-copilot-from-windows-11-its-just-renaming-it/">Microsoft isn't removing Copilot from Windows 11, it's just renaming it</a> <code>↑132</code></li>
+<li><a href="https://nypost.com/2026/04/11/us-news/us-appeals-court-declares-158-year-old-home-distilling-ban-unconstitutional/">US appeals court declares 158-year-old home distilling ban unconstitutional</a> <code>↑177</code></li>
+<li><a href="https://blog.kaving.me/blog/tracking-down-a-25-regression-on-llvm-risc-v/">Tracking down a 25% Regression on LLVM RISC-V</a> <code>↑7</code></li>
+<li><a href="https://www.thecentersquare.com/michigan/article_7ca4e268-4a68-42fb-9042-f9d8604ebd7f.html">Michigan 'digital age' bills pulled after privacy concerns raised</a> <code>↑139</code></li>
+<li><a href="https://www.viktorcessan.com/the-economics-of-software-teams/">The economics of software teams: Why most engineering orgs are flying blind</a> <code>↑342</code></li>
+<li><a href="https://www.politico.com/news/2026/04/13/missouri-city-council-data-center-00867259">Missouri town fires half its city council over data center deal</a> <code>↑27</code></li>
+<li><a href="https://www.campbellramble.ai/p/the-rational-conclusion">The Rational Conclusion of Doomerism Is Violence</a> <code>↑13</code></li></p><p></details></p><p>---</p><p><h2>⭐ GitHub Trending</h2></p><p><li>****</li>
+  https://github.com/forrestchang/andrej-karpathy-skills
+<li>****</li>
+  https://github.com/NousResearch/hermes-agent
+<li>****</li>
+  https://github.com/shiyu-coder/Kronos
+<li>****</li>
+  https://github.com/thedotmack/claude-mem
+<li>****</li>
+  https://github.com/microsoft/markitdown
+<li>****</li>
+  https://github.com/multica-ai/multica
+<li>****</li>
+  https://github.com/coleam00/Archon
+<li>****</li>
+  https://github.com/snarktank/ralph
+<li>****</li>
+  https://github.com/virattt/ai-hedge-fund
+<li>****</li>
+  https://github.com/anthropics/claude-cookbooks</p><p><details>
+<summary>📋 完整列表 (15 条)</summary></p><p><li>[](https://github.com/forrestchang/andrej-karpathy-skills) — A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations</li>
+<li>[](https://github.com/NousResearch/hermes-agent) <code>Python</code> — The agent that grows with you</li>
+<li>[](https://github.com/shiyu-coder/Kronos) <code>Python</code> — Kronos: A Foundation Model for the Language of Financial Markets</li>
+<li>[](https://github.com/thedotmack/claude-mem) <code>TypeScript</code> — A Claude Code plugin that automatically captures everything Claude does during your coding sessions,</li>
+<li>[](https://github.com/microsoft/markitdown) <code>Python</code> — Python tool for converting files and office documents to Markdown.</li>
+<li>[](https://github.com/multica-ai/multica) <code>TypeScript</code> — The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, trac</li>
+<li>[](https://github.com/coleam00/Archon) <code>TypeScript</code> — The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.</li>
+<li>[](https://github.com/snarktank/ralph) <code>TypeScript</code> — Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete.</li>
+<li>[](https://github.com/virattt/ai-hedge-fund) <code>Python</code> — An AI Hedge Fund Team</li>
+<li>[](https://github.com/anthropics/claude-cookbooks) <code>Jupyter Notebook</code> — A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.</li>
+<li>[](https://github.com/shanraisshan/claude-code-best-practice) <code>HTML</code> — practice made claude perfect</li>
+<li>[](https://github.com/jamiepine/voicebox) <code>TypeScript</code> — The open-source voice synthesis studio</li>
+<li>[](https://github.com/ahujasid/blender-mcp) <code>Python</code></li>
+<li>[](https://github.com/hacksider/Deep-Live-Cam) <code>Python</code> — real time face swap and one-click video deepfake with only a single image</li>
+<li>[](https://github.com/gsd-build/get-shit-done) <code>JavaScript</code> — A light-weight and powerful meta-prompting, context engineering and spec-driven development system f</li></p><p></details></p><p>---</p><p><h2>🐦 Twitter/X</h2></p><p><li><strong>#BAMBAMxPHAYAO2026</strong></li>
+  https://twitter.com/search?q=%23BAMBAMxPHAYAO2026
+<li><strong>#SRHvsRR</strong></li>
+  https://twitter.com/search?q=%23SRHvsRR
+<li><strong>#OurFutureIsPerfectWITH7</strong></li>
+  https://twitter.com/search?q=%23OurFutureIsPerfectWITH7
+<li><strong>#الاهلي_الدحيل</strong></li>
+  https://twitter.com/search?q=%23الاهلي_الدحيل
+<li><strong>Pope</strong></li>
+  https://twitter.com/search?q=Pope
+<li><strong>#BELIFT_Boycott_Continues</strong></li>
+  https://twitter.com/search?q=%23BELIFT_Boycott_Continues
+<li><strong>Praful Hinge</strong></li>
+  https://twitter.com/search?q=Praful Hinge
+<li><strong>火古戦場</strong></li>
+  https://twitter.com/search?q=火古戦場
+<li><strong>محمد عبدالرحمن</strong></li>
+  https://twitter.com/search?q=محمد عبدالرحمن
+<li><strong>Catholic</strong></li>
+  https://twitter.com/search?q=Catholic</p><p><details>
+<summary>📋 完整列表 (15 条)</summary></p><p><li><a href="https://twitter.com/search?q=%23BAMBAMxPHAYAO2026">#BAMBAMxPHAYAO2026</a></li>
+<li><a href="https://twitter.com/search?q=%23SRHvsRR">#SRHvsRR</a></li>
+<li><a href="https://twitter.com/search?q=%23OurFutureIsPerfectWITH7">#OurFutureIsPerfectWITH7</a></li>
+<li><a href="https://twitter.com/search?q=%23الاهلي_الدحيل">#الاهلي_الدحيل</a></li>
+<li><a href="https://twitter.com/search?q=Pope">Pope</a></li>
+<li><a href="https://twitter.com/search?q=%23BELIFT_Boycott_Continues">#BELIFT_Boycott_Continues</a></li>
+<li><a href="https://twitter.com/search?q=Praful Hinge">Praful Hinge</a></li>
+<li><a href="https://twitter.com/search?q=火古戦場">火古戦場</a></li>
+<li><a href="https://twitter.com/search?q=محمد عبدالرحمن">محمد عبدالرحمن</a></li>
+<li><a href="https://twitter.com/search?q=Catholic">Catholic</a></li>
+<li><a href="https://twitter.com/search?q=Ishan Kishan">Ishan Kishan</a></li>
+<li><a href="https://twitter.com/search?q=Papa">Papa</a></li>
+<li><a href="https://twitter.com/search?q=PONDPHUWIN SONGKRAN 2026">PONDPHUWIN SONGKRAN 2026</a></li>
+<li><a href="https://twitter.com/search?q=Radhika">Radhika</a></li>
+<li><a href="https://twitter.com/search?q=Mike Colter">Mike Colter</a></li></p><p></details></p><p>---</p><p><h2>👩‍💻 Dev.to</h2></p><p><li><strong>Meet Hotfix—The Dragon Your Legacy Code Deserves</strong> (↑19)</li>
+  https://dev.to/anchildress1/meet-hotfix-the-dragon-your-legacy-code-deserves-4141
+<li><strong>I Ran 500 More Agent Memory Experiments. The Real Problem Wasn’t Recall. It Was Binding.</strong> (↑24)</li>
+  https://dev.to/marcosomma/i-ran-500-more-agent-memory-experiments-the-real-problem-wasnt-recall-it-was-binding-24kc
+<li><strong>Build a Talking Robot with Gemini Live and Reachy Mini</strong> (↑14)</li>
+  https://dev.to/googleai/build-a-talking-robot-with-gemini-live-and-reachy-mini-20e2
+<li><strong>The Emotional Terror of Closing a Browser Tab</strong> (↑21)</li>
+  https://dev.to/the_nortern_dev/the-emotional-terror-of-closing-a-browser-tab-122k
+<li><strong>🎤 Music Player - Scream to Skip Ads (But You Can’t)</strong> (↑11)</li>
+  https://dev.to/preeti_yadav/music-player-scream-to-skip-ads-but-you-cant-2727
+<li><strong>DotShare v3.0 — I Turned My VS Code Extension Into a Full Publishing Suite (Dev.to + Medium Inside)</strong> (↑1)</li>
+  https://dev.to/freerave/dotshare-v30-i-turned-my-vs-code-extension-into-a-full-publishing-suite-devto-medium-inside-15fe
+<li><strong>The Developer's Guide to Running LLMs Locally: Ollama, Gemma 4, and Why Your Side Projects Don't Need an API Key</strong> (↑2)</li>
+  https://dev.to/kennedyraju55/the-developers-guide-to-running-llms-locally-ollama-gemma-4-and-why-your-side-projects-dont-54oe
+<li><strong>Specification-First Agentic Development: A Methodology for Structured, Traceable AI-Assisted Development</strong> (↑4)</li>
+  https://dev.to/holgerleichsenring/specification-first-agentic-development-a-methodology-for-structured-traceable-ai-assisted-la
+<li><strong>I added a full analytics dashboard to my GitHub solar system visualizer and it actually looks professional</strong></li>
+  https://dev.to/mabdullah06/i-added-a-full-analytics-dashboard-to-my-github-solar-system-visualizer-and-it-actually-looks-2nkb
+<li><strong>I Thought the Hard Part Was the Code. Turns Out Production Is Where Security Assumptions Go to Die.</strong> (↑6)</li>
+  https://dev.to/ravigupta97/i-thought-the-hard-part-was-the-code-turns-out-production-is-where-security-assumptions-go-to-die-6j4</p><p><details>
+<summary>📋 完整列表 (10 条)</summary></p><p><li><a href="https://dev.to/anchildress1/meet-hotfix-the-dragon-your-legacy-code-deserves-4141">Meet Hotfix—The Dragon Your Legacy Code Deserves</a> <code>↑19</code> — Legacy Smelter is a thermal decommission platform where a Gemini-powered dragon analyzes your code a</li>
+<li><a href="https://dev.to/marcosomma/i-ran-500-more-agent-memory-experiments-the-real-problem-wasnt-recall-it-was-binding-24kc">I Ran 500 More Agent Memory Experiments. The Real Problem Wasn’t Recall. It Was Binding.</a> <code>↑24</code> — This is a follow-up to I Tried to Turn Agent Memory Into Plumbing Instead of Philosophy. If you...</li>
+<li><a href="https://dev.to/googleai/build-a-talking-robot-with-gemini-live-and-reachy-mini-20e2">Build a Talking Robot with Gemini Live and Reachy Mini</a> <code>↑14</code> — Imagine a tiny desk robot that listens to you, answers back in real time, dances on command, tracks.</li>
+<li><a href="https://dev.to/the_nortern_dev/the-emotional-terror-of-closing-a-browser-tab-122k">The Emotional Terror of Closing a Browser Tab</a> <code>↑21</code> — My laptop sounds like it is preparing for a low-orbit launch. The fan is screaming. The metal chassi</li>
+<li><a href="https://dev.to/preeti_yadav/music-player-scream-to-skip-ads-but-you-cant-2727">🎤 Music Player - Scream to Skip Ads (But You Can’t)</a> <code>↑11</code> — This is a submission for the DEV April Fools Challenge  🎤 Scream to Adjust volume or Skip Ads (But..</li>
+<li><a href="https://dev.to/freerave/dotshare-v30-i-turned-my-vs-code-extension-into-a-full-publishing-suite-devto-medium-inside-15fe">DotShare v3.0 — I Turned My VS Code Extension Into a Full Publishing Suite (Dev.to + Medium Inside)</a> <code>↑1</code> — A deep technical dive into DotShare v3.0 — the Publishing Suite update that added Dev.to...</li>
+<li><a href="https://dev.to/kennedyraju55/the-developers-guide-to-running-llms-locally-ollama-gemma-4-and-why-your-side-projects-dont-54oe">The Developer's Guide to Running LLMs Locally: Ollama, Gemma 4, and Why Your Side Projects Don't Need an API Key</a> <code>↑2</code> — Every tutorial about building with LLMs starts the same way: "First, get your OpenAI API key." But..</li>
+<li><a href="https://dev.to/holgerleichsenring/specification-first-agentic-development-a-methodology-for-structured-traceable-ai-assisted-la">Specification-First Agentic Development: A Methodology for Structured, Traceable AI-Assisted Development</a> <code>↑4</code> — How I stopped fighting AI context loss and started shipping clean, documented code with a methodolog</li>
+<li><a href="https://dev.to/mabdullah06/i-added-a-full-analytics-dashboard-to-my-github-solar-system-visualizer-and-it-actually-looks-2nkb">I added a full analytics dashboard to my GitHub solar system visualizer and it actually looks professional</a> — Phase 7 of Stack Universe just shipped. The solar system is still there. Now there is a clean...</li>
+<li><a href="https://dev.to/ravigupta97/i-thought-the-hard-part-was-the-code-turns-out-production-is-where-security-assumptions-go-to-die-6j4">I Thought the Hard Part Was the Code. Turns Out Production Is Where Security Assumptions Go to Die.</a> <code>↑6</code> — This is Part 4 of a 4-part series on building AuthShield - a production-ready standalone...</li></p><p></details></p><p>---</p><p><h2>💬 V2EX</h2></p><p><li><strong>各位平时都关注那些科技财经类的博主？</strong></li>
+  https://www.v2ex.com/t/1205371
+<li><strong>生小孩的意义，转自 53 岁深圳不婚不育女性自述</strong></li>
+  https://www.v2ex.com/t/1205472
+<li><strong>樱花季去了一趟日本关东地区旅行，分享游记</strong></li>
+  https://www.v2ex.com/t/1205382
+<li><strong>最近看太多 AI 的东西，太 AI(油)腻了，来点生活的吧，推荐分享一些你日常好物呗</strong></li>
+  https://www.v2ex.com/t/1205376
+<li><strong>Chatgpt Plus 订阅， V 站优惠持续中</strong></li>
+  https://www.v2ex.com/t/1205497
+<li><strong>入职外包，本以为能顺利入职，没想到却要待岗</strong></li>
+  https://www.v2ex.com/t/1205411
+<li><strong>低佣“万一免五”开户， a 股券商基金 ETF 免 5 开户，抽明前龙井 第二弹~~ [大笑脸开户]</strong></li>
+  https://www.v2ex.com/t/1205374
+<li><strong>Termina.Pub 中转站 可开发票，欢迎企业合作，回帖留 id 送 10 刀额度，送 150 位</strong></li>
+  https://www.v2ex.com/t/1205554
+<li><strong>M1 和 M2 不要更新 macOS26.4/.1</strong></li>
+  https://www.v2ex.com/t/1205395
+<li><strong>求推荐内网穿透方案</strong></li>
+  https://www.v2ex.com/t/1205499</p><p><details>
+<summary>📋 完整列表 (10 条)</summary></p><p><li><a href="https://www.v2ex.com/t/1205371">各位平时都关注那些科技财经类的博主？</a> <code>↑120</code></li>
+<li><a href="https://www.v2ex.com/t/1205472">生小孩的意义，转自 53 岁深圳不婚不育女性自述</a> <code>↑102</code></li>
+<li><a href="https://www.v2ex.com/t/1205382">樱花季去了一趟日本关东地区旅行，分享游记</a> <code>↑98</code></li>
+<li><a href="https://www.v2ex.com/t/1205376">最近看太多 AI 的东西，太 AI(油)腻了，来点生活的吧，推荐分享一些你日常好物呗</a> <code>↑87</code></li>
+<li><a href="https://www.v2ex.com/t/1205497">Chatgpt Plus 订阅， V 站优惠持续中</a> <code>↑82</code></li>
+<li><a href="https://www.v2ex.com/t/1205411">入职外包，本以为能顺利入职，没想到却要待岗</a> <code>↑78</code></li>
+<li><a href="https://www.v2ex.com/t/1205374">低佣“万一免五”开户， a 股券商基金 ETF 免 5 开户，抽明前龙井 第二弹~~ [大笑脸开户]</a> <code>↑75</code></li>
+<li><a href="https://www.v2ex.com/t/1205554">Termina.Pub 中转站 可开发票，欢迎企业合作，回帖留 id 送 10 刀额度，送 150 位</a> <code>↑68</code></li>
+<li><a href="https://www.v2ex.com/t/1205395">M1 和 M2 不要更新 macOS26.4/.1</a> <code>↑68</code></li>
+<li><a href="https://www.v2ex.com/t/1205499">求推荐内网穿透方案</a> <code>↑68</code></li></p><p></details></p><p>---</p><p>---</p><p>*Generated by <a href="https://github.com">Daily Digest</a> · Powered by GitHub Actions + AI*</p>
+    </article>
+    <a class="back-link" href="index.html">← 返回所有日报</a>
+    
+    </main>
+    <footer>
+      <p>Powered by GitHub Actions + AI · 自动生成</p>
+      <p>Data from Hacker News, GitHub, Reddit, Twitter/X, Product Hunt, V2EX, and more</p>
+    </footer>
+  </div>
+</body>
+</html>

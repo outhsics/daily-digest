@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026-04-18 - Daily Digest</title>
+  <style>
+:root {
+  --bg: #0d1117;
+  --bg-card: #161b22;
+  --bg-hover: #1c2333;
+  --text: #e6edf3;
+  --text-muted: #8b949e;
+  --accent: #58a6ff;
+  --accent-green: #3fb950;
+  --border: #30363d;
+  --orange: #f0883e;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px 30px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+  background: linear-gradient(135deg, var(--accent), #a371f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+/* 导航 */
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.nav-list a {
+  color: var(--text-muted);
+  text-decoration: none;
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+
+.nav-list a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+/* 日期列表页 */
+.date-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.date-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px 24px;
+  text-decoration: none;
+  color: var(--text);
+  transition: all 0.2s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date-card:hover {
+  background: var(--bg-hover);
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.date-card .date {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.date-card .meta {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+/* 文章页 */
+article h1 {
+  font-size: 1.6rem;
+  margin: 30px 0 10px;
+}
+
+article h2 {
+  font-size: 1.3rem;
+  margin: 35px 0 15px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+  color: var(--accent);
+}
+
+article h3 {
+  font-size: 1.1rem;
+  margin: 25px 0 10px;
+}
+
+article p {
+  margin: 10px 0;
+  color: var(--text);
+}
+
+article a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+article a:hover {
+  text-decoration: underline;
+}
+
+article blockquote {
+  border-left: 3px solid var(--accent);
+  padding: 10px 15px;
+  margin: 15px 0;
+  background: var(--bg-card);
+  border-radius: 0 8px 8px 0;
+  color: var(--text-muted);
+}
+
+article ul, article ol {
+  padding-left: 25px;
+  margin: 10px 0;
+}
+
+article li {
+  margin: 6px 0;
+  color: var(--text);
+}
+
+article li a {
+  color: var(--accent);
+}
+
+article hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 25px 0;
+}
+
+article code {
+  background: var(--bg-card);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+article details {
+  margin: 15px 0;
+}
+
+article summary {
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  padding: 8px 0;
+}
+
+article details[open] summary {
+  margin-bottom: 10px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  background: rgba(88,166,255,0.15);
+  color: var(--accent);
+}
+
+/* 返回顶部 */
+.back-link {
+  display: inline-block;
+  margin: 20px 0;
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.back-link:hover { color: var(--accent); }
+
+/* 页脚 */
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  border-top: 1px solid var(--border);
+  margin-top: 40px;
+}
+
+/* 响应式 */
+@media (max-width: 600px) {
+  .container { padding: 15px; }
+  header h1 { font-size: 1.5rem; }
+  article h2 { font-size: 1.1rem; }
+  .date-card { padding: 15px; }
+}
+</style>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📰</text></svg>">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📰 Daily Digest</h1>
+      <p>每日科技热点聚合 · AI 驱动的新闻日报</p>
+    </header>
+    
+    <main>
+      
+    <a class="back-link" href="index.html">← 返回所有日报</a>
+    <article>
+      <p><h1>Daily Digest - 2026-04-18</h1></p><p>> 自动生成于 2026-04-18 01:00 CST
+> 数据源：9 个平台，共 140 条内容</p><p>---</p><p><h2>📌 今日要点</h2></p><p><h2>今日要点</h2></p><p>各平台热门内容已聚合，详见下方各板块。</p><p>---</p><p><h2>📰 RSS聚合</h2></p><p><li><strong>Gigs turns your concert history into a personal live music archive</strong></li>
+  https://techcrunch.com/2026/04/17/gigs-turns-your-concert-history-into-a-personal-live-music-archive/
+<li><strong>Chef Robotics escaped the robot cooking graveyard and says it’s thriving — here’s why</strong></li>
+  https://techcrunch.com/2026/04/17/chef-robotics-escaped-the-robot-cooking-graveyard-and-says-its-thriving-heres-why/
+<li><strong>Uber will now pick up your returns from your doorstep</strong></li>
+  https://techcrunch.com/2026/04/17/uber-will-now-pick-up-your-returns-from-your-doorstep/
+<li><strong>Anthropic launches Claude Design, a new product for creating quick visuals</strong></li>
+  https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/
+<li><strong>With US spy laws set to expire, lawmakers are split over protecting Americans from warrantless surveillance</strong></li>
+  https://techcrunch.com/2026/04/17/with-us-spy-laws-set-to-expire-lawmakers-are-split-over-protecting-americans-from-warrantless-surveillance/
+<li><strong>Google’s AI Mode can now help you find products in stock nearby</strong></li>
+  https://techcrunch.com/2026/04/17/googles-ai-mode-can-now-help-you-find-products-in-stock-nearby/
+<li><strong>Bluesky confirms DDoS attack is cause of continued app outages</strong></li>
+  https://techcrunch.com/2026/04/17/its-not-just-you-bluesky-is-sorta-down/
+<li><strong>Netflix plans to add a vertical video feed, use AI for recommendations</strong></li>
+  https://techcrunch.com/2026/04/17/netflix-plans-to-add-a-vertical-video-feed-use-ai-for-recommendations/
+<li><strong>SaySo is a new short-form video app that aims to restore users’ trust in news</strong></li>
+  https://techcrunch.com/2026/04/17/sayso-is-a-new-short-form-video-app-that-aims-to-restore-users-trust-in-news/
+<li><strong>Loop raises $95M to build supply chain AI that predicts disruptions</strong></li>
+  https://techcrunch.com/2026/04/17/loop-raises-95m-to-build-supply-chain-ai-that-predicts-disruptions/</p><p><details>
+<summary>📋 完整列表 (70 条)</summary></p><p><li><a href="https://techcrunch.com/2026/04/17/gigs-turns-your-concert-history-into-a-personal-live-music-archive/">Gigs turns your concert history into a personal live music archive</a> — New iPhone app Gigs uses AI to turn old tickets, screenshots, and emails into a personal concert arc</li>
+<li><a href="https://techcrunch.com/2026/04/17/chef-robotics-escaped-the-robot-cooking-graveyard-and-says-its-thriving-heres-why/">Chef Robotics escaped the robot cooking graveyard and says it’s thriving — here’s why</a> — The company, which deploys AI-guided robot arms for food production, says it is looking to expand it</li>
+<li><a href="https://techcrunch.com/2026/04/17/uber-will-now-pick-up-your-returns-from-your-doorstep/">Uber will now pick up your returns from your doorstep</a> — The new returns feature is the company's latest effort to become an everything app.</li>
+<li><a href="https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/">Anthropic launches Claude Design, a new product for creating quick visuals</a> — The company says Claude Design is intended to help people like founders and product managers without</li>
+<li><a href="https://techcrunch.com/2026/04/17/with-us-spy-laws-set-to-expire-lawmakers-are-split-over-protecting-americans-from-warrantless-surveillance/">With US spy laws set to expire, lawmakers are split over protecting Americans from warrantless surveillance</a> — Some lawmakers are calling for widespread reforms following years of surveillance scandals and abuse</li>
+<li><a href="https://techcrunch.com/2026/04/17/googles-ai-mode-can-now-help-you-find-products-in-stock-nearby/">Google’s AI Mode can now help you find products in stock nearby</a> — Although you can already track hotel prices at the city level, the new update lets you do so for a s</li>
+<li><a href="https://techcrunch.com/2026/04/17/its-not-just-you-bluesky-is-sorta-down/">Bluesky confirms DDoS attack is cause of continued app outages</a> — Bluesky has been experiencing ongoing service disruptions since just before 3 a.m. ET on April 15.</li>
+<li><a href="https://techcrunch.com/2026/04/17/netflix-plans-to-add-a-vertical-video-feed-use-ai-for-recommendations/">Netflix plans to add a vertical video feed, use AI for recommendations</a> — Netflix is going to launch a TikTok-like vertical video feed within its apps this month, and plans t</li>
+<li><a href="https://techcrunch.com/2026/04/17/sayso-is-a-new-short-form-video-app-that-aims-to-restore-users-trust-in-news/">SaySo is a new short-form video app that aims to restore users’ trust in news</a> — Users are fed up with misinformation and AI slop cluttering their feeds. SaySo is a new short-form v</li>
+<li><a href="https://techcrunch.com/2026/04/17/loop-raises-95m-to-build-supply-chain-ai-that-predicts-disruptions/">Loop raises $95M to build supply chain AI that predicts disruptions</a> — The San Francisco startup closed a Series C funding round led by Antonio Gracias' firm Valor, which </li>
+<li><a href="https://www.theverge.com/tech/912286/our-new-favorite-budget-phones">Our new favorite budget phones</a> — Over the last few months, every phone maker under the sun has refreshed its lineups, especially at t</li>
+<li><a href="https://www.theverge.com/gadgets/912271/best-budget-smartphones-cheap-iphone-android-phones">The best budget smartphones you can buy</a> — Some of us take a kind of “eat to live” rather than a “live to eat” approach to gadgets. They’re too</li>
+<li><a href="https://www.theverge.com/ai-artificial-intelligence/913928/dairy-queen-ai-drive-thru-presto">Dairy Queen is putting an AI chatbot in its drive-thrus</a> — Dairy Queen is becoming the latest fast food chain to get in on AI, as it's bringing a chatbot to do</li>
+<li><a href="https://www.theverge.com/gadgets/913857/apple-airpods-pro-3-blink-video-doorbell-deal-sale">The AirPods Pro 3 are $50 off right now, nearly matching their best-ever price</a> — From OLED TVs to smartphones, Best Buy’s Upgrade Sale has slashed prices on all kinds of tech, inclu</li>
+<li><a href="https://www.theverge.com/tech/909806/kinetic-sculpture-fake-flowers-mechanical-artwork-rachel-youn">Ghost orchid in the machine</a> — Vacuum cleaners, personal massagers, electronic baby rockers, and walking pads: These are the second</li></p><p></details></p><p>---</p><p><h2>🟠 Hacker News</h2></p><p><li><strong>Claude Design</strong> (↑324)</li>
+  https://www.anthropic.com/news/claude-design-anthropic-labs
+<li><strong>Claude Opus 4.7 costs 20–30% more per session</strong> (↑133)</li>
+  https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you
+<li><strong>Isaac Asimov: The Last Question (1956)</strong> (↑409)</li>
+  https://hex.ooo/library/last_question.html
+<li><strong>Middle schooler finds coin from Troy in Berlin</strong> (↑88)</li>
+  https://www.thehistoryblog.com/archives/75848
+<li><strong>NIST gives up enriching most CVEs</strong> (↑62)</li>
+  https://risky.biz/risky-bulletin-nist-gives-up-enriching-most-cves/
+<li><strong>NASA Force</strong> (↑28)</li>
+  https://nasaforce.gov/
+<li><strong>Healthchecks.io Now Uses Self-Hosted Object Storage</strong> (↑66)</li>
+  https://blog.healthchecks.io/2026/04/healthchecks-io-now-uses-self-hosted-object-storage/
+<li><strong>It Is Time to Ban the Sale of Precise Geolocation</strong> (↑267)</li>
+  https://www.lawfaremedia.org/article/it-is-time-to-ban-the-sale-of-precise-geolocation
+<li><strong>Iceye Open Data</strong> (↑47)</li>
+  https://www.iceye.com/open-data-initiative
+<li><strong>Designing the Transport Typeface</strong> (↑19)</li>
+  https://www.thamesandhudson.com/blogs/all-news-features/designing-the-transport-typeface-margaret-calvert-on-the-making-of-britain-s-road-signs</p><p><details>
+<summary>📋 完整列表 (20 条)</summary></p><p><li><a href="https://www.anthropic.com/news/claude-design-anthropic-labs">Claude Design</a> <code>↑324</code></li>
+<li><a href="https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you">Claude Opus 4.7 costs 20–30% more per session</a> <code>↑133</code></li>
+<li><a href="https://hex.ooo/library/last_question.html">Isaac Asimov: The Last Question (1956)</a> <code>↑409</code></li>
+<li><a href="https://www.thehistoryblog.com/archives/75848">Middle schooler finds coin from Troy in Berlin</a> <code>↑88</code></li>
+<li><a href="https://risky.biz/risky-bulletin-nist-gives-up-enriching-most-cves/">NIST gives up enriching most CVEs</a> <code>↑62</code></li>
+<li><a href="https://nasaforce.gov/">NASA Force</a> <code>↑28</code></li>
+<li><a href="https://blog.healthchecks.io/2026/04/healthchecks-io-now-uses-self-hosted-object-storage/">Healthchecks.io Now Uses Self-Hosted Object Storage</a> <code>↑66</code></li>
+<li><a href="https://www.lawfaremedia.org/article/it-is-time-to-ban-the-sale-of-precise-geolocation">It Is Time to Ban the Sale of Precise Geolocation</a> <code>↑267</code></li>
+<li><a href="https://www.iceye.com/open-data-initiative">Iceye Open Data</a> <code>↑47</code></li>
+<li><a href="https://www.thamesandhudson.com/blogs/all-news-features/designing-the-transport-typeface-margaret-calvert-on-the-making-of-britain-s-road-signs">Designing the Transport Typeface</a> <code>↑19</code></li>
+<li><a href="https://www.anthropic.com/news/claude-opus-4-7">Claude Opus 4.7</a> <code>↑1908</code></li>
+<li><a href="https://mudmapmagazine.com/the-utopia-of-the-family-computer/">The Utopia of the Family Computer</a> <code>↑46</code></li>
+<li><a href="https://openai.com/index/codex-for-almost-everything/">Codex for almost everything</a> <code>↑961</code></li>
+<li><a href="https://gregorio-project.github.io/index.html">The Gregorio project – GPL tools for typesetting Gregorian chant</a> <code>↑6</code></li>
+<li><a href="https://twitter.com/finmoorhouse/status/2044933442236776794">Hyperscalers have already outspent most famous US megaprojects</a> <code>↑15</code></li></p><p></details></p><p>---</p><p><h2>⭐ GitHub Trending</h2></p><p><li>****</li>
+  https://github.com/EvoMap/evolver
+<li>****</li>
+  https://github.com/lsdefine/GenericAgent
+<li>****</li>
+  https://github.com/SimoneAvogadro/android-reverse-engineering-skill
+<li>****</li>
+  https://github.com/BasedHardware/omi
+<li>****</li>
+  https://github.com/Lordog/dive-into-llms
+<li>****</li>
+  https://github.com/Donchitos/Claude-Code-Game-Studios
+<li>****</li>
+  https://github.com/jamiepine/voicebox
+<li>****</li>
+  https://github.com/lukilabs/craft-agents-oss
+<li>****</li>
+  https://github.com/Tracer-Cloud/opensre
+<li>****</li>
+  https://github.com/obra/superpowers</p><p><details>
+<summary>📋 完整列表 (15 条)</summary></p><p><li>[](https://github.com/EvoMap/evolver) <code>JavaScript</code> — The GEP-Powered Self-Evolution Engine for AI Agents. Genome Evolution Protocol. | evomap.ai</li>
+<li>[](https://github.com/lsdefine/GenericAgent) <code>Python</code> — Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x les</li>
+<li>[](https://github.com/SimoneAvogadro/android-reverse-engineering-skill) <code>Shell</code> — Claude Code skill to support Android app's reverse engineering</li>
+<li>[](https://github.com/BasedHardware/omi) <code>Dart</code> — AI that sees your screen, listens to your conversations and tells you what to do</li>
+<li>[](https://github.com/Lordog/dive-into-llms) <code>Jupyter Notebook</code> — 《动手学大模型Dive into LLMs》系列编程实践教程</li>
+<li>[](https://github.com/Donchitos/Claude-Code-Game-Studios) <code>Shell</code> — Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coor</li>
+<li>[](https://github.com/jamiepine/voicebox) <code>TypeScript</code> — The open-source voice synthesis studio</li>
+<li>[](https://github.com/lukilabs/craft-agents-oss) <code>TypeScript</code></li>
+<li>[](https://github.com/Tracer-Cloud/opensre) <code>Python</code> — Build your own AI SRE agents. The open source toolkit for the AI era ✨</li>
+<li>[](https://github.com/obra/superpowers) <code>Shell</code> — An agentic skills framework & software development methodology that works.</li>
+<li>[](https://github.com/z-lab/dflash) <code>Python</code> — DFlash: Block Diffusion for Flash Speculative Decoding</li>
+<li>[](https://github.com/openai/openai-agents-python) <code>Python</code> — A lightweight, powerful framework for multi-agent workflows</li>
+<li>[](https://github.com/google/magika) <code>Python</code> — Fast and accurate AI powered file content types detection</li>
+<li>[](https://github.com/pingdotgg/t3code) <code>TypeScript</code></li>
+<li>[](https://github.com/ChromeDevTools/chrome-devtools-mcp) <code>TypeScript</code> — Chrome DevTools for coding agents</li></p><p></details></p><p>---</p><p><h2>🐦 Twitter/X</h2></p><p><li><strong>#الاهلي_جوهور_دار_التعظيم</strong></li>
+  https://twitter.com/search?q=%23الاهلي_جوهور_دار_التعظيم
+<li><strong>#OnlyFriendsDreamOnEP8</strong></li>
+  https://twitter.com/search?q=%23OnlyFriendsDreamOnEP8
+<li><strong>#SonDüdükÇocuklaraÇalmasın</strong></li>
+  https://twitter.com/search?q=%23SonDüdükÇocuklaraÇalmasın
+<li><strong>#タイムレスマン</strong></li>
+  https://twitter.com/search?q=%23タイムレスマン
+<li><strong>TLE MTM X CONAN MOVIE</strong></li>
+  https://twitter.com/search?q=TLE MTM X CONAN MOVIE
+<li><strong>#ECHOES_Of_sevEN</strong></li>
+  https://twitter.com/search?q=%23ECHOES_Of_sevEN
+<li><strong>علي مجرشي</strong></li>
+  https://twitter.com/search?q=علي مجرشي
+<li><strong>LOVE UPON A TIME EP4</strong></li>
+  https://twitter.com/search?q=LOVE UPON A TIME EP4
+<li><strong>Strait of Iran</strong></li>
+  https://twitter.com/search?q=Strait of Iran
+<li><strong>FWD Music Live Fest 5</strong></li>
+  https://twitter.com/search?q=FWD Music Live Fest 5</p><p><details>
+<summary>📋 完整列表 (15 条)</summary></p><p><li><a href="https://twitter.com/search?q=%23الاهلي_جوهور_دار_التعظيم">#الاهلي_جوهور_دار_التعظيم</a></li>
+<li><a href="https://twitter.com/search?q=%23OnlyFriendsDreamOnEP8">#OnlyFriendsDreamOnEP8</a></li>
+<li><a href="https://twitter.com/search?q=%23SonDüdükÇocuklaraÇalmasın">#SonDüdükÇocuklaraÇalmasın</a></li>
+<li><a href="https://twitter.com/search?q=%23タイムレスマン">#タイムレスマン</a></li>
+<li><a href="https://twitter.com/search?q=TLE MTM X CONAN MOVIE">TLE MTM X CONAN MOVIE</a></li>
+<li><a href="https://twitter.com/search?q=%23ECHOES_Of_sevEN">#ECHOES_Of_sevEN</a></li>
+<li><a href="https://twitter.com/search?q=علي مجرشي">علي مجرشي</a></li>
+<li><a href="https://twitter.com/search?q=LOVE UPON A TIME EP4">LOVE UPON A TIME EP4</a></li>
+<li><a href="https://twitter.com/search?q=Strait of Iran">Strait of Iran</a></li>
+<li><a href="https://twitter.com/search?q=FWD Music Live Fest 5">FWD Music Live Fest 5</a></li>
+<li><a href="https://twitter.com/search?q=HOMETOWN ROMANCE EP3">HOMETOWN ROMANCE EP3</a></li>
+<li><a href="https://twitter.com/search?q=帝都初恋剣戟譚">帝都初恋剣戟譚</a></li>
+<li><a href="https://twitter.com/search?q=ファンフェス">ファンフェス</a></li>
+<li><a href="https://twitter.com/search?q=Claude Design">Claude Design</a></li>
+<li><a href="https://twitter.com/search?q=महिला विरोधी">महिला विरोधी</a></li></p><p></details></p><p>---</p><p><h2>👩‍💻 Dev.to</h2></p><p><li><strong>Congrats to the 2026 WeCoded Challenge Winners!</strong> (↑53)</li>
+  https://dev.to/devteam/congrats-to-the-2026-wecoded-challenge-winners-2pee
+<li><strong>What was your win this week?!</strong> (↑42)</li>
+  https://dev.to/devteam/what-was-your-win-this-week-28fb
+<li><strong>Join our DEV Weekend Challenge — $1,000 in Prizes Across TEN winners! Submissions Due April 20 at 6:59 AM UTC.</strong> (↑59)</li>
+  https://dev.to/devteam/join-our-dev-weekend-challenge-1000-in-prizes-across-ten-winners-submissions-due-april-20-at-47i1
+<li><strong>Watching RubyGems.org in Real Time</strong> (↑42)</li>
+  https://dev.to/cseeman/watching-rubygemsorg-in-real-time-11o
+<li><strong>100 Daily Challenges to Learn Web3 and Solana</strong> (↑58)</li>
+  https://dev.to/100daysofsolana/100-daily-challenges-to-learn-web3-and-solana-3g2i
+<li><strong>MiniClaw: A Tiny LLM Agent for Mini Micro</strong> (↑27)</li>
+  https://dev.to/joestrout/miniclaw-a-tiny-llm-agent-for-mini-micro-4akf
+<li><strong>Multi-Agent A2A with the Agent Development Kit(ADK), Amazon ECS Express, and Gemini CLI</strong> (↑24)</li>
+  https://dev.to/gde/multi-agent-a2a-with-the-agent-development-kitadk-amazon-ecs-express-and-gemini-cli-1gcl
+<li><strong>Stop Using .env Files for Docker Secrets — Try This Instead</strong> (↑4)</li>
+  https://dev.to/md_umair_88fd7c1b0fa06f96/stop-using-env-files-for-docker-secrets-try-this-instead-2de1
+<li><strong>Kiwi-chan Progress Report: Steady Mining!</strong> (↑1)</li>
+  https://dev.to/kiwi_tech/kiwi-chan-progress-report-steady-mining-44f6
+<li><strong>Why I Killed My 4th Claude Code Instance — Lessons from Multi-Agent Indie Dev</strong> (↑1)</li>
+  https://dev.to/kanta13jp1/why-i-killed-my-4th-claude-code-instance-lessons-from-multi-agent-indie-dev-4i9d</p><p><details>
+<summary>📋 完整列表 (10 条)</summary></p><p><li><a href="https://dev.to/devteam/congrats-to-the-2026-wecoded-challenge-winners-2pee">Congrats to the 2026 WeCoded Challenge Winners!</a> <code>↑53</code> — The results are in! We are thrilled to announce the winners of the 2026 WeCoded Challenge.  Over the</li>
+<li><a href="https://dev.to/devteam/what-was-your-win-this-week-28fb">What was your win this week?!</a> <code>↑42</code> — 👋👋👋👋  Looking back on your week -- what was something you're proud of?  All wins count -- big or...</li>
+<li><a href="https://dev.to/devteam/join-our-dev-weekend-challenge-1000-in-prizes-across-ten-winners-submissions-due-april-20-at-47i1">Join our DEV Weekend Challenge — $1,000 in Prizes Across TEN winners! Submissions Due April 20 at 6:59 AM UTC.</a> <code>↑59</code> — We're excited to kick off another DEV Weekend Challenge, a short bite-sized challenge planned to fit</li>
+<li><a href="https://dev.to/cseeman/watching-rubygemsorg-in-real-time-11o">Watching RubyGems.org in Real Time</a> <code>↑42</code> — RubyGems.org published its first public roadmap this week. That's new, and it's worth noticing.  I'v</li>
+<li><a href="https://dev.to/100daysofsolana/100-daily-challenges-to-learn-web3-and-solana-3g2i">100 Daily Challenges to Learn Web3 and Solana</a> <code>↑58</code> — Learn Web3 by building with Solana. A 100-day challenge for developers covering transactions, accoun</li>
+<li><a href="https://dev.to/joestrout/miniclaw-a-tiny-llm-agent-for-mini-micro-4akf">MiniClaw: A Tiny LLM Agent for Mini Micro</a> <code>↑27</code> — Agents are all the rage these days.  Claude Code was one of the first, and perhaps still the most...</li>
+<li><a href="https://dev.to/gde/multi-agent-a2a-with-the-agent-development-kitadk-amazon-ecs-express-and-gemini-cli-1gcl">Multi-Agent A2A with the Agent Development Kit(ADK), Amazon ECS Express, and Gemini CLI</a> <code>↑24</code> — Leveraging the Google Agent Development Kit (ADK) and the underlying Gemini LLM to build Multi-Agent</li>
+<li><a href="https://dev.to/md_umair_88fd7c1b0fa06f96/stop-using-env-files-for-docker-secrets-try-this-instead-2de1">Stop Using .env Files for Docker Secrets — Try This Instead</a> <code>↑4</code> — Managing secrets in Docker usually starts simple—a .env file here, a hardcoded variable there. But..</li>
+<li><a href="https://dev.to/kiwi_tech/kiwi-chan-progress-report-steady-mining-44f6">Kiwi-chan Progress Report: Steady Mining!</a> <code>↑1</code> — Kiwi-chan's Existential Exploration: When Wanderlust Meets "Why Am I Doing This...</li>
+<li><a href="https://dev.to/kanta13jp1/why-i-killed-my-4th-claude-code-instance-lessons-from-multi-agent-indie-dev-4i9d">Why I Killed My 4th Claude Code Instance — Lessons from Multi-Agent Indie Dev</a> <code>↑1</code> — Why I Killed My 4th Claude Code Instance            The Setup   I'm building a Flutter Web +...</li></p><p></details></p><p>---</p><p><h2>💬 V2EX</h2></p><p><li><strong>分享下最近低价 GPT Codex 的来源(源头)</strong></li>
+  https://www.v2ex.com/t/1206503
+<li><strong>2026 年了，这个世界还存在互联网精神🥹</strong></li>
+  https://www.v2ex.com/t/1206511
+<li><strong>中年单身男人想给自己买个生日礼物，可以买什么?</strong></li>
+  https://www.v2ex.com/t/1206617
+<li><strong>周五了，大家周末准备干啥呢</strong></li>
+  https://www.v2ex.com/t/1206651
+<li><strong>RAG 难以让人满意啊</strong></li>
+  https://www.v2ex.com/t/1206512
+<li><strong>买了咸鱼低价 Gemini pro，账号差点被盗。突然发现国内诈骗成本为零</strong></li>
+  https://www.v2ex.com/t/1206537
+<li><strong>家有老人，看电视直播有啥软件</strong></li>
+  https://www.v2ex.com/t/1206544
+<li><strong>[送码]多角色沉浸式听书 app, 送 20 个订阅，注册留邮箱即可</strong></li>
+  https://www.v2ex.com/t/1206495
+<li><strong>做了个 iOS 成语填字 APP，送 50 个终身会员</strong></li>
+  https://www.v2ex.com/t/1206496
+<li><strong>净水器有没有必要按时更换滤芯</strong></li>
+  https://www.v2ex.com/t/1206543</p><p><details>
+<summary>📋 完整列表 (10 条)</summary></p><p><li><a href="https://www.v2ex.com/t/1206503">分享下最近低价 GPT Codex 的来源(源头)</a> <code>↑273</code></li>
+<li><a href="https://www.v2ex.com/t/1206511">2026 年了，这个世界还存在互联网精神🥹</a> <code>↑188</code></li>
+<li><a href="https://www.v2ex.com/t/1206617">中年单身男人想给自己买个生日礼物，可以买什么?</a> <code>↑116</code></li>
+<li><a href="https://www.v2ex.com/t/1206651">周五了，大家周末准备干啥呢</a> <code>↑83</code></li>
+<li><a href="https://www.v2ex.com/t/1206512">RAG 难以让人满意啊</a> <code>↑75</code></li>
+<li><a href="https://www.v2ex.com/t/1206537">买了咸鱼低价 Gemini pro，账号差点被盗。突然发现国内诈骗成本为零</a> <code>↑73</code></li>
+<li><a href="https://www.v2ex.com/t/1206544">家有老人，看电视直播有啥软件</a> <code>↑63</code></li>
+<li><a href="https://www.v2ex.com/t/1206495">[送码]多角色沉浸式听书 app, 送 20 个订阅，注册留邮箱即可</a> <code>↑63</code></li>
+<li><a href="https://www.v2ex.com/t/1206496">做了个 iOS 成语填字 APP，送 50 个终身会员</a> <code>↑53</code></li>
+<li><a href="https://www.v2ex.com/t/1206543">净水器有没有必要按时更换滤芯</a> <code>↑48</code></li></p><p></details></p><p>---</p><p>---</p><p>*Generated by <a href="https://github.com">Daily Digest</a> · Powered by GitHub Actions + AI*</p>
+    </article>
+    <a class="back-link" href="index.html">← 返回所有日报</a>
+    
+    </main>
+    <footer>
+      <p>Powered by GitHub Actions + AI · 自动生成</p>
+      <p>Data from Hacker News, GitHub, Reddit, Twitter/X, Product Hunt, V2EX, and more</p>
+    </footer>
+  </div>
+</body>
+</html>

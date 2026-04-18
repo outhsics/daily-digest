@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026-04-16 - Daily Digest</title>
+  <style>
+:root {
+  --bg: #0d1117;
+  --bg-card: #161b22;
+  --bg-hover: #1c2333;
+  --text: #e6edf3;
+  --text-muted: #8b949e;
+  --accent: #58a6ff;
+  --accent-green: #3fb950;
+  --border: #30363d;
+  --orange: #f0883e;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px 30px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+  background: linear-gradient(135deg, var(--accent), #a371f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+/* 导航 */
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.nav-list a {
+  color: var(--text-muted);
+  text-decoration: none;
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+
+.nav-list a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+/* 日期列表页 */
+.date-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.date-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px 24px;
+  text-decoration: none;
+  color: var(--text);
+  transition: all 0.2s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date-card:hover {
+  background: var(--bg-hover);
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.date-card .date {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.date-card .meta {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+/* 文章页 */
+article h1 {
+  font-size: 1.6rem;
+  margin: 30px 0 10px;
+}
+
+article h2 {
+  font-size: 1.3rem;
+  margin: 35px 0 15px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+  color: var(--accent);
+}
+
+article h3 {
+  font-size: 1.1rem;
+  margin: 25px 0 10px;
+}
+
+article p {
+  margin: 10px 0;
+  color: var(--text);
+}
+
+article a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+article a:hover {
+  text-decoration: underline;
+}
+
+article blockquote {
+  border-left: 3px solid var(--accent);
+  padding: 10px 15px;
+  margin: 15px 0;
+  background: var(--bg-card);
+  border-radius: 0 8px 8px 0;
+  color: var(--text-muted);
+}
+
+article ul, article ol {
+  padding-left: 25px;
+  margin: 10px 0;
+}
+
+article li {
+  margin: 6px 0;
+  color: var(--text);
+}
+
+article li a {
+  color: var(--accent);
+}
+
+article hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 25px 0;
+}
+
+article code {
+  background: var(--bg-card);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+article details {
+  margin: 15px 0;
+}
+
+article summary {
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  padding: 8px 0;
+}
+
+article details[open] summary {
+  margin-bottom: 10px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  background: rgba(88,166,255,0.15);
+  color: var(--accent);
+}
+
+/* 返回顶部 */
+.back-link {
+  display: inline-block;
+  margin: 20px 0;
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.back-link:hover { color: var(--accent); }
+
+/* 页脚 */
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  border-top: 1px solid var(--border);
+  margin-top: 40px;
+}
+
+/* 响应式 */
+@media (max-width: 600px) {
+  .container { padding: 15px; }
+  header h1 { font-size: 1.5rem; }
+  article h2 { font-size: 1.1rem; }
+  .date-card { padding: 15px; }
+}
+</style>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📰</text></svg>">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📰 Daily Digest</h1>
+      <p>每日科技热点聚合 · AI 驱动的新闻日报</p>
+    </header>
+    
+    <main>
+      
+    <a class="back-link" href="index.html">← 返回所有日报</a>
+    <article>
+      <p><h1>Daily Digest - 2026-04-16</h1></p><p>> 自动生成于 2026-04-16 01:02 CST
+> 数据源：9 个平台，共 133 条内容</p><p>---</p><p><h2>📌 今日要点</h2></p><p><h2>今日要点</h2></p><p>各平台热门内容已聚合，详见下方各板块。</p><p>---</p><p><h2>📰 RSS聚合</h2></p><p><li><strong>Anthropic shrugs off VC funding offers valuing it at $800B+, for now</strong></li>
+  https://techcrunch.com/2026/04/15/anthropic-shrugs-off-vc-funding-offers-valuing-it-at-800b-for-now/
+<li><strong>Motorola sues social platforms and creators over posts, raising speech concerns in India</strong></li>
+  https://techcrunch.com/2026/04/15/motorola-sues-social-platforms-and-creators-over-posts-raising-speech-concerns-in-india/
+<li><strong>Airwallex is about to take on Stripe and the rest of the payments industry — in the physical world</strong></li>
+  https://techcrunch.com/2026/04/15/airwallex-is-about-to-take-on-stripe-and-the-rest-of-the-payments-industry-in-the-physical-world/
+<li><strong>After sale of its shoe business, Allbirds pivots to AI</strong></li>
+  https://techcrunch.com/2026/04/15/after-sale-of-its-shoe-business-allbirds-pivots-to-ai/
+<li><strong>Sweden blames Russian hackers for attempting ‘destructive’ cyberattack on thermal plant</strong></li>
+  https://techcrunch.com/2026/04/15/sweden-blames-russian-hackers-for-attempting-destructive-cyberattack-on-thermal-plant/
+<li><strong>Snap is cutting 1,000 jobs, 16% of its workforce</strong></li>
+  https://techcrunch.com/2026/04/15/snap-is-cutting-1000-jobs-16-of-its-workforce/
+<li><strong>Reid Hoffman weighs in on the ‘tokenmaxxing’ debate</strong></li>
+  https://techcrunch.com/2026/04/15/reid-hoffman-weighs-in-on-the-tokenmaxxing-debate/
+<li><strong>Adobe’s new Firefly AI assistant can use Creative Cloud apps to complete tasks</strong></li>
+  https://techcrunch.com/2026/04/15/adobes-new-firefly-ai-assistant-can-use-creative-cloud-apps-to-complete-tasks/
+<li><strong>This energy startup’s bet on 100-year-old grid tech is paying off</strong></li>
+  https://techcrunch.com/2026/04/15/this-energy-startups-bet-on-100-year-old-grid-tech-is-paying-off/
+<li><strong>Gitar, a startup that uses agents to secure code, emerges from stealth with $9 million</strong></li>
+  https://techcrunch.com/2026/04/15/gitar-a-startup-that-uses-agents-to-secure-code-emerges-from-stealth-with-9-million/</p><p><details>
+<summary>📋 完整列表 (70 条)</summary></p><p><li><a href="https://techcrunch.com/2026/04/15/anthropic-shrugs-off-vc-funding-offers-valuing-it-at-800b-for-now/">Anthropic shrugs off VC funding offers valuing it at $800B+, for now</a> — VCs are frothing at the mouth to write more checks to Anthropic at a valuation that matches or beats</li>
+<li><a href="https://techcrunch.com/2026/04/15/motorola-sues-social-platforms-and-creators-over-posts-raising-speech-concerns-in-india/">Motorola sues social platforms and creators over posts, raising speech concerns in India</a> — Motorola is suing dozens of content creators and social media platforms including Instagram, X, and </li>
+<li><a href="https://techcrunch.com/2026/04/15/airwallex-is-about-to-take-on-stripe-and-the-rest-of-the-payments-industry-in-the-physical-world/">Airwallex is about to take on Stripe and the rest of the payments industry — in the physical world</a> — Airwallex, valued at $8 billion, is launching a point-of-sale product that lets businesses accept in</li>
+<li><a href="https://techcrunch.com/2026/04/15/after-sale-of-its-shoe-business-allbirds-pivots-to-ai/">After sale of its shoe business, Allbirds pivots to AI</a> — Allbirds is ditching wool sneakers for AI servers, rebranding as NewBird AI after locking in a $50M </li>
+<li><a href="https://techcrunch.com/2026/04/15/sweden-blames-russian-hackers-for-attempting-destructive-cyberattack-on-thermal-plant/">Sweden blames Russian hackers for attempting ‘destructive’ cyberattack on thermal plant</a> — Sweden's minister for civil defense said Russian hackers are "now attempting destructive cyber attac</li>
+<li><a href="https://techcrunch.com/2026/04/15/snap-is-cutting-1000-jobs-16-of-its-workforce/">Snap is cutting 1,000 jobs, 16% of its workforce</a> — The company cites advancements in AI for the cuts.</li>
+<li><a href="https://techcrunch.com/2026/04/15/reid-hoffman-weighs-in-on-the-tokenmaxxing-debate/">Reid Hoffman weighs in on the ‘tokenmaxxing’ debate</a> — Reid Hoffman says tracking AI token use can gauge adoption, but cautions it should be paired with co</li>
+<li><a href="https://techcrunch.com/2026/04/15/adobes-new-firefly-ai-assistant-can-use-creative-cloud-apps-to-complete-tasks/">Adobe’s new Firefly AI assistant can use Creative Cloud apps to complete tasks</a> — Adobe says the assistant can work across apps like Firefly, Photoshop, Premiere, Lightroom, Express,</li>
+<li><a href="https://techcrunch.com/2026/04/15/this-energy-startups-bet-on-100-year-old-grid-tech-is-paying-off/">This energy startup’s bet on 100-year-old grid tech is paying off</a> — Ayr Energy is using a shortage of power conversion equipment to break open a decades-old market.</li>
+<li><a href="https://techcrunch.com/2026/04/15/gitar-a-startup-that-uses-agents-to-secure-code-emerges-from-stealth-with-9-million/">Gitar, a startup that uses agents to secure code, emerges from stealth with $9 million</a> — The company uses AI to review code that, more often than not these days, has also been generated by </li>
+<li><a href="https://www.theverge.com/policy/912490/irs-direct-file-senate-vote">The Senate is voting to save free IRS Direct File today</a> — The Senate is getting ready to vote on a bill to resurrect IRS Direct File, the free tax filing serv</li>
+<li><a href="https://www.theverge.com/transportation/912357/robotaxi-poll-ev-intelligence-report-waymo-tesla">Most people still don’t want anything to do with robotaxis</a> — I've been reporting on self-driving cars for over a decade, and I've seen the technology go through </li>
+<li><a href="https://www.theverge.com/news/912484/allbirds-ai-hyperscale">Allbirds announced a switch from shoes to AI and its stock jumped 600 percent</a> — Allbirds had a hit a decade ago with its Wool Runner shoes, but after a $4 billion IPO in 2021, the </li>
+<li><a href="https://www.theverge.com/entertainment/912044/from-season-4-mgm-plus">The perfect successor to Lost has been hiding from me for years</a> — Ever since Jack decided to stay behind in 2010, I've been searching for something to give me the sam</li>
+<li><a href="https://www.theverge.com/tech/912334/walmart-onn-4k-pro-streamer-google-tv-gemini-matter-thread-smart-home">Walmart is updating its 4K streaming box with Gemini and Matter support</a> — It hasn't been officially announced, but Walmart's website now has a listing (you may need to set yo</li></p><p></details></p><p>---</p><p><h2>🟠 Hacker News</h2></p><p><li><strong>Open Source Isn't Dead. Cal.com Just Learned the Wrong Lesson</strong> (↑100)</li>
+  https://www.strix.ai/blog/cal-com-is-closing-its-code-due-to-ai-threats
+<li><strong>God Sleeps in the Minerals</strong> (↑252)</li>
+  https://wchambliss.wordpress.com/2026/03/03/god-sleeps-in-the-minerals/
+<li><strong>Want to Write a Compiler? Just Read These Two Papers (2008)</strong> (↑340)</li>
+  https://prog21.dadgum.com/30.html
+<li><strong>Good Sleep, Good Learning (2012)</strong> (↑247)</li>
+  https://super-memory.com/articles/sleep.htm
+<li><strong>The Future of Everything Is Lies, I Guess: New Jobs</strong> (↑158)</li>
+  https://aphyr.com/posts/419-the-future-of-everything-is-lies-i-guess-new-jobs
+<li><strong>How do Wake-On-LAN works</strong> (↑13)</li>
+  https://blog.xaner.dev/post/wake-on-lan/
+<li><strong>Gemini Robotics-ER 1.6</strong> (↑117)</li>
+  https://deepmind.google/blog/gemini-robotics-er-1-6/
+<li><strong>Do you even need a database?</strong> (↑66)</li>
+  https://www.dbpro.app/blog/do-you-even-need-a-database
+<li><strong>Forcing an inversion of control on the SaaS stack</strong> (↑16)</li>
+  https://www.100x.bot/a/client-side-injection-inversion-of-control-saas
+<li><strong>Costasiella kuroshimae – Solar Powered animals, that do indirect photosynthesis</strong> (↑108)</li>
+  https://en.wikipedia.org/wiki/Costasiella_kuroshimae</p><p><details>
+<summary>📋 完整列表 (19 条)</summary></p><p><li><a href="https://www.strix.ai/blog/cal-com-is-closing-its-code-due-to-ai-threats">Open Source Isn't Dead. Cal.com Just Learned the Wrong Lesson</a> <code>↑100</code></li>
+<li><a href="https://wchambliss.wordpress.com/2026/03/03/god-sleeps-in-the-minerals/">God Sleeps in the Minerals</a> <code>↑252</code></li>
+<li><a href="https://prog21.dadgum.com/30.html">Want to Write a Compiler? Just Read These Two Papers (2008)</a> <code>↑340</code></li>
+<li><a href="https://super-memory.com/articles/sleep.htm">Good Sleep, Good Learning (2012)</a> <code>↑247</code></li>
+<li><a href="https://aphyr.com/posts/419-the-future-of-everything-is-lies-i-guess-new-jobs">The Future of Everything Is Lies, I Guess: New Jobs</a> <code>↑158</code></li>
+<li><a href="https://blog.xaner.dev/post/wake-on-lan/">How do Wake-On-LAN works</a> <code>↑13</code></li>
+<li><a href="https://deepmind.google/blog/gemini-robotics-er-1-6/">Gemini Robotics-ER 1.6</a> <code>↑117</code></li>
+<li><a href="https://www.dbpro.app/blog/do-you-even-need-a-database">Do you even need a database?</a> <code>↑66</code></li>
+<li><a href="https://www.100x.bot/a/client-side-injection-inversion-of-control-saas">Forcing an inversion of control on the SaaS stack</a> <code>↑16</code></li>
+<li><a href="https://en.wikipedia.org/wiki/Costasiella_kuroshimae">Costasiella kuroshimae – Solar Powered animals, that do indirect photosynthesis</a> <code>↑108</code></li>
+<li><a href="https://github.com/steipete/wacli">Wacli – WhatsApp CLI</a> <code>↑190</code></li>
+<li><a href="https://github.com/saffron-health/libretto">Show HN: Libretto – Making AI browser automations deterministic</a> <code>↑5</code></li>
+<li><a href="https://iczelia.net/posts/e16-20-year-old-bug/">Fixing a 20-year-old bug in Enlightenment E16</a> <code>↑227</code></li>
+<li><a href="https://www.youtube.com/watch?v=cltnlks2-uU">We ran Doom on a 40 year old printer controller (Agfa Compugraphic 9000PS) [video]</a> <code>↑34</code></li>
+<li><a href="https://www.bbc.com/travel/article/20260408-a-150-metro-ticket-to-ancient-rome">Metro stop is Ancient Rome's new attraction</a> <code>↑79</code></li></p><p></details></p><p>---</p><p><h2>🐦 Twitter/X</h2></p><p><li><strong>#Kahramanmaraş</strong></li>
+  https://twitter.com/search?q=%23Kahramanmaraş
+<li><strong>#الالبوم_الحزين</strong></li>
+  https://twitter.com/search?q=%23الالبوم_الحزين
+<li><strong>#احمد_سعد</strong></li>
+  https://twitter.com/search?q=%23احمد_سعد
+<li><strong>#yusuftekinistifa</strong></li>
+  https://twitter.com/search?q=%23yusuftekinistifa
+<li><strong>#EgitimdeŞiddeteHayır</strong></li>
+  https://twitter.com/search?q=%23EgitimdeŞiddeteHayır
+<li><strong>TFO X ONE BANGKOK SONGKRAN</strong></li>
+  https://twitter.com/search?q=TFO X ONE BANGKOK SONGKRAN
+<li><strong>トモコレ</strong></li>
+  https://twitter.com/search?q=トモコレ
+<li><strong>KNP AT PHAYAO FEST</strong></li>
+  https://twitter.com/search?q=KNP AT PHAYAO FEST
+<li><strong>Allah'tan</strong></li>
+  https://twitter.com/search?q=Allah'tan
+<li><strong>Choquei</strong></li>
+  https://twitter.com/search?q=Choquei</p><p><details>
+<summary>📋 完整列表 (15 条)</summary></p><p><li><a href="https://twitter.com/search?q=%23Kahramanmaraş">#Kahramanmaraş</a></li>
+<li><a href="https://twitter.com/search?q=%23الالبوم_الحزين">#الالبوم_الحزين</a></li>
+<li><a href="https://twitter.com/search?q=%23احمد_سعد">#احمد_سعد</a></li>
+<li><a href="https://twitter.com/search?q=%23yusuftekinistifa">#yusuftekinistifa</a></li>
+<li><a href="https://twitter.com/search?q=%23EgitimdeŞiddeteHayır">#EgitimdeŞiddeteHayır</a></li>
+<li><a href="https://twitter.com/search?q=TFO X ONE BANGKOK SONGKRAN">TFO X ONE BANGKOK SONGKRAN</a></li>
+<li><a href="https://twitter.com/search?q=トモコレ">トモコレ</a></li>
+<li><a href="https://twitter.com/search?q=KNP AT PHAYAO FEST">KNP AT PHAYAO FEST</a></li>
+<li><a href="https://twitter.com/search?q=Allah'tan">Allah'tan</a></li>
+<li><a href="https://twitter.com/search?q=Choquei">Choquei</a></li>
+<li><a href="https://twitter.com/search?q=逮捕状請求">逮捕状請求</a></li>
+<li><a href="https://twitter.com/search?q=The Sun From Another Star EP7">The Sun From Another Star EP7</a></li>
+<li><a href="https://twitter.com/search?q=$BIRD">$BIRD</a></li>
+<li><a href="https://twitter.com/search?q=Thragg">Thragg</a></li>
+<li><a href="https://twitter.com/search?q=Tax Day">Tax Day</a></li></p><p></details></p><p>---</p><p><h2>👽 Reddit</h2></p><p><li><strong>23 Major News Sites Have Blocked the Wayback Machine – Digital History In Danger</strong> (↑26964)</li>
+  https://reddit.com/r/technology/comments/1slg08d/23_major_news_sites_have_blocked_the_wayback/
+<li><strong>From Molotov cocktails to data center shutdowns, the AI backlash is turning revolutionary</strong> (↑23310)</li>
+  https://reddit.com/r/technology/comments/1sll1vt/from_molotov_cocktails_to_data_center_shutdowns/
+<li><strong>Johnny Somali: South Korea jails US YouTuber for public nuisance</strong> (↑7502)</li>
+  https://reddit.com/r/technology/comments/1sm0f6r/johnny_somali_south_korea_jails_us_youtuber_for/
+<li><strong>Allbirds announces stunning pivot from shoes to AI, stock explodes more than 300%</strong> (↑6752)</li>
+  https://reddit.com/r/technology/comments/1sm6uvt/allbirds_announces_stunning_pivot_from_shoes_to/
+<li><strong>Iran reportedly bought an in-orbit Chinese satellite to target US military sites in the Middle East — purchase agreement included ongoing ground control services based in China</strong> (↑2449)</li>
+  https://reddit.com/r/technology/comments/1sm4fqj/iran_reportedly_bought_an_inorbit_chinese/
+<li><strong>The FCC just saved Netgear from its router ban for no obvious reason</strong> (↑2282)</li>
+  https://reddit.com/r/technology/comments/1sm2idv/the_fcc_just_saved_netgear_from_its_router_ban/
+<li><strong>Drivers sue San Jose over nearly 500 Flock police cameras that track drivers in California</strong> (↑1072)</li>
+  https://reddit.com/r/technology/comments/1sm60i5/drivers_sue_san_jose_over_nearly_500_flock_police/
+<li><strong>Google Broke Its Promise to Me. Now ICE Has My Data.</strong> (↑1023)</li>
+  https://reddit.com/r/technology/comments/1sma9qo/google_broke_its_promise_to_me_now_ice_has_my_data/
+<li><strong>🚨 RED ALERT: Tennessee is about to make building chatbots a Class A felony (15-25 years in prison). This is not a drill.</strong> (↑551)</li>
+  https://reddit.com/r/artificial/comments/1slu23a/red_alert_tennessee_is_about_to_make_building/
+<li><strong>GitHub Stacked PRs</strong> (↑506)</li>
+  https://reddit.com/r/programming/comments/1sl4erj/github_stacked_prs/</p><p><details>
+<summary>📋 完整列表 (10 条)</summary></p><p><li><a href="https://reddit.com/r/technology/comments/1slg08d/23_major_news_sites_have_blocked_the_wayback/">23 Major News Sites Have Blocked the Wayback Machine – Digital History In Danger</a> <code>↑26964</code></li>
+<li><a href="https://reddit.com/r/technology/comments/1sll1vt/from_molotov_cocktails_to_data_center_shutdowns/">From Molotov cocktails to data center shutdowns, the AI backlash is turning revolutionary</a> <code>↑23310</code></li>
+<li><a href="https://reddit.com/r/technology/comments/1sm0f6r/johnny_somali_south_korea_jails_us_youtuber_for/">Johnny Somali: South Korea jails US YouTuber for public nuisance</a> <code>↑7502</code></li>
+<li><a href="https://reddit.com/r/technology/comments/1sm6uvt/allbirds_announces_stunning_pivot_from_shoes_to/">Allbirds announces stunning pivot from shoes to AI, stock explodes more than 300%</a> <code>↑6752</code></li>
+<li><a href="https://reddit.com/r/technology/comments/1sm4fqj/iran_reportedly_bought_an_inorbit_chinese/">Iran reportedly bought an in-orbit Chinese satellite to target US military sites in the Middle East — purchase agreement included ongoing ground control services based in China</a> <code>↑2449</code></li>
+<li><a href="https://reddit.com/r/technology/comments/1sm2idv/the_fcc_just_saved_netgear_from_its_router_ban/">The FCC just saved Netgear from its router ban for no obvious reason</a> <code>↑2282</code></li>
+<li><a href="https://reddit.com/r/technology/comments/1sm60i5/drivers_sue_san_jose_over_nearly_500_flock_police/">Drivers sue San Jose over nearly 500 Flock police cameras that track drivers in California</a> <code>↑1072</code></li>
+<li><a href="https://reddit.com/r/technology/comments/1sma9qo/google_broke_its_promise_to_me_now_ice_has_my_data/">Google Broke Its Promise to Me. Now ICE Has My Data.</a> <code>↑1023</code></li>
+<li><a href="https://reddit.com/r/artificial/comments/1slu23a/red_alert_tennessee_is_about_to_make_building/">🚨 RED ALERT: Tennessee is about to make building chatbots a Class A felony (15-25 years in prison). This is not a drill.</a> <code>↑551</code></li>
+<li><a href="https://reddit.com/r/programming/comments/1sl4erj/github_stacked_prs/">GitHub Stacked PRs</a> <code>↑506</code></li></p><p></details></p><p>---</p><p><h2>👩‍💻 Dev.to</h2></p><p><li><strong>Top 7 Featured DEV Posts of the Week</strong> (↑40)</li>
+  https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-5e38
+<li><strong>Amazon Bedrock for Beginners From First Prompt to AI Agent (Full Tutorial)</strong> (↑42)</li>
+  https://dev.to/aws/amazon-bedrock-for-beginners-from-first-prompt-to-ai-agent-full-tutorial-12ln
+<li><strong>Things You're Overengineering in Your AI Agent (The LLM Already Handles Them)</strong> (↑19)</li>
+  https://dev.to/serhiip/things-youre-overengineering-in-your-ai-agent-the-llm-already-handles-them-2lop
+<li><strong>Lost in the AI Hype, I Started Small</strong> (↑6)</li>
+  https://dev.to/aws/lost-in-the-ai-hype-i-started-small-2a72
+<li><strong>Why Build a Local MCP Server (And How to Do It in 15 Minutes)</strong> (↑20)</li>
+  https://dev.to/evanlausier/why-build-a-local-mcp-server-and-how-to-do-it-in-15-minutes-1423
+<li><strong>I Shrunk My Docker Image From 1.58GB to 186MB. Then I Had to Explain What I Actually Broke.</strong> (↑9)</li>
+  https://dev.to/arbythecoder/i-shrunk-my-docker-image-from-158gb-to-186mb-then-i-had-to-explain-what-i-actually-broke-34be
+<li><strong>The Backyard Quarry, Part 5: Digital Twins for Physical Objects</strong> (↑1)</li>
+  https://dev.to/kenwalger/the-backyard-quarry-part-5-digital-twins-for-physical-objects-5a9i
+<li><strong>How I Built an Autonomous Dataset Generator with CrewAI + Ollama (72-hour run, 1,065 entries)</strong> (↑3)</li>
+  https://dev.to/robopilingui/how-i-built-an-autonomous-dataset-generator-with-crewai-ollama-72-hour-run-1065-entries-2280
+<li><strong>CVEs are vulnerabilities(!!!) and part 2 of my Notion automation</strong> (↑3)</li>
+  https://dev.to/missamarakay/cves-are-vulnerabilities-and-part-2-of-my-notion-automation-439o
+<li><strong>Why I Ditched GA4 for a Custom Next.js + Supabase Analytics Stack</strong> (↑4)</li>
+  https://dev.to/zenovay/why-i-ditched-ga4-for-a-custom-nextjs-supabase-analytics-stack-5foc</p><p><details>
+<summary>📋 完整列表 (10 条)</summary></p><p><li><a href="https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-5e38">Top 7 Featured DEV Posts of the Week</a> <code>↑40</code> — Welcome to this week's Top 7, where the DEV editorial team handpicks their favorite posts from the..</li>
+<li><a href="https://dev.to/aws/amazon-bedrock-for-beginners-from-first-prompt-to-ai-agent-full-tutorial-12ln">Amazon Bedrock for Beginners From First Prompt to AI Agent (Full Tutorial)</a> <code>↑42</code> — So you want to add AI to your application. Maybe you want to build a smart assistant, add a feature.</li>
+<li><a href="https://dev.to/serhiip/things-youre-overengineering-in-your-ai-agent-the-llm-already-handles-them-2lop">Things You're Overengineering in Your AI Agent (The LLM Already Handles Them)</a> <code>↑19</code> — I've been building AI agents in production for the past two years. Not demos. Not weekend projects..</li>
+<li><a href="https://dev.to/aws/lost-in-the-ai-hype-i-started-small-2a72">Lost in the AI Hype, I Started Small</a> <code>↑6</code> — And it helped me get back into tech without drowning    TL;DR at the end     Coming back to...</li>
+<li><a href="https://dev.to/evanlausier/why-build-a-local-mcp-server-and-how-to-do-it-in-15-minutes-1423">Why Build a Local MCP Server (And How to Do It in 15 Minutes)</a> <code>↑20</code> — I've been working with MCP servers for a few months now. If you're not familiar, MCP (Model Context.</li>
+<li><a href="https://dev.to/arbythecoder/i-shrunk-my-docker-image-from-158gb-to-186mb-then-i-had-to-explain-what-i-actually-broke-34be">I Shrunk My Docker Image From 1.58GB to 186MB. Then I Had to Explain What I Actually Broke.</a> <code>↑9</code> — Most Docker tutorials end at the win.  "Look, smaller image! Ship it!" And then you're left alone at</li>
+<li><a href="https://dev.to/kenwalger/the-backyard-quarry-part-5-digital-twins-for-physical-objects-5a9i">The Backyard Quarry, Part 5: Digital Twins for Physical Objects</a> <code>↑1</code> — In Part 5 of the Backyard Quarry series, the project finally starts to connect to a bigger idea: dig</li>
+<li><a href="https://dev.to/robopilingui/how-i-built-an-autonomous-dataset-generator-with-crewai-ollama-72-hour-run-1065-entries-2280">How I Built an Autonomous Dataset Generator with CrewAI + Ollama (72-hour run, 1,065 entries)</a> <code>↑3</code> — Background   I needed high-quality instruction datasets for fine-tuning local LLMs, but...</li>
+<li><a href="https://dev.to/missamarakay/cves-are-vulnerabilities-and-part-2-of-my-notion-automation-439o">CVEs are vulnerabilities(!!!) and part 2 of my Notion automation</a> <code>↑3</code> — I made you a video and a blog featuring vulnerability tracking, Notion, Gemini, and Kestra. </li>
+<li><a href="https://dev.to/zenovay/why-i-ditched-ga4-for-a-custom-nextjs-supabase-analytics-stack-5foc">Why I Ditched GA4 for a Custom Next.js + Supabase Analytics Stack</a> <code>↑4</code> — GA4 is overkill for Micro-SaaS. Here is how I built a leaner alternative using Next.js and Supabase.</li></p><p></details></p><p>---</p><p><h2>💬 V2EX</h2></p><p><li><strong>[加群领 10U 额度 评论留 ID 再发 5U] ⛽ RootFlow AI — 高性能 AI API 加油站</strong></li>
+  https://www.v2ex.com/t/1206000
+<li><strong>继续启动！ 19 元/月质保整月的 gpt plus！</strong></li>
+  https://www.v2ex.com/t/1205942
+<li><strong>硕 2 大厂 2 年，想 all in 考公，打算入职江浙沪的小厂做过渡，求建议</strong></li>
+  https://www.v2ex.com/t/1206048
+<li><strong>求助： Trae 用支付宝免密支付扣了我 7 个月，客服拒绝退款</strong></li>
+  https://www.v2ex.com/t/1205953
+<li><strong>Anthropic 宣布在 Claude 平台推行身份验证机制</strong></li>
+  https://www.v2ex.com/t/1206060
+<li><strong>替尔泊肽，一个月减掉 20 斤</strong></li>
+  https://www.v2ex.com/t/1205963
+<li><strong>炒股 2 年了，一些感悟。</strong></li>
+  https://www.v2ex.com/t/1205997
+<li><strong>有人会觉得很可怕吗 ，</strong></li>
+  https://www.v2ex.com/t/1206067
+<li><strong>26 岁确诊高血压 要靠药物降血压终身</strong></li>
+  https://www.v2ex.com/t/1206044</p><p><details>
+<summary>📋 完整列表 (9 条)</summary></p><p><li><a href="https://www.v2ex.com/t/1206000">[加群领 10U 额度 评论留 ID 再发 5U] ⛽ RootFlow AI — 高性能 AI API 加油站</a> <code>↑122</code></li>
+<li><a href="https://www.v2ex.com/t/1205942">继续启动！ 19 元/月质保整月的 gpt plus！</a> <code>↑93</code></li>
+<li><a href="https://www.v2ex.com/t/1206048">硕 2 大厂 2 年，想 all in 考公，打算入职江浙沪的小厂做过渡，求建议</a> <code>↑85</code></li>
+<li><a href="https://www.v2ex.com/t/1205953">求助： Trae 用支付宝免密支付扣了我 7 个月，客服拒绝退款</a> <code>↑83</code></li>
+<li><a href="https://www.v2ex.com/t/1206060">Anthropic 宣布在 Claude 平台推行身份验证机制</a> <code>↑79</code></li>
+<li><a href="https://www.v2ex.com/t/1205963">替尔泊肽，一个月减掉 20 斤</a> <code>↑78</code></li>
+<li><a href="https://www.v2ex.com/t/1205997">炒股 2 年了，一些感悟。</a> <code>↑76</code></li>
+<li><a href="https://www.v2ex.com/t/1206067">有人会觉得很可怕吗 ，</a> <code>↑73</code></li>
+<li><a href="https://www.v2ex.com/t/1206044">26 岁确诊高血压 要靠药物降血压终身</a> <code>↑70</code></li></p><p></details></p><p>---</p><p>---</p><p>*Generated by <a href="https://github.com">Daily Digest</a> · Powered by GitHub Actions + AI*</p>
+    </article>
+    <a class="back-link" href="index.html">← 返回所有日报</a>
+    
+    </main>
+    <footer>
+      <p>Powered by GitHub Actions + AI · 自动生成</p>
+      <p>Data from Hacker News, GitHub, Reddit, Twitter/X, Product Hunt, V2EX, and more</p>
+    </footer>
+  </div>
+</body>
+</html>

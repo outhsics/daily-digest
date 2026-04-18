@@ -1,0 +1,1260 @@
+{
+  "Hacker News": [
+    {
+      "title": "Nothing Ever Happens: Polymarket bot that always buys No on non-sports markets",
+      "url": "https://github.com/sterlingcrispin/nothing-ever-happens",
+      "score": 121,
+      "comments": 31,
+      "author": "m-hodges",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47753472",
+      "time": "2026-04-13T15:31:06+00:00"
+    },
+    {
+      "title": "Building a CLI for All of Cloudflare",
+      "url": "https://blog.cloudflare.com/cf-cli-local-explorer/",
+      "score": 72,
+      "comments": 21,
+      "author": "soheilpro",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47753689",
+      "time": "2026-04-13T15:44:02+00:00"
+    },
+    {
+      "title": "The Future of Everything Is Lies, I Guess: Safety",
+      "url": "https://aphyr.com/posts/417-the-future-of-everything-is-lies-i-guess-safety",
+      "score": 31,
+      "comments": 14,
+      "author": "aphyr",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47754379",
+      "time": "2026-04-13T16:23:09+00:00"
+    },
+    {
+      "title": "Servo is now available on crates.io",
+      "url": "https://servo.org/blog/2026/04/13/servo-0.1.0-release/",
+      "score": 259,
+      "comments": 88,
+      "author": "ffin",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47750872",
+      "time": "2026-04-13T12:12:22+00:00"
+    },
+    {
+      "title": "Make Tmux Pretty and Usable",
+      "url": "https://hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/",
+      "score": 139,
+      "comments": 108,
+      "author": "speckx",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47752819",
+      "time": "2026-04-13T14:48:55+00:00"
+    },
+    {
+      "title": "MEMS Array Chip Can Project Video the Size of a Grain of Sand",
+      "url": "https://spectrum.ieee.org/mems-photonics",
+      "score": 23,
+      "comments": 5,
+      "author": "bookofjoe",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47752466",
+      "time": "2026-04-13T14:26:02+00:00"
+    },
+    {
+      "title": "Initial mainline video capture and camera support for Rockchip RK3588",
+      "url": "https://www.collabora.com/news-and-blog/news-and-events/mainline-video-capture-and-camera-support-for-rockchip-rk3588.html",
+      "score": 36,
+      "comments": 7,
+      "author": "mfilion",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47751621",
+      "time": "2026-04-13T13:23:50+00:00"
+    },
+    {
+      "title": "All elementary functions from a single binary operator",
+      "url": "https://arxiv.org/abs/2603.21852",
+      "score": 698,
+      "comments": 203,
+      "author": "pizza",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47746610",
+      "time": "2026-04-13T01:49:32+00:00"
+    },
+    {
+      "title": "Microsoft isn't removing Copilot from Windows 11, it's just renaming it",
+      "url": "https://www.neowin.net/opinions/microsoft-isnt-removing-copilot-from-windows-11-its-just-renaming-it/",
+      "score": 132,
+      "comments": 93,
+      "author": "bundie",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47751936",
+      "time": "2026-04-13T13:48:24+00:00"
+    },
+    {
+      "title": "US appeals court declares 158-year-old home distilling ban unconstitutional",
+      "url": "https://nypost.com/2026/04/11/us-news/us-appeals-court-declares-158-year-old-home-distilling-ban-unconstitutional/",
+      "score": 177,
+      "comments": 89,
+      "author": "t-3",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47751781",
+      "time": "2026-04-13T13:37:33+00:00"
+    },
+    {
+      "title": "Tracking down a 25% Regression on LLVM RISC-V",
+      "url": "https://blog.kaving.me/blog/tracking-down-a-25-regression-on-llvm-risc-v/",
+      "score": 7,
+      "comments": 0,
+      "author": "luu",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47743728",
+      "time": "2026-04-12T19:52:58+00:00"
+    },
+    {
+      "title": "Michigan 'digital age' bills pulled after privacy concerns raised",
+      "url": "https://www.thecentersquare.com/michigan/article_7ca4e268-4a68-42fb-9042-f9d8604ebd7f.html",
+      "score": 139,
+      "comments": 67,
+      "author": "iamnothere",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47750821",
+      "time": "2026-04-13T12:05:35+00:00"
+    },
+    {
+      "title": "The economics of software teams: Why most engineering orgs are flying blind",
+      "url": "https://www.viktorcessan.com/the-economics-of-software-teams/",
+      "score": 342,
+      "comments": 195,
+      "author": "kiyanwang",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47748064",
+      "time": "2026-04-13T05:45:32+00:00"
+    },
+    {
+      "title": "Missouri town fires half its city council over data center deal",
+      "url": "https://www.politico.com/news/2026/04/13/missouri-city-council-data-center-00867259",
+      "score": 27,
+      "comments": 7,
+      "author": "impish9208",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47754002",
+      "time": "2026-04-13T15:59:54+00:00"
+    },
+    {
+      "title": "The Rational Conclusion of Doomerism Is Violence",
+      "url": "https://www.campbellramble.ai/p/the-rational-conclusion",
+      "score": 13,
+      "comments": 7,
+      "author": "thedudeabides5",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47754606",
+      "time": "2026-04-13T16:37:10+00:00"
+    },
+    {
+      "title": "Taking on CUDA with ROCm: 'One Step After Another'",
+      "url": "https://www.eetimes.com/taking-on-cuda-with-rocm-one-step-after-another/",
+      "score": 236,
+      "comments": 176,
+      "author": "mindcrime",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47745284",
+      "time": "2026-04-12T22:38:45+00:00"
+    },
+    {
+      "title": "Android now stops you sharing your location in photos",
+      "url": "https://shkspr.mobi/blog/2026/04/android-now-stops-you-sharing-your-location-in-photos/",
+      "score": 252,
+      "comments": 214,
+      "author": "edent",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47750669",
+      "time": "2026-04-13T11:48:15+00:00"
+    },
+    {
+      "title": "We May Be Living Through the Most Consequential Hundred Days in Cyber History",
+      "url": "https://ringmast4r.substack.com/p/we-may-be-living-through-the-most",
+      "score": 102,
+      "comments": 35,
+      "author": "laurex",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47752884",
+      "time": "2026-04-13T14:53:05+00:00"
+    },
+    {
+      "title": "Claude Mythos: The System Card",
+      "url": "https://thezvi.substack.com/p/claude-mythos-the-system-card",
+      "score": 13,
+      "comments": 7,
+      "author": "paulpauper",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47754192",
+      "time": "2026-04-13T16:11:07+00:00"
+    },
+    {
+      "title": "DIY Soft Drinks",
+      "url": "https://blinry.org/diy-soft-drinks/",
+      "score": 621,
+      "comments": 180,
+      "author": "_Microft",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47741701",
+      "time": "2026-04-12T16:38:43+00:00"
+    }
+  ],
+  "GitHub Trending": [
+    {
+      "repo": "forrestchang/andrej-karpathy-skills",
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "",
+      "total_stars": "",
+      "stars_today": "5,828 stars today",
+      "source": "GitHub Trending",
+      "period": "daily"
+    },
+    {
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "total_stars": "",
+      "stars_today": "11,297 stars today",
+      "source": "GitHub Trending",
+      "period": "daily"
+    },
+    {
+      "repo": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "total_stars": "",
+      "stars_today": "1,552 stars today",
+      "source": "GitHub Trending",
+      "period": "daily"
+    },
+    {
+      "repo": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+      "language": "TypeScript",
+      "total_stars": "",
+      "stars_today": "3,185 stars today",
+      "source": "GitHub Trending",
+      "period": "daily"
+    },
+    {
+      "repo": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "total_stars": "",
+      "stars_today": "2,811 stars today",
+      "source": "GitHub Trending",
+      "period": "daily"
+    },
+    {
+      "repo": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "language": "TypeScript",
+      "total_stars": "",
+      "stars_today": "1,724 stars today",
+      "source": "GitHub Trending",
+      "period": "daily"
+    },
+    {
+      "repo": "coleam00/Archon",
+      "url": "https://github.com/coleam00/Archon",
+      "description": "The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.",
+      "language": "TypeScript",
+      "total_stars": "",
+      "stars_today": "679 stars today",
+      "source": "GitHub Trending",
+      "period": "daily"
+    },
+    {
+      "repo": "snarktank/ralph",
+      "url": "https://github.com/snarktank/ralph",
+      "description": "Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete.",
+      "language": "TypeScript",
+      "total_stars": "",
+      "stars_today": "683 stars today",
+      "source": "GitHub Trending",
+      "period": "daily"
+    },
+    {
+      "repo": "virattt/ai-hedge-fund",
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "description": "An AI Hedge Fund Team",
+      "language": "Python",
+      "total_stars": "",
+      "stars_today": "782 stars today",
+      "source": "GitHub Trending",
+      "period": "daily"
+    },
+    {
+      "repo": "anthropics/claude-cookbooks",
+      "url": "https://github.com/anthropics/claude-cookbooks",
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "language": "Jupyter Notebook",
+      "total_stars": "",
+      "stars_today": "328 stars today",
+      "source": "GitHub Trending",
+      "period": "daily"
+    },
+    {
+      "repo": "shanraisshan/claude-code-best-practice",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "description": "practice made claude perfect",
+      "language": "HTML",
+      "total_stars": "",
+      "stars_today": "2,477 stars today",
+      "source": "GitHub Trending",
+      "period": "daily"
+    },
+    {
+      "repo": "jamiepine/voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
+      "description": "The open-source voice synthesis studio",
+      "language": "TypeScript",
+      "total_stars": "",
+      "stars_today": "652 stars today",
+      "source": "GitHub Trending",
+      "period": "daily"
+    },
+    {
+      "repo": "ahujasid/blender-mcp",
+      "url": "https://github.com/ahujasid/blender-mcp",
+      "description": "",
+      "language": "Python",
+      "total_stars": "",
+      "stars_today": "335 stars today",
+      "source": "GitHub Trending",
+      "period": "daily"
+    },
+    {
+      "repo": "hacksider/Deep-Live-Cam",
+      "url": "https://github.com/hacksider/Deep-Live-Cam",
+      "description": "real time face swap and one-click video deepfake with only a single image",
+      "language": "Python",
+      "total_stars": "",
+      "stars_today": "235 stars today",
+      "source": "GitHub Trending",
+      "period": "daily"
+    },
+    {
+      "repo": "gsd-build/get-shit-done",
+      "url": "https://github.com/gsd-build/get-shit-done",
+      "description": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES.",
+      "language": "JavaScript",
+      "total_stars": "",
+      "stars_today": "630 stars today",
+      "source": "GitHub Trending",
+      "period": "daily"
+    }
+  ],
+  "Reddit": [],
+  "Product Hunt": [],
+  "Twitter/X": [
+    {
+      "title": "#BAMBAMxPHAYAO2026",
+      "url": "https://twitter.com/search?q=%23BAMBAMxPHAYAO2026",
+      "source": "Twitter/X 趋势"
+    },
+    {
+      "title": "#SRHvsRR",
+      "url": "https://twitter.com/search?q=%23SRHvsRR",
+      "source": "Twitter/X 趋势"
+    },
+    {
+      "title": "#OurFutureIsPerfectWITH7",
+      "url": "https://twitter.com/search?q=%23OurFutureIsPerfectWITH7",
+      "source": "Twitter/X 趋势"
+    },
+    {
+      "title": "#الاهلي_الدحيل",
+      "url": "https://twitter.com/search?q=%23الاهلي_الدحيل",
+      "source": "Twitter/X 趋势"
+    },
+    {
+      "title": "Pope",
+      "url": "https://twitter.com/search?q=Pope",
+      "source": "Twitter/X 趋势"
+    },
+    {
+      "title": "#BELIFT_Boycott_Continues",
+      "url": "https://twitter.com/search?q=%23BELIFT_Boycott_Continues",
+      "source": "Twitter/X 趋势"
+    },
+    {
+      "title": "Praful Hinge",
+      "url": "https://twitter.com/search?q=Praful Hinge",
+      "source": "Twitter/X 趋势"
+    },
+    {
+      "title": "火古戦場",
+      "url": "https://twitter.com/search?q=火古戦場",
+      "source": "Twitter/X 趋势"
+    },
+    {
+      "title": "محمد عبدالرحمن",
+      "url": "https://twitter.com/search?q=محمد عبدالرحمن",
+      "source": "Twitter/X 趋势"
+    },
+    {
+      "title": "Catholic",
+      "url": "https://twitter.com/search?q=Catholic",
+      "source": "Twitter/X 趋势"
+    },
+    {
+      "title": "Ishan Kishan",
+      "url": "https://twitter.com/search?q=Ishan Kishan",
+      "source": "Twitter/X 趋势"
+    },
+    {
+      "title": "Papa",
+      "url": "https://twitter.com/search?q=Papa",
+      "source": "Twitter/X 趋势"
+    },
+    {
+      "title": "PONDPHUWIN SONGKRAN 2026",
+      "url": "https://twitter.com/search?q=PONDPHUWIN SONGKRAN 2026",
+      "source": "Twitter/X 趋势"
+    },
+    {
+      "title": "Radhika",
+      "url": "https://twitter.com/search?q=Radhika",
+      "source": "Twitter/X 趋势"
+    },
+    {
+      "title": "Mike Colter",
+      "url": "https://twitter.com/search?q=Mike Colter",
+      "source": "Twitter/X 趋势"
+    }
+  ],
+  "Lobsters": [],
+  "Dev.to": [
+    {
+      "title": "Meet Hotfix—The Dragon Your Legacy Code Deserves",
+      "url": "https://dev.to/anchildress1/meet-hotfix-the-dragon-your-legacy-code-deserves-4141",
+      "description": "Legacy Smelter is a thermal decommission platform where a Gemini-powered dragon analyzes your code and files very serious, very unhinged postmortems.",
+      "author": "Ashley Childress",
+      "reactions": 19,
+      "comments": 2,
+      "tags": [
+        "devchallenge",
+        "418challenge",
+        "showdev"
+      ],
+      "reading_time": 9,
+      "source": "Dev.to",
+      "published": "2026-04-13T04:44:55Z"
+    },
+    {
+      "title": "I Ran 500 More Agent Memory Experiments. The Real Problem Wasn’t Recall. It Was Binding.",
+      "url": "https://dev.to/marcosomma/i-ran-500-more-agent-memory-experiments-the-real-problem-wasnt-recall-it-was-binding-24kc",
+      "description": "This is a follow-up to I Tried to Turn Agent Memory Into Plumbing Instead of Philosophy. If you...",
+      "author": "marcosomma",
+      "reactions": 24,
+      "comments": 4,
+      "tags": [
+        "ai",
+        "programming",
+        "rag",
+        "graphknowledge"
+      ],
+      "reading_time": 14,
+      "source": "Dev.to",
+      "published": "2026-04-13T09:19:39Z"
+    },
+    {
+      "title": "Build a Talking Robot with Gemini Live and Reachy Mini",
+      "url": "https://dev.to/googleai/build-a-talking-robot-with-gemini-live-and-reachy-mini-20e2",
+      "description": "Imagine a tiny desk robot that listens to you, answers back in real time, dances on command, tracks...",
+      "author": "Thor 雷神 Schaeff",
+      "reactions": 14,
+      "comments": 0,
+      "tags": [
+        "ai",
+        "robotics",
+        "gemini",
+        "opensource"
+      ],
+      "reading_time": 9,
+      "source": "Dev.to",
+      "published": "2026-04-13T15:00:23Z"
+    },
+    {
+      "title": "The Emotional Terror of Closing a Browser Tab",
+      "url": "https://dev.to/the_nortern_dev/the-emotional-terror-of-closing-a-browser-tab-122k",
+      "description": "My laptop sounds like it is preparing for a low-orbit launch. The fan is screaming. The metal chassis...",
+      "author": "NorthernDev",
+      "reactions": 21,
+      "comments": 14,
+      "tags": [
+        "webdev",
+        "productivity",
+        "humor",
+        "developerlife"
+      ],
+      "reading_time": 3,
+      "source": "Dev.to",
+      "published": "2026-04-13T07:49:30Z"
+    },
+    {
+      "title": "🎤 Music Player - Scream to Skip Ads (But You Can’t)",
+      "url": "https://dev.to/preeti_yadav/music-player-scream-to-skip-ads-but-you-cant-2727",
+      "description": "This is a submission for the DEV April Fools Challenge  🎤 Scream to Adjust volume or Skip Ads (But...",
+      "author": "Preeti yadav",
+      "reactions": 11,
+      "comments": 3,
+      "tags": [
+        "devchallenge",
+        "418challenge",
+        "showdev"
+      ],
+      "reading_time": 2,
+      "source": "Dev.to",
+      "published": "2026-04-13T04:49:48Z"
+    },
+    {
+      "title": "DotShare v3.0 — I Turned My VS Code Extension Into a Full Publishing Suite (Dev.to + Medium Inside)",
+      "url": "https://dev.to/freerave/dotshare-v30-i-turned-my-vs-code-extension-into-a-full-publishing-suite-devto-medium-inside-15fe",
+      "description": "A deep technical dive into DotShare v3.0 — the Publishing Suite update that added Dev.to...",
+      "author": "freerave",
+      "reactions": 1,
+      "comments": 1,
+      "tags": [
+        "vscode",
+        "typescript",
+        "devtools",
+        "productivity"
+      ],
+      "reading_time": 10,
+      "source": "Dev.to",
+      "published": "2026-04-12T19:37:13Z"
+    },
+    {
+      "title": "The Developer's Guide to Running LLMs Locally: Ollama, Gemma 4, and Why Your Side Projects Don't Need an API Key",
+      "url": "https://dev.to/kennedyraju55/the-developers-guide-to-running-llms-locally-ollama-gemma-4-and-why-your-side-projects-dont-54oe",
+      "description": "Every tutorial about building with LLMs starts the same way: \"First, get your OpenAI API key.\" But...",
+      "author": "Nrk Raju Guthikonda",
+      "reactions": 2,
+      "comments": 3,
+      "tags": [
+        "ai",
+        "llm",
+        "sideprojects",
+        "tutorial"
+      ],
+      "reading_time": 4,
+      "source": "Dev.to",
+      "published": "2026-04-12T23:09:13Z"
+    },
+    {
+      "title": "Specification-First Agentic Development: A Methodology for Structured, Traceable AI-Assisted Development",
+      "url": "https://dev.to/holgerleichsenring/specification-first-agentic-development-a-methodology-for-structured-traceable-ai-assisted-la",
+      "description": "How I stopped fighting AI context loss and started shipping clean, documented code with a methodology I call Specification-First Agentic Development.",
+      "author": "holger leichsenring",
+      "reactions": 4,
+      "comments": 4,
+      "tags": [
+        "ai",
+        "productivity",
+        "agile",
+        "claudeai"
+      ],
+      "reading_time": 6,
+      "source": "Dev.to",
+      "published": "2026-04-12T20:04:59Z"
+    },
+    {
+      "title": "I added a full analytics dashboard to my GitHub solar system visualizer and it actually looks professional",
+      "url": "https://dev.to/mabdullah06/i-added-a-full-analytics-dashboard-to-my-github-solar-system-visualizer-and-it-actually-looks-2nkb",
+      "description": "Phase 7 of Stack Universe just shipped. The solar system is still there. Now there is a clean...",
+      "author": "Muhammad Abdullah",
+      "reactions": 0,
+      "comments": 0,
+      "tags": [
+        "analytics",
+        "github",
+        "showdev",
+        "sideprojects"
+      ],
+      "reading_time": 4,
+      "source": "Dev.to",
+      "published": "2026-04-12T21:13:32Z"
+    },
+    {
+      "title": "I Thought the Hard Part Was the Code. Turns Out Production Is Where Security Assumptions Go to Die.",
+      "url": "https://dev.to/ravigupta97/i-thought-the-hard-part-was-the-code-turns-out-production-is-where-security-assumptions-go-to-die-6j4",
+      "description": "This is Part 4 of a 4-part series on building AuthShield - a production-ready standalone...",
+      "author": "Ravi Gupta",
+      "reactions": 6,
+      "comments": 0,
+      "tags": [
+        "python",
+        "security",
+        "docker",
+        "backend"
+      ],
+      "reading_time": 10,
+      "source": "Dev.to",
+      "published": "2026-04-13T03:15:00Z"
+    }
+  ],
+  "V2EX": [
+    {
+      "title": "各位平时都关注那些科技财经类的博主？",
+      "url": "https://www.v2ex.com/t/1205371",
+      "author": "EngelEyes",
+      "node": "问与答",
+      "replies": 120,
+      "source": "V2EX",
+      "created": 1776039137
+    },
+    {
+      "title": "生小孩的意义，转自 53 岁深圳不婚不育女性自述",
+      "url": "https://www.v2ex.com/t/1205472",
+      "author": "yagamil",
+      "node": "生活",
+      "replies": 102,
+      "source": "V2EX",
+      "created": 1776059380
+    },
+    {
+      "title": "樱花季去了一趟日本关东地区旅行，分享游记",
+      "url": "https://www.v2ex.com/t/1205382",
+      "author": "lynan",
+      "node": "旅行",
+      "replies": 98,
+      "source": "V2EX",
+      "created": 1776043117
+    },
+    {
+      "title": "最近看太多 AI 的东西，太 AI(油)腻了，来点生活的吧，推荐分享一些你日常好物呗",
+      "url": "https://www.v2ex.com/t/1205376",
+      "author": "Astralume",
+      "node": "分享发现",
+      "replies": 87,
+      "source": "V2EX",
+      "created": 1776040944
+    },
+    {
+      "title": "Chatgpt Plus 订阅， V 站优惠持续中",
+      "url": "https://www.v2ex.com/t/1205497",
+      "author": "daniel1103",
+      "node": "OpenAI",
+      "replies": 82,
+      "source": "V2EX",
+      "created": 1776063506
+    },
+    {
+      "title": "入职外包，本以为能顺利入职，没想到却要待岗",
+      "url": "https://www.v2ex.com/t/1205411",
+      "author": "MRG0",
+      "node": "职场话题",
+      "replies": 78,
+      "source": "V2EX",
+      "created": 1776046411
+    },
+    {
+      "title": "低佣“万一免五”开户， a 股券商基金 ETF 免 5 开户，抽明前龙井 第二弹~~ [大笑脸开户]",
+      "url": "https://www.v2ex.com/t/1205374",
+      "author": "daxiaolian",
+      "node": "推广",
+      "replies": 75,
+      "source": "V2EX",
+      "created": 1776040178
+    },
+    {
+      "title": "Termina.Pub 中转站 可开发票，欢迎企业合作，回帖留 id 送 10 刀额度，送 150 位",
+      "url": "https://www.v2ex.com/t/1205554",
+      "author": "v2exgo",
+      "node": "推广",
+      "replies": 68,
+      "source": "V2EX",
+      "created": 1776074617
+    },
+    {
+      "title": "M1 和 M2 不要更新 macOS26.4/.1",
+      "url": "https://www.v2ex.com/t/1205395",
+      "author": "OnlineParty",
+      "node": "macOS",
+      "replies": 68,
+      "source": "V2EX",
+      "created": 1776044496
+    },
+    {
+      "title": "求推荐内网穿透方案",
+      "url": "https://www.v2ex.com/t/1205499",
+      "author": "xiaomintongxue",
+      "node": "程序员",
+      "replies": 68,
+      "source": "V2EX",
+      "created": 1776063898
+    }
+  ],
+  "RSS聚合": [
+    {
+      "title": "Vercel CEO Guillermo Rauch signals IPO readiness as AI agents fuel revenue surge",
+      "url": "https://techcrunch.com/2026/04/13/vercel-ceo-guillermo-rauch-signals-ipo-readiness-as-ai-agents-fuel-revenue-surge/",
+      "summary": "\"The company is ready and getting more ready for every day,\" Rauch said about an IPO at HumanX conference.",
+      "author": "Marina Temkin",
+      "published": "Mon, 13 Apr 2026 15:22:29 +0000",
+      "source": "techcrunch"
+    },
+    {
+      "title": "Hack at Anodot leaves over a dozen breached companies facing extortion",
+      "url": "https://techcrunch.com/2026/04/13/hack-at-anodot-leaves-over-a-dozen-breached-companies-facing-extortion/",
+      "summary": "The data breach at Anodot, which affects customers like Rockstar Games, is the latest hack aimed at stealing data from a large number of corporate giants.",
+      "author": "Zack Whittaker",
+      "published": "Mon, 13 Apr 2026 14:46:36 +0000",
+      "source": "techcrunch"
+    },
+    {
+      "title": "Slate Auto raises $650M to fund its affordable EV truck plans",
+      "url": "https://techcrunch.com/2026/04/13/slate-auto-raises-650m-to-fund-its-affordable-ev-truck-plans/",
+      "summary": "Slate Auto's latest funding round was led by existing investor TWG Global, a firm run by LA Dodgers owner Mark Walter.",
+      "author": "Sean O'Kane",
+      "published": "Mon, 13 Apr 2026 13:26:33 +0000",
+      "source": "techcrunch"
+    },
+    {
+      "title": "Roblox introduces ‘Kids’ and ‘Select’ accounts for age-appropriate access to games and chat",
+      "url": "https://techcrunch.com/2026/04/13/roblox-introduces-kids-and-select-accounts-for-age-appropriate-access-to-games-and-chat/",
+      "summary": "Users aged five to nine will be assigned to a \"Roblox Kids\" account, and users aged nine to 15 to will be put in a \"Roblox Select\" account.",
+      "author": "Aisha Malik",
+      "published": "Mon, 13 Apr 2026 12:15:00 +0000",
+      "source": "techcrunch"
+    },
+    {
+      "title": "The largest orbital compute cluster is open for business",
+      "url": "https://techcrunch.com/2026/04/13/the-largest-orbital-compute-cluster-is-open-for-business/",
+      "summary": "Kepler Communications is flying 40 GPUs in Earth orbit. And its latest customer is Sophia Space.",
+      "author": "Tim Fernholz",
+      "published": "Mon, 13 Apr 2026 07:01:00 +0000",
+      "source": "techcrunch"
+    },
+    {
+      "title": "Trump officials may be encouraging banks to test Anthropic’s Mythos model",
+      "url": "https://techcrunch.com/2026/04/12/trump-officials-may-be-encouraging-banks-to-test-anthropics-mythos-model/",
+      "summary": "The report is particularly surprising since the Department of Defense recently declared Anthropic a supply-chain risk.",
+      "author": "Anthony Ha",
+      "published": "Sun, 12 Apr 2026 21:14:38 +0000",
+      "source": "techcrunch"
+    },
+    {
+      "title": "Apple reportedly testing four designs for upcoming smart glasses",
+      "url": "https://techcrunch.com/2026/04/12/apple-reportedly-testing-four-designs-for-upcoming-smart-glasses/",
+      "summary": "These glasses are a step back from an ambitious plan that once called for Apple to launch a variety of mixed and augmented reality devices.",
+      "author": "Anthony Ha",
+      "published": "Sun, 12 Apr 2026 19:58:42 +0000",
+      "source": "techcrunch"
+    },
+    {
+      "title": "X says it’s reducing payments to clickbait accounts",
+      "url": "https://techcrunch.com/2026/04/12/x-says-its-reducing-payments-to-clickbait-accounts/",
+      "summary": "X is cutting back on payments to accounts that are “flooding the timeline” with clickbait and rapid-fire news aggregation, according to its head of product Nikita Bier.",
+      "author": "Anthony Ha",
+      "published": "Sun, 12 Apr 2026 17:02:20 +0000",
+      "source": "techcrunch"
+    },
+    {
+      "title": "TechCrunch Mobility: Who is poaching all the self-driving vehicle talent?",
+      "url": "https://techcrunch.com/2026/04/12/techcrunch-mobility-who-is-poaching-all-the-self-driving-vehicle-talent/",
+      "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part.",
+      "author": "Kirsten Korosec",
+      "published": "Sun, 12 Apr 2026 16:06:00 +0000",
+      "source": "techcrunch"
+    },
+    {
+      "title": "From LLMs to hallucinations, here’s a simple guide to common AI terms",
+      "url": "https://techcrunch.com/2026/04/12/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+      "author": "Natasha Lomas, Romain Dillet, Kyle Wiggers, Lucas Ropek",
+      "published": "Sun, 12 Apr 2026 15:07:08 +0000",
+      "source": "techcrunch"
+    },
+    {
+      "title": "Read OpenAI&#8217;s latest internal memo about beating the competition — including Anthropic",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/911118/openai-memo-cro-ai-competition-anthropic",
+      "summary": "OpenAI's chief revenue officer, Denise Dresser, sent a four-page memo to employees on Sunday about the company's strategic direction, emphasizing the need to lock in users and grow its enterprise business. The memo, which was viewed by The Verge, repeatedly underlines the importance of building a moat around its AI products, to combat how easy [&#8230;]",
+      "author": "Hayden Field",
+      "published": "2026-04-13T12:21:08-04:00",
+      "source": "theverge"
+    },
+    {
+      "title": "Slate raises $650 million to make its budget electric truck",
+      "url": "https://www.theverge.com/transportation/911085/slate-truck-ev-fundraise-twg-global-bezos",
+      "summary": "Slate Auto, the EV startup backed by Jeff Bezos, raised $650 million to fund its effort to build an affordable electric pickup truck expected to start in the mid-$20,000s. The company plans on delivering its first EV later this year. The Series C round was led by TWG Global, headed by Guggenheim Partners founder and [&#8230;]",
+      "author": "Andrew J. Hawkins",
+      "published": "2026-04-13T11:45:46-04:00",
+      "source": "theverge"
+    },
+    {
+      "title": "Microsoft is testing OpenClaw-like AI bots for 365 Copilot",
+      "url": "https://www.theverge.com/tech/911080/microsoft-ai-openclaw-365-businesses",
+      "summary": "Microsoft is looking into ways it can integrate OpenClaw-style features into 365 Copilot, according to a report from The Information. The test reportedly comes as part of efforts to make its 365 Copilot AI assistant \"run autonomously around the clock\" while completing tasks on behalf of users. Omar Shahine, Microsoft's corporate vice president, confirmed to [&#8230;]",
+      "author": "Emma Roth",
+      "published": "2026-04-13T11:41:09-04:00",
+      "source": "theverge"
+    },
+    {
+      "title": "Google’s Pixel 10A is a good midrange phone that’s $50 off",
+      "url": "https://www.theverge.com/gadgets/910966/google-pixel-10a-sony-wf-1000xm6-earbuds-deal-sale",
+      "summary": "If it’s time for you to upgrade your phone, it’s worth considering the Pixel 10A, Google’s latest midrange phone that has some (but not all) of the new software features of the pricier $599 Pixel 10. Every color of the 128GB 10A — including the alluring “berry” tone — is down to $449 ($50 off) [&#8230;]",
+      "author": "Cameron Faulkner",
+      "published": "2026-04-13T11:41:03-04:00",
+      "source": "theverge"
+    },
+    {
+      "title": "Pragmata is just OK, but it could’ve been great",
+      "url": "https://www.theverge.com/games/910385/pragmata-review-ps5-xbox-switch-2-pc",
+      "summary": "Over the last few years, Capcom has done an exceptional job of solidifying its lineup of big, long-running franchises. The likes of Monster Hunter, Resident Evil, and Street Fighter have all been on strong and consistent runs, an impressive thing given the current strain of uncertainty that runs through the games industry. And now the [&#8230;]",
+      "author": "Andrew Webster",
+      "published": "2026-04-13T11:00:00-04:00",
+      "source": "theverge"
+    },
+    {
+      "title": "SwitchBot’s button-pressing robot is now available with a rechargeable battery",
+      "url": "https://www.theverge.com/tech/909765/switchbot-bot-rechargeable-smart-home-usb-c",
+      "summary": "SwitchBot is introducing a new version of the tiny button-pressing robot that helped launch the company a decade ago. The functionality of the new SwitchBot Bot is exactly the same as the original that the company will continue to sell, but comes with a rechargeable battery instead of a disposable one. The SwitchBot Bot Rechargeable [&#8230;]",
+      "author": "Andrew Liszewski",
+      "published": "2026-04-13T10:00:00-04:00",
+      "source": "theverge"
+    },
+    {
+      "title": "Can Puck reinvent the news business for the influencer age?",
+      "url": "https://www.theverge.com/podcast/910443/can-puck-reinvent-the-news-business-for-the-influencer-age",
+      "summary": "Today, I’m talking with Sarah Personette, CEO of Puck, which is a fancy new media company that’s been around for just about five years now. Puck hires big stars and gives them newsletters that are all mostly part of a subscription bundle. These newsletters are often must-reads in their categories — everyone in Hollywood reads [&#8230;]",
+      "author": "Nilay Patel",
+      "published": "2026-04-13T10:00:00-04:00",
+      "source": "theverge"
+    },
+    {
+      "title": "Mark Zuckerberg is reportedly building an AI clone to replace him in meetings",
+      "url": "https://www.theverge.com/tech/910990/meta-ceo-mark-zuckerberg-ai-clone",
+      "summary": "Meta CEO Mark Zuckerberg could soon have an AI clone of himself to interact with and provide feedback to employees, according to a report from the Financial Times. Sources tell the outlet that Meta is training the AI avatar on Zuckerberg's image and voice, along with his mannerisms, tone, and public statements, \"so that employees [&#8230;]",
+      "author": "Emma Roth",
+      "published": "2026-04-13T09:40:03-04:00",
+      "source": "theverge"
+    },
+    {
+      "title": "The Strait of Hormuz blockade is causing a slow-moving food crisis",
+      "url": "https://www.theverge.com/science/910326/iran-strait-hormuz-fertilizer-feedstock-food-crisis",
+      "summary": "Farmers are very busy in the spring, under pressure to get crops into the ground just as the Northern Hemisphere begins to thaw. But this year has been different for many, thanks in large part to the escalating war in Iran and the closure of the Strait of Hormuz. The Strait of Hormuz is a [&#8230;]",
+      "author": "Abigail Bassett",
+      "published": "2026-04-13T09:00:00-04:00",
+      "source": "theverge"
+    },
+    {
+      "title": "Roblox will need age verification to make sure you’re at least 9 years old",
+      "url": "https://www.theverge.com/games/910218/roblox-age-verification-check-games-kids-select-accounts",
+      "summary": "Roblox is about to make a big change to how you can access games on its platform: If you want to play any game that's intended for users nine or older, you will have to complete an age verification process. The shift is happening as part of a rollout of new Roblox Kids and Roblox [&#8230;]",
+      "author": "Jay Peters",
+      "published": "2026-04-13T08:15:00-04:00",
+      "source": "theverge"
+    },
+    {
+      "title": "Slate Auto raises $650 million as production gets closer and closer",
+      "url": "https://arstechnica.com/cars/2026/04/slate-auto-raises-650-million-as-production-gets-closer-and-closer/",
+      "summary": "The Slate Truck will start in the \"mid-$20,000s\" when it goes on sale in late 2026.",
+      "author": "Jonathan M. Gitlin",
+      "published": "Mon, 13 Apr 2026 14:35:29 +0000",
+      "source": "ars"
+    },
+    {
+      "title": "Meta spins up AI version of Mark Zuckerberg to engage with employees",
+      "url": "https://arstechnica.com/ai/2026/04/meta-spins-up-ai-version-of-mark-zuckerberg-to-engage-with-employees/",
+      "summary": "The Meta chief is personally involved in training and testing his animated AI.",
+      "author": "Hannah Murphy, Financial Times",
+      "published": "Mon, 13 Apr 2026 13:52:46 +0000",
+      "source": "ars"
+    },
+    {
+      "title": "To teach in the time of ChatGPT is to know pain",
+      "url": "https://arstechnica.com/science/2026/04/to-teach-in-the-time-of-chatgpt-is-to-know-pain/",
+      "summary": "LLM use is the most demoralizing problem I’ve faced as a college instructor.",
+      "author": "Scott K. Johnson",
+      "published": "Mon, 13 Apr 2026 11:00:32 +0000",
+      "source": "ars"
+    },
+    {
+      "title": "Shock from Iran war has Trump's vision for US energy dominance flailing",
+      "url": "https://arstechnica.com/science/2026/04/shock-from-iran-war-has-trumps-vision-for-us-energy-dominance-flailing/",
+      "summary": "Record domestic oil and gas production hasn't saved US drivers from price spikes.",
+      "author": "Marianne Lavalle, Inside Climate News",
+      "published": "Sun, 12 Apr 2026 11:17:26 +0000",
+      "source": "ars"
+    },
+    {
+      "title": "AI models are terrible at betting on soccer—especially xAI Grok",
+      "url": "https://arstechnica.com/ai/2026/04/ai-models-are-terrible-at-betting-on-soccer-especially-xai-grok/",
+      "summary": "Systems from Google, OpenAI, Anthropic, and xAI struggle with the Premier League.",
+      "author": "Tim Bradshaw, Financial Times",
+      "published": "Sat, 11 Apr 2026 11:15:17 +0000",
+      "source": "ars"
+    },
+    {
+      "title": "The Artemis II mission has ended. Where does NASA go from here?",
+      "url": "https://arstechnica.com/space/2026/04/the-artemis-ii-mission-has-ended-where-does-nasa-go-from-here/",
+      "summary": "\"The work ahead is greater than the work behind us.\"",
+      "author": "Eric Berger",
+      "published": "Sat, 11 Apr 2026 03:24:21 +0000",
+      "source": "ars"
+    },
+    {
+      "title": "Four astronauts are back home after a daring ride around the Moon",
+      "url": "https://arstechnica.com/space/2026/04/four-astronauts-are-back-home-after-a-daring-ride-around-the-moon/",
+      "summary": "\"I can't imagine a better crew that just completed a perfect mission right now.\"",
+      "author": "Stephen Clark",
+      "published": "Sat, 11 Apr 2026 01:21:10 +0000",
+      "source": "ars"
+    },
+    {
+      "title": "Californians sue over AI tool that records doctor visits",
+      "url": "https://arstechnica.com/tech-policy/2026/04/californians-sue-over-ai-tool-that-records-doctor-visits/",
+      "summary": "Plaintiffs say transcription tool processed confidential chats offsite.",
+      "author": "Cyrus Farivar",
+      "published": "Fri, 10 Apr 2026 21:43:33 +0000",
+      "source": "ars"
+    },
+    {
+      "title": "New paper argues history, not mantle plume, powers Yellowstone",
+      "url": "https://arstechnica.com/science/2026/04/new-paper-argues-history-not-mantle-plume-powers-yellowstone/",
+      "summary": "A now-vanished plate under North America may open the crust below Yellowstone.",
+      "author": "John Timmer",
+      "published": "Fri, 10 Apr 2026 20:06:39 +0000",
+      "source": "ars"
+    },
+    {
+      "title": "F1 moves a step closer to fixing its 2026 hybrid problem",
+      "url": "https://arstechnica.com/cars/2026/04/f1-moves-a-step-closer-to-fixing-its-2026-hybrid-problem/",
+      "summary": "Algorithms, not drivers, are deciding how hard to accelerate, and that's no good.",
+      "author": "Jonathan M. Gitlin",
+      "published": "Fri, 10 Apr 2026 19:07:46 +0000",
+      "source": "ars"
+    },
+    {
+      "title": "Top iRestore Deals for Hair Growth and LED Therapy Devices",
+      "url": "https://www.wired.com/story/irestore-anniversary-sale-2026/",
+      "summary": "Today, iRestore is offering up to $900 off select devices and up to $1,550 off bundles.",
+      "author": "Boutayna Chokrane",
+      "published": "Mon, 13 Apr 2026 16:29:39 +0000",
+      "source": "wired"
+    },
+    {
+      "title": "Meta Is Warned That Facial Recognition Glasses Will Arm Sexual Predators",
+      "url": "https://www.wired.com/story/meta-ray-ban-oakley-smart-glasses-no-face-recognition-civil-society/",
+      "summary": "More than 70 organizations, including the ACLU, EPIC, and Fight for the Future, say the AI smart glasses feature would endanger abuse victims, immigrants, and LGBTQ+ people.",
+      "author": "Dell Cameron",
+      "published": "Mon, 13 Apr 2026 16:01:30 +0000",
+      "source": "wired"
+    },
+    {
+      "title": "What Is the Best Fitness Tracker in 2026? Garmin, Oura, More",
+      "url": "https://www.wired.com/gallery/best-fitness-tracker/",
+      "summary": "With almost ten years of hands-on testing, WIRED knows what separates the best fitness trackers from the rest.",
+      "author": "Adrienne So, Boutayna Chokrane",
+      "published": "Mon, 13 Apr 2026 15:35:31 +0000",
+      "source": "wired"
+    },
+    {
+      "title": "You Should Be More Freaked Out by Shingles",
+      "url": "https://www.wired.com/story/shingles-is-a-bigger-deal-than-you-think/",
+      "summary": "The viral infection leaves millions with chronic pain, increased stroke risk, and lifelong nerve damage—yet vaccination rates remain dangerously low.",
+      "author": "Rosie Taylor",
+      "published": "Mon, 13 Apr 2026 14:00:00 +0000",
+      "source": "wired"
+    },
+    {
+      "title": "BYD’s Fastest-Charging Car in the World Is Astonishing—in Good and Bad Ways",
+      "url": "https://www.wired.com/story/byd-denza-z9-gt-fastest-charging-car-in-the-world/",
+      "summary": "WIRED witnessed the game-changing Denza Z9 GT charge its battery in just 9 minutes. But the pricing for BYD's premium brand looks like a huge mistake.",
+      "author": "Jeremy White",
+      "published": "Mon, 13 Apr 2026 13:56:13 +0000",
+      "source": "wired"
+    },
+    {
+      "title": "The 4 Best Water Filter Pitchers (2026): PFAS, Microplastics",
+      "url": "https://www.wired.com/story/best-water-filter-pitchers/",
+      "summary": "Water filters promise the moon—but only some back up their claims. Here are the best filtered-water pitchers for those who prefer their water free of heavy metals and forever chemicals.",
+      "author": "Matthew Korfhage",
+      "published": "Mon, 13 Apr 2026 11:37:00 +0000",
+      "source": "wired"
+    },
+    {
+      "title": "The Internet's Most Powerful Archiving Tool Is in Peril",
+      "url": "https://www.wired.com/story/the-internets-most-powerful-archiving-tool-is-in-mortal-peril/",
+      "summary": "As major news outlets cut off the Wayback Machine, journalists and advocacy groups are rallying to protect the Internet Archive’s vast collection of web pages.",
+      "author": "Kate Knibbs",
+      "published": "Mon, 13 Apr 2026 11:00:00 +0000",
+      "source": "wired"
+    },
+    {
+      "title": "The Dumbest Hack of the Year Exposed a Very Real Problem",
+      "url": "https://www.wired.com/story/crosswalk-city-hack-cybersecurity-lessons/",
+      "summary": "Last April, a hacker hijacked crosswalk announcements to mimic Mark Zuckerberg and Elon Musk. Records obtained by WIRED reveal how unprepared local authorities were.",
+      "author": "Paresh Dave",
+      "published": "Mon, 13 Apr 2026 10:30:00 +0000",
+      "source": "wired"
+    },
+    {
+      "title": "AI Agents Are Coming for Your Dating Life",
+      "url": "https://www.wired.com/story/ai-agents-are-coming-for-your-dating-life-next/",
+      "summary": "The developers of Pixel Societies are using AI agents to simulate social interactions. It's an attempt optimize the process of choosing new colleagues, friends, and even romantic partners.",
+      "author": "Joel Khalili",
+      "published": "Mon, 13 Apr 2026 10:00:00 +0000",
+      "source": "wired"
+    },
+    {
+      "title": "Why Is It So Hard to Fix an Electric Bike? (2026)",
+      "url": "https://www.wired.com/story/why-is-it-so-hard-to-fix-an-electric-bike/",
+      "summary": "Bike shop mechanics have lost fingers and their shirts while repairing ebikes of dubious origins. Make sure yours is repairable and third-party certified.",
+      "author": "Stephanie Pearson",
+      "published": "Sun, 12 Apr 2026 12:00:00 +0000",
+      "source": "wired"
+    },
+    {
+      "title": "Internal memo: OpenAI Chief Revenue Officer says Anthropic is \"grossing up rev share with Amazon and Google\" and overstating its \"run rate by roughly $8B\" (Hayden Field/The Verge)",
+      "url": "http://www.techmeme.com/260413/p23#a260413p23",
+      "summary": "Hayden Field / The Verge: Internal memo: OpenAI Chief Revenue Officer says Anthropic is &ldquo;grossing up rev share with Amazon and Google&rdquo; and overstating its &ldquo;run rate by roughly $8B&rdquo;&nbsp; &mdash;&nbsp; OpenAI's chief revenue officer, Denise Dresser, sent a four-page memo to employees on Sunday &hellip;",
+      "author": "",
+      "published": "Mon, 13 Apr 2026 12:45:00 -0400",
+      "source": "techmeme"
+    },
+    {
+      "title": "Shares of Dell and HP jump after a report said Nvidia \"has been in negotiations for over a year to buy a large company and it will reshape the PC landscape\" (Dina Bass/Bloomberg)",
+      "url": "http://www.techmeme.com/260413/p22#a260413p22",
+      "summary": "Dina Bass / Bloomberg: Shares of Dell and HP jump after a report said Nvidia &ldquo;has been in negotiations for over a year to buy a large company and it will reshape the PC landscape&rdquo;&nbsp; &mdash;&nbsp; Shares of Dell Technologies Inc. and HP Inc. jumped after a report from website SemiAccurate that Nvidia Corp. was seeking &hellip;",
+      "author": "",
+      "published": "Mon, 13 Apr 2026 12:30:01 -0400",
+      "source": "techmeme"
+    },
+    {
+      "title": "Intel added $100B+ in value and now has a $300B+ market cap after its stock jumped 53% in nine sessions on plans to buy an Ireland fab and join Terafab (Bloomberg)",
+      "url": "http://www.techmeme.com/260413/p21#a260413p21",
+      "summary": "Bloomberg: Intel added $100B+ in value and now has a $300B+ market cap after its stock jumped 53% in nine sessions on plans to buy an Ireland fab and join Terafab&nbsp; &mdash;&nbsp; Intel Corp. has quickly become one of the hottest stocks in the S&amp;P 500 Index thanks to a nine-day surge that has added more than $100 billion in market value.",
+      "author": "",
+      "published": "Mon, 13 Apr 2026 11:45:02 -0400",
+      "source": "techmeme"
+    },
+    {
+      "title": "Cybersecurity analysis: Claude Mythos Preview had a 73% success rate on expert-level capture-the-flag challenges, which no model could finish before April 2025 (AI Security Institute)",
+      "url": "http://www.techmeme.com/260413/p20#a260413p20",
+      "summary": "AI Security Institute: Cybersecurity analysis: Claude Mythos Preview had a 73% success rate on expert-level capture-the-flag challenges, which no model could finish before April 2025&nbsp; &mdash;&nbsp; The AI Security Institute (AISI) conducted evaluations of Anthropic's Claude Mythos Preview (announced on 7th April) to assess its cybersecurity capabilities.",
+      "author": "",
+      "published": "Mon, 13 Apr 2026 10:50:08 -0400",
+      "source": "techmeme"
+    },
+    {
+      "title": "2026 AI Index Report: AI capability is accelerating, not plateauing, the US-China model gap has closed, the US leads in data centers and AI investment, and more (Stanford HAI)",
+      "url": "http://www.techmeme.com/260413/p19#a260413p19",
+      "summary": "Stanford HAI: 2026 AI Index Report: AI capability is accelerating, not plateauing, the US-China model gap has closed, the US leads in data centers and AI investment, and more&nbsp; &mdash;&nbsp; AI's influence on society has never been more pronounced.&nbsp; &mdash;&nbsp; At Stanford HAI, we believe AI is poised to be the most transformative technology of the 21st century.",
+      "author": "",
+      "published": "Mon, 13 Apr 2026 09:50:15 -0400",
+      "source": "techmeme"
+    },
+    {
+      "title": "The EU appoints Anthony Whelan as its top competition official; Whelan says he will press ahead with Big Tech investigations despite President Trump's pressure (Barbara Moens/Financial Times)",
+      "url": "http://www.techmeme.com/260413/p18#a260413p18",
+      "summary": "Barbara Moens / Financial Times: The EU appoints Anthony Whelan as its top competition official; Whelan says he will press ahead with Big Tech investigations despite President Trump's pressure&nbsp; &mdash;&nbsp; Anthony Whelan, a former adviser on tech, vows to pursue cases irrespective of &lsquo;noise&rsquo; around them",
+      "author": "",
+      "published": "Mon, 13 Apr 2026 09:40:00 -0400",
+      "source": "techmeme"
+    },
+    {
+      "title": "Microsoft says it is \"exploring the potential of technologies like OpenClaw in an enterprise context\", including a team of always-on agents within Microsoft 365 (Aaron Holmes/The Information)",
+      "url": "http://www.techmeme.com/260413/p17#a260413p17",
+      "summary": "Aaron Holmes / The Information: Microsoft says it is &ldquo;exploring the potential of technologies like OpenClaw in an enterprise context&rdquo;, including a team of always-on agents within Microsoft 365&nbsp; &mdash;&nbsp; As Microsoft faces growing competition for business customers from Anthropic, it is developing new features &hellip;",
+      "author": "",
+      "published": "Mon, 13 Apr 2026 09:20:59 -0400",
+      "source": "techmeme"
+    },
+    {
+      "title": "Memo: OpenAI Chief Revenue Officer Denise Dresser says OpenAI's Microsoft deal \"limited our ability\" to reach clients using Bedrock and touts its Amazon deal (Ashley Capoot/CNBC)",
+      "url": "http://www.techmeme.com/260413/p16#a260413p16",
+      "summary": "Ashley Capoot / CNBC: Memo: OpenAI Chief Revenue Officer Denise Dresser says OpenAI's Microsoft deal &ldquo;limited our ability&rdquo; to reach clients using Bedrock and touts its Amazon deal&nbsp; &mdash;&nbsp; OpenAI's newly appointed revenue chief, Denise Dresser, sent a memo to staffers on Sunday, touting the company's alliance &hellip;",
+      "author": "",
+      "published": "Mon, 13 Apr 2026 08:50:59 -0400",
+      "source": "techmeme"
+    },
+    {
+      "title": "Roblox unveils Kids accounts for ages 5-8 and Select accounts for ages 9-15, with age verification, coming in June; games for both must pass a three-step review (Jay Peters/The Verge)",
+      "url": "http://www.techmeme.com/260413/p15#a260413p15",
+      "summary": "Jay Peters / The Verge: Roblox unveils Kids accounts for ages 5-8 and Select accounts for ages 9-15, with age verification, coming in June; games for both must pass a three-step review&nbsp; &mdash;&nbsp; People who don't do an age check can only access family-friendly games. &hellip; Roblox is about to make a big change &hellip;",
+      "author": "",
+      "published": "Mon, 13 Apr 2026 08:36:00 -0400",
+      "source": "techmeme"
+    },
+    {
+      "title": "Originality AI: 23 major news websites and Reddit currently block the Internet Archive's crawler; journalists and advocacy groups sign a letter backing the IA (Kate Knibbs/Wired)",
+      "url": "http://www.techmeme.com/260413/p14#a260413p14",
+      "summary": "Kate Knibbs / Wired: Originality AI: 23 major news websites and Reddit currently block the Internet Archive's crawler; journalists and advocacy groups sign a letter backing the IA&nbsp; &mdash;&nbsp; As major news outlets cut off the Wayback Machine, journalists and advocacy groups are rallying to protect the Internet Archive's vast collection of web pages.",
+      "author": "",
+      "published": "Mon, 13 Apr 2026 07:50:54 -0400",
+      "source": "techmeme"
+    },
+    {
+      "title": "荣耀做了个“养虾本”，预制5大主虾，要重新定义AI PC｜最前线",
+      "url": "https://36kr.com/p/3765331768967686?f=rss",
+      "summary": "4月13日，荣耀正式发布自研终端侧“龙虾”AI智能体YOYO Claw，并宣布其将首发搭载于被称作“养虾本”的荣耀MagicBook系列轻薄本中。 此前，荣耀曾在Magic V6旗舰新品发布会宣布要带来龙虾宇宙，支持YOYO控虾、生态养虾、安全养虾三大能力。 YOYO Claw，是荣耀龙虾宇宙的第一步。YOYO Claw于3月27日开启封测，用户可以选择不同设备，在PC端、Pad端进行接入使用。 不过，这次荣耀直接把YOYO Claw封进了PC端，成为笔记本出厂即带的能力。荣耀PC产品总经理朱臣才分享道：“今年我们希望PC（Personal Computer）能升级为Partner Creator，它不再是一个冷冰冰的工具，而是一个真正的智慧伙伴、创意搭子。” 围绕用户需求，荣耀做了一系列让普通人也能用上虾的动作。 一方面，YOYO Claw预设5大主虾、23个子虾，覆盖教育、办公、学术研究、内容创作和智能辅助等场景，如办公虾、教育虾、学习虾、健康关怀虾等，将AI能力深度嵌入系统，并针对垂直化的应用场景进行适配。 另一方面，在任务执行中，对比OpenClaw，YOYO Claw在Tok",
+      "author": "",
+      "published": "2026-04-13 23:56:59  +0800",
+      "source": "36kr"
+    },
+    {
+      "title": "图速科技发布三款新品：其具身打磨机器人全栈自研，打磨效率为人工3-4倍丨最前线",
+      "url": "https://36kr.com/p/3765207394009602?f=rss",
+      "summary": "作者丨欧雪 编辑丨袁斯来 在AI+制造 新时代到来的开局之年，工业打磨这一长期依赖人工经验的“隐形工序”，正在迎来技术拐点。 4月10日，图速自动化科技（上海）有限公司正式发布砺眸®LumiSander具身智能平台与图御™|RouteMind 2.0在线路径规划系统，同步亮相的还有图匠® LumiCraft具身打磨机器人。 三款新品同时推出，标志着这家成立十年的自动化企业正加速向具身智能表面处理技术平台转型。 打磨是工业生产中的极为关键的工艺环节，下游应用广泛。硬氪了解到，工业打磨广泛应用于轨道交通、航空航天、风力发电、汽车制造等领域。长期以来，打磨环节工艺高度依赖经验，劳动强度大、作业环境恶劣。 图速科技创始人葛旭刚在发布会现场表示，当前AI在工业中的应用，更多是为工业机器人带来优化升级，远未达到“自主智能”的成熟状态。 葛旭刚认为，“目前具身智能打磨处于‘条件智能打磨阶段’，本质上是集成AI模型进行辅助优化的条件交互阶段，实现参数自优化与人工协作，即AI辅助决策。” 这一判断为图速的技术路径提供了注脚。砺眸®LumiSander平台并非试图完全替代人工经验，而是通过数据、算法与模型",
+      "author": "",
+      "published": "2026-04-13 20:07:37  +0800",
+      "source": "36kr"
+    },
+    {
+      "title": "氪星晚报｜“马斯克版微信”或在本周五上线；Meta押注AI数字人，正打造AI版扎克伯格；AI潮玩品牌“MOMOTOY”完成数千万元融资",
+      "url": "https://36kr.com/p/3765146768376326?f=rss",
+      "summary": "大公司： 金山办公：一季度净利同比预增402%-473% 36氪获悉，金山办公公告，预计2026年第一季度实现归属于上市公司股东的净利润20.22亿元-23.07亿元，同比增长401.89%-472.81%。 沪电股份：一季度净利同比预增54.76%-65.25% 36氪获悉，沪电股份公告，预计2026年第一季度归属于上市公司股东的净利润为11.8亿元-12.6亿元，比上年同期增长54.76%-65.25%。 Meta押注AI数字人，正打造AI版扎克伯格 Meta正在打造人工智能版马克・扎克伯格，可代他与员工互动，这是这家科技巨头全面向AI转型的重要举措之一。据四位知情人士透露，这家市值1.6万亿美元的集团一直在研发照片级逼真、可实时交互的AI 3D数字人。其中三位人士称，公司近期已将AI版扎克伯格列为优先项目。（新浪财经） 小红书跨境电商平台Redshop将于今年6月正式上线 4月13日上午消息，今日，接近小红书的相关人士向媒体透露，其跨境电商平台Redshop将于2026年6月正式上线，标志着小红书从“商家出海”的测试阶段，全面迈入“平台出海”的战略新阶段，进一步完善其全球化商业布",
+      "author": "",
+      "published": "2026-04-13 19:09:12  +0800",
+      "source": "36kr"
+    },
+    {
+      "title": "野人先生崔渐为：“网红”标签对我们不公平丨厚雪专访",
+      "url": "https://36kr.com/p/3765076875117314?f=rss",
+      "summary": "作者&nbsp;|&nbsp;钟艺璇 编辑&nbsp;|&nbsp;乔芊 如果你在一个意大利人面前，把Gelato等同于ice cream，他一定会难过。 16世纪，Gelato诞生于文艺复兴时期的佛罗伦萨，传说中一名炼金术师创造了它。在意大利语中，Gelato本就译为冰淇淋。但它和美式冰淇淋ice cream口感大有不同，Gelato使用口感更密实，也更新鲜、低脂和健康。 目前中国冰淇淋市场中，夫妻老婆店冷柜里卖的预制冰淇淋占据75%以上的市场份额，这个品类中的高端玩家是哈根达斯。现制冰淇淋只占约25%，以DQ、波比冰淇淋（原波比艾斯）乃至蜜雪冰城为代表的软冰（Soft Serve）以规模化优势，又占其半壁江山，Gelato由于手工现制、定位高端以及门店成本高，市场份额只有6%左右。 在欧洲，数百年来，Gelato都以家族传承、百年老店的形式分散存在——意大利4万家Gelato几乎都是小店，甚至只要10家连锁以上，就能称作大品牌。 但在中国，有一家公司却想把堪称“小众”的Gelato连锁化，它就是野人先生。 2025年，野人先生突然涌现在大众面前，从300多家到突破千店，这也是它爆发",
+      "author": "",
+      "published": "2026-04-13 17:58:36  +0800",
+      "source": "36kr"
+    },
+    {
+      "title": "包容 探索 求真 守正｜2026光幕计划终审阵容与年度面孔公布",
+      "url": "https://36kr.com/p/3764886161048323?f=rss",
+      "summary": "&nbsp; 当短剧成为当下备受关注的叙事形态，当AI不断拓展表达的边界，表演这门古老的艺术，也站在了新的岔路口。效率与流量构筑了可见的赛道，而真正的叩问始终沉在深处：在技术的“巧”与媒介的“快”之外，那些源于血肉之躯的、笨拙而恳切的“真”，是否依然拥有抵达人心的力量？ 辨识这份真实，需要深耕岁月、敬畏专业的目光。为此，我们荣幸地邀请到李少红导演担任第十六届北京国际电影节BE SEEN 光幕计划终评审主席，赵小丁、吴刚、俞白眉、魏钦涛担任终审评委。他们以多年的创作生命为标尺，为这份最终的年度面孔入选演员名单注入了厚重的公信力与深远的期待。 “表演有无数个高山要翻跃。”终审现场，评委俞白眉的这句话，道出了在场者的共同感受。在为期两天的评审中，来自戏剧、影视、短剧等不同背景的青年演员相继登场，他们的创作在评委面前展开了一场坦诚而多元的时代对话。李少红导演不断追问演员是否“走心”，吴刚则反复强调，无论在何种媒介与赛道中，“真听、真看、真判断”永远是表演不可撼动的根基。评审的意义，正是以专业的目光，聚拢并辨认那些真正将表演视为志业的跋涉者，既尊重市场的选择，也尊重专业的信念。 2026年，55",
+      "author": "",
+      "published": "2026-04-13 14:59:19  +0800",
+      "source": "36kr"
+    },
+    {
+      "title": "这届留学生，用AI看病省出一辆特斯拉",
+      "url": "https://36kr.com/p/3764892434711049?f=rss",
+      "summary": "01. 用AI硬扛20天，省出一辆特斯拉 回国做完四颗牙的根管治疗后，英国留学生土土盯着一万多的账单算了算，发现自己回国这一趟，竟然省下了一辆二手“特斯拉”。 就在20天前，土土的牙痛又犯了，连吃饭都变成了一种酷刑。他迫切需要找点缓解的办法，但脑海里闪过之前在国外的看牙经历—— 之前一次，同样是牙疼，土土挂了当地的一家私人医院的牙医号。一套检查下来，医生给出的治疗方案是根管治疗，要先磨牙、清洗，价格1900磅，还要做牙冠，1500磅，再加上4、500磅的手术费，治一颗牙至少要花4000磅，折合人民币近40000块。花了天价不说，效果也一言难尽。治完没多久，土土的牙冠就掉了，技术完全不值这个价。 “这钱花得太憋屈了。”土土决定，这次回国治疗。但距离回国还有20天，怎么熬？他拿出手机，打开蚂蚁阿福问，“怎么能在不做根管的情况下，坚持一段时间到回国？” 很快，阿福给出了一套缓解方案：冷敷，盐水漱口，并辅助服用些止痛药。土土就靠着这些办法撑了20天，一放假，他就坐上航班，直奔国内的公立医院，用1万多的价格，一口气做了4颗牙的根管。 他算了笔账。如果在国外，这四颗牙至少要16000磅，“省下的这",
+      "author": "",
+      "published": "2026-04-13 14:50:56  +0800",
+      "source": "36kr"
+    },
+    {
+      "title": "对话雅诗兰黛集团总裁兼CEO司泰峰：让一家公司变得更敏捷，这是他的第一年｜New Look专访",
+      "url": "https://36kr.com/p/3756542711120640?f=rss",
+      "summary": "文｜贺哲馨 编辑｜乔芊 从外表看，司泰峰（Stéphane de La Faverie）并不是那类锋芒毕露的“改革派”。 他多数时候带着温和的笑意，步伐与语速都偏慢——或许带着一点法国人特有的松弛感。你也很难想象，在成为父亲之前，司泰峰是“狂热的风帆冲浪和跳伞爱好者”。 当下消费环境的惊险程度可能不亚于任何冒险运动。但在日前与36氪的专访中，司泰峰展现出一种从容：“我们是一家80年历史的公司，30多年前就进入中国市场，波动对我们来说不是什么新鲜事，我们的应对思路始终是一个——尽可能贴近消费者。” “而且你知道吗，”他接着说，“雅诗兰黛是第一个用中国人作为广告模特的外国美妆品牌。”这句话透露的言外之意是——在市场直觉和动作上，这家公司一向走在前面。 司泰峰所有履历都与美妆有关，在2011年加入雅诗兰黛集团之后，从品牌总经理一路做到全球执行总裁。2025年1月，他接替傅懿德 (Fabrizio Freda），正式成为雅诗兰黛集团总裁兼首席执行官。 雅诗兰黛集团总裁兼首席执行官司泰峰 这份新职位几乎没有过渡期。上任仅一个月，司泰峰就提出了一项重大改革：雅诗兰黛集团将区域数量整合为四个，以及将",
+      "author": "",
+      "published": "2026-04-13 13:19:17  +0800",
+      "source": "36kr"
+    },
+    {
+      "title": "早期项目 | 前��疆工程师创业陪伴机器人，李泽湘连投三轮，产品即将登陆众筹",
+      "url": "https://36kr.com/p/3764777930621705?f=rss",
+      "summary": "作者&nbsp;|&nbsp;乔钰杰 编辑&nbsp;|&nbsp;袁斯来 陪伴机器人走向同质化的当下，什么样的产品能吸引人？ 今年年初的CES 2026上，一款身着橙色连体衣的小型机器人COCOMO，意外成为外媒镜头频频捕捉的对象。 略带“异质感”的外星宠物气质，37度接近人体的温度，创新的分体式设计既可被抱起，又能主动跟随，吸引了不少现场观众在展台前试玩体验。 同一展台上，团队还带来了另一款更轻量的桌面陪伴机器人INU。INU被定义为一款“桌面外星小狗”，通过尾巴摇摆和身体扭动作出反馈，是一个为工作环境打造的更小、更固定的桌面伴侣。 这两款产品，均来自陪伴机器人公司Ludens AI。 Ludens AI的创始人薛立君，曾任特斯拉和大疆工程师，后加入FITURE创始团队并负责AI体系搭建。“但机器人一直是我的兴趣所在”薛立君在与硬氪的采访中说道。 硬氪获悉，目前，Ludens AI已完成两轮融资，天使轮由线性资本领投、清水湾基金跟投，天使+轮则由日本PKSHA Algorithm Fund和清水湾基金共同参投，两轮融资金额达数千万元。 在CES现场，不少观众通过COCOMO与INU",
+      "author": "",
+      "published": "2026-04-13 12:53:44  +0800",
+      "source": "36kr"
+    },
+    {
+      "title": "创业老炮vs00后，谁是下一代“一人公司”的标准样板",
+      "url": "https://36kr.com/p/3764728843289089?f=rss",
+      "summary": "文｜富充 编辑｜苏建勋 2026年春天，“龙虾”火热异常，也直接带火了另一个概念：OPC（One Person Company，一人公司）。 一人公司的概念最早源于2013年英国公司法，原指法律意义上的“一人有限责任公司”。在AI浪潮下，它被重新定义，演变为一种个人或极小型团队，借助AI工具，即可实现全链路闭环的新型创业模式。 越来越多的商业领袖为OPC概念站台。周鸿祎说，一人公司是 AI 时代“超级个体”的极端形态。本质是1个人指挥N个AI智能体，人做决策、AI 做执行。美图创始人吴欣鸿则在内部设立专项基金，鼓励10人以下的小团队申请，同时美图也推出新产品Meitu CLI，明确喊出要让“一人公司和初创团队”也能像专业团队一样调用影像能力。 从创业圈到成熟企业，AI工具正在重塑产品开发的最小单元，其带来的效率杠杆，在OPC群体中尤为凸显。 一人创业加速社区鸿鹄汇Honghub近日发布《2026一人公司洞察报告·重力、杠杆与进化》，首次提出面向一人公司OPC的AI效能评估指标HACR（Human-AI Cost Ratio，人机成本比），并发布中国市场2026年基准值：一人公司每投入1",
+      "author": "",
+      "published": "2026-04-13 12:06:46  +0800",
+      "source": "36kr"
+    },
+    {
+      "title": "估值 2.5 亿，成立 4 个月，潮玩中的爱马仕 「MOMOTOY」获数千万元融资",
+      "url": "https://36kr.com/p/3756978314511110?f=rss",
+      "summary": "资本市场对潮玩的关注一直未曾退却。 近日，36氪获悉，AI潮玩品牌「MOMOTOY」已完成数千万元融资，由翼朴基金投资，投后估值2.5亿。 成立仅4个月，MOMOTOY以999足金盲盒+AI情感交互为核心特色，走出高奢化与科技化并行的差异化路径。品牌负责人透露，本轮融资资金，会重点投向AI技术迭代、高端产品矩阵落地、全球渠道拓展及核心商圈旗舰店铺设四大核心领域。 行业数据显示，2025年中国潮玩市场规模已达879.7亿元，同比增长21%，首次超越传统玩具市场规模，预计2026年将突破1100亿元，年均增速保持在20%以上。 在这样一个千亿级赛道持续扩容、资本热度不减的背景下，「MOMOTOY 」基于技术突破、IP、渠道、供应链、团队五大核心壁垒，3个月营收增长超200%。品牌全渠道签约金额已达6450万元，进驻400+潮玩门店，产品覆盖全球10000+线下门店，并与苹果等科技头部品牌达成深度战略合作。 据悉，MOMOTOY已搭建成熟的供应链体系，多条PVC生产线及弹性产能可应对大规模订单需求；设计团队则以95后、00后为主力，成员多来自清华美院、中央圣马丁等顶尖院校。 MOMOTOY旗",
+      "author": "",
+      "published": "2026-04-13 10:42:29  +0800",
+      "source": "36kr"
+    },
+    {
+      "title": "不会写代码也能用 AI 干活了：OpenAI 正在做一个“替你用电脑”的 Super App，新模型Spud 几周内登场",
+      "url": "https://www.infoq.cn/article/lAmhJxwuoPLvsKAF8WCV?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "author": "褚杏娟,傅宇琪",
+      "published": "Mon, 13 Apr 2026 18:48:30 GMT",
+      "source": "infoq"
+    },
+    {
+      "title": "“同事.skill”不用写了，爱马仕 Hermes 主动“蒸馏”你，还让开发者集体抛弃 “龙虾”？！",
+      "url": "https://www.infoq.cn/article/Xv0OsbvHjLT34YzWKc3J?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "author": "褚杏娟",
+      "published": "Mon, 13 Apr 2026 18:43:56 GMT",
+      "source": "infoq"
+    },
+    {
+      "title": "Claude 吞噬一切？“Vibe Coding 公司的最大错觉是以为自己有护城河”",
+      "url": "https://www.infoq.cn/article/F88ML5vdJkc4dkreyamI?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "author": "李冬梅",
+      "published": "Mon, 13 Apr 2026 18:03:01 GMT",
+      "source": "infoq"
+    },
+    {
+      "title": "写入快 2 倍，查询快 6 倍，存储成本反降 50%：丰巢日志平台从 ELK 升级为 Apache Doris",
+      "url": "https://www.infoq.cn/article/mmH9gF4Lqj5xRHuvcxjf?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "author": "SelectDB",
+      "published": "Mon, 13 Apr 2026 17:42:58 GMT",
+      "source": "infoq"
+    },
+    {
+      "title": "不用则废：开发者直面 AI 编码工具的隐性代价",
+      "url": "https://www.infoq.cn/article/bLageDSMAujcPRLriJi5?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "author": "David Cassel",
+      "published": "Mon, 13 Apr 2026 16:59:11 GMT",
+      "source": "infoq"
+    },
+    {
+      "title": "从拒绝 AI 到一切先问 Agent，DHH：这是我最爽的编程时刻之一，但程序员黄金时代到头了",
+      "url": "https://www.infoq.cn/article/dOey7eV1T9p3dtPWTPCV?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "author": "蔡芳芳",
+      "published": "Mon, 13 Apr 2026 16:19:48 GMT",
+      "source": "infoq"
+    },
+    {
+      "title": "OpenAI 不想写 spec 了：Codex 只留 10 条要点，把执行交给 skills",
+      "url": "https://www.infoq.cn/article/C2fWkH2EgBlDPNUNlcZX?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "author": "Tina",
+      "published": "Mon, 13 Apr 2026 15:43:50 GMT",
+      "source": "infoq"
+    },
+    {
+      "title": "Cloudflare发布Dynamic Workers公开测试版：基于Isolates的沙箱环境执行AI智能体代码",
+      "url": "https://www.infoq.cn/article/71XfFmTWWDmIhtqjoZED?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "author": "Steef-Jan Wiggers",
+      "published": "Mon, 13 Apr 2026 15:00:00 GMT",
+      "source": "infoq"
+    },
+    {
+      "title": "谷歌推出AppFunctions连接AI智能体和Android应用",
+      "url": "https://www.infoq.cn/article/y8lHXFCpi7jOcK5mspSd?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "author": "Sergio De Simone",
+      "published": "Mon, 13 Apr 2026 14:00:00 GMT",
+      "source": "infoq"
+    },
+    {
+      "title": "FOSDEM 2026：WebTransport简介，下一个 WebSocket？！",
+      "url": "https://www.infoq.cn/article/3srVq9H48FGmxEftrv5l?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "author": "Bruno Couriol",
+      "published": "Mon, 13 Apr 2026 11:00:00 GMT",
+      "source": "infoq"
+    }
+  ]
+}

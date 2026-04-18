@@ -1,0 +1,1250 @@
+{
+  "Hacker News": [
+    {
+      "title": "Taking on CUDA with ROCm: 'One Step After Another'",
+      "url": "https://www.eetimes.com/taking-on-cuda-with-rocm-one-step-after-another/",
+      "score": 35,
+      "comments": 36,
+      "author": "mindcrime",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47745284",
+      "time": "2026-04-12T22:38:45+00:00"
+    },
+    {
+      "title": "Bring Back Idiomatic Design",
+      "url": "https://essays.johnloeber.com/p/4-bring-back-idiomatic-design",
+      "score": 447,
+      "comments": 224,
+      "author": "phil294",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47738827",
+      "time": "2026-04-12T12:21:26+00:00"
+    },
+    {
+      "title": "DIY Soft Drinks",
+      "url": "https://blinry.org/diy-soft-drinks/",
+      "score": 235,
+      "comments": 58,
+      "author": "_Microft",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47741701",
+      "time": "2026-04-12T16:38:43+00:00"
+    },
+    {
+      "title": "Ask HN: What Are You Working On? (April 2026)",
+      "url": "https://news.ycombinator.com/item?id=47741527",
+      "score": 120,
+      "comments": 317,
+      "author": "david927",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47741527",
+      "time": "2026-04-12T16:24:43+00:00"
+    },
+    {
+      "title": "Most people can't juggle one ball",
+      "url": "https://www.lesswrong.com/posts/jTGbKKGqs5EdyYoRc/most-people-can-t-juggle-one-ball",
+      "score": 225,
+      "comments": 78,
+      "author": "surprisetalk",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47702887",
+      "time": "2026-04-09T12:35:20+00:00"
+    },
+    {
+      "title": "A Perfectable Programming Language",
+      "url": "https://alok.github.io/lean-pages/perfectable-lean/",
+      "score": 43,
+      "comments": 7,
+      "author": "yuppiemephisto",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47744540",
+      "time": "2026-04-12T21:11:24+00:00"
+    },
+    {
+      "title": "I gave every train in New York an instrument",
+      "url": "https://www.trainjazz.com/",
+      "score": 198,
+      "comments": 38,
+      "author": "joshuawolk",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47719490",
+      "time": "2026-04-10T15:21:07+00:00"
+    },
+    {
+      "title": "Google removes \"Doki Doki Literature Club\" from Google Play",
+      "url": "https://bsky.app/profile/serenityforge.com/post/3mj3r4nbiws2t",
+      "score": 278,
+      "comments": 128,
+      "author": "super256",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47743730",
+      "time": "2026-04-12T19:53:08+00:00"
+    },
+    {
+      "title": "Show HN: Oberon System 3 runs natively on Raspberry Pi 3 (with ready SD card)",
+      "url": "https://github.com/rochus-keller/OberonSystem3Native/releases",
+      "score": 162,
+      "comments": 36,
+      "author": "Rochus",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47739174",
+      "time": "2026-04-12T13:06:44+00:00"
+    },
+    {
+      "title": "The peril of laziness lost",
+      "url": "https://bcantrill.dtrace.org/2026/04/12/the-peril-of-laziness-lost/",
+      "score": 299,
+      "comments": 101,
+      "author": "gpm",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47743628",
+      "time": "2026-04-12T19:44:40+00:00"
+    },
+    {
+      "title": "Show HN: boringBar – a taskbar-style dock replacement for macOS",
+      "url": "https://boringbar.app/",
+      "score": 216,
+      "comments": 134,
+      "author": "a-ve",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47742200",
+      "time": "2026-04-12T17:25:44+00:00"
+    },
+    {
+      "title": "Uncharted island soon to appear on nautical charts",
+      "url": "https://www.awi.de/en/about-us/service/press/single-view/unkartierte-insel-demnaechst-auf-seekarten-verzeichnet.html",
+      "score": 38,
+      "comments": 14,
+      "author": "tannhaeuser",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47744132",
+      "time": "2026-04-12T20:30:11+00:00"
+    },
+    {
+      "title": "Tell HN: docker pull fails in spain due to football cloudflare block",
+      "url": "https://news.ycombinator.com/item?id=47738883",
+      "score": 656,
+      "comments": 252,
+      "author": "littlecranky67",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47738883",
+      "time": "2026-04-12T12:28:57+00:00"
+    },
+    {
+      "title": "Tech valuations are back to pre-AI boom levels",
+      "url": "https://www.apollo.com/wealth/the-daily-spark/tech-valuations-back-to-pre-ai-boom-levels",
+      "score": 98,
+      "comments": 15,
+      "author": "akyuu",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47745120",
+      "time": "2026-04-12T22:13:22+00:00"
+    },
+    {
+      "title": "Anthropic downgraded cache TTL on March 6th",
+      "url": "https://github.com/anthropics/claude-code/issues/46829",
+      "score": 469,
+      "comments": 362,
+      "author": "lsdmtme",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47736476",
+      "time": "2026-04-12T05:45:52+00:00"
+    },
+    {
+      "title": "Seven countries now generate 100% of their electricity from renewable energy",
+      "url": "https://www.the-independent.com/tech/renewable-energy-solar-nepal-bhutan-iceland-b2533699.html",
+      "score": 482,
+      "comments": 238,
+      "author": "mpweiher",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47739313",
+      "time": "2026-04-12T13:21:39+00:00"
+    },
+    {
+      "title": "Investigating How Long-Distance Couples Use Digital Games to Facilitate Intimacy",
+      "url": "https://arxiv.org/abs/2505.09509",
+      "score": 57,
+      "comments": 14,
+      "author": "radeeyate",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47741460",
+      "time": "2026-04-12T16:17:59+00:00"
+    },
+    {
+      "title": "JVM Options Explorer",
+      "url": "https://chriswhocodes.com/vm-options-explorer.html",
+      "score": 171,
+      "comments": 72,
+      "author": "0x54MUR41",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47738094",
+      "time": "2026-04-12T10:29:26+00:00"
+    },
+    {
+      "title": "Show HN: Claudraband – Claude Code for the Power User",
+      "url": "https://github.com/halfwhey/claudraband",
+      "score": 88,
+      "comments": 28,
+      "author": "halfwhey",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47741889",
+      "time": "2026-04-12T16:55:20+00:00"
+    },
+    {
+      "title": "Happy Map",
+      "url": "https://pudding.cool/2026/02/happy-map/",
+      "score": 212,
+      "comments": 32,
+      "author": "surprisetalk",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=47675444",
+      "time": "2026-04-07T13:55:11+00:00"
+    }
+  ],
+  "GitHub Trending": [
+    {
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "total_stars": "",
+      "stars_today": "7,454 stars today",
+      "source": "GitHub Trending",
+      "period": "daily"
+    },
+    {
+      "repo": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "total_stars": "",
+      "stars_today": "1,985 stars today",
+      "source": "GitHub Trending",
+      "period": "daily"
+    },
+    {
+      "repo": "forrestchang/andrej-karpathy-skills",
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "",
+      "total_stars": "",
+      "stars_today": "2,369 stars today",
+      "source": "GitHub Trending",
+      "period": "daily"
+    },
+    {
+      "repo": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "total_stars": "",
+      "stars_today": "2,513 stars today",
+      "source": "GitHub Trending",
+      "period": "daily"
+    },
+    {
+      "repo": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "language": "TypeScript",
+      "total_stars": "",
+      "stars_today": "1,609 stars today",
+      "source": "GitHub Trending",
+      "period": "daily"
+    },
+    {
+      "repo": "coleam00/Archon",
+      "url": "https://github.com/coleam00/Archon",
+      "description": "The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.",
+      "language": "TypeScript",
+      "total_stars": "",
+      "stars_today": "612 stars today",
+      "source": "GitHub Trending",
+      "period": "daily"
+    },
+    {
+      "repo": "shanraisshan/claude-code-best-practice",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "description": "practice made claude perfect",
+      "language": "HTML",
+      "total_stars": "",
+      "stars_today": "1,548 stars today",
+      "source": "GitHub Trending",
+      "period": "daily"
+    },
+    {
+      "repo": "OpenBMB/VoxCPM",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "language": "Python",
+      "total_stars": "",
+      "stars_today": "1,278 stars today",
+      "source": "GitHub Trending",
+      "period": "daily"
+    },
+    {
+      "repo": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+      "language": "TypeScript",
+      "total_stars": "",
+      "stars_today": "753 stars today",
+      "source": "GitHub Trending",
+      "period": "daily"
+    },
+    {
+      "repo": "ahujasid/blender-mcp",
+      "url": "https://github.com/ahujasid/blender-mcp",
+      "description": "",
+      "language": "Python",
+      "total_stars": "",
+      "stars_today": "215 stars today",
+      "source": "GitHub Trending",
+      "period": "daily"
+    },
+    {
+      "repo": "rustfs/rustfs",
+      "url": "https://github.com/rustfs/rustfs",
+      "description": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+      "language": "Rust",
+      "total_stars": "",
+      "stars_today": "182 stars today",
+      "source": "GitHub Trending",
+      "period": "daily"
+    },
+    {
+      "repo": "virattt/ai-hedge-fund",
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "description": "An AI Hedge Fund Team",
+      "language": "Python",
+      "total_stars": "",
+      "stars_today": "663 stars today",
+      "source": "GitHub Trending",
+      "period": "daily"
+    },
+    {
+      "repo": "snarktank/ralph",
+      "url": "https://github.com/snarktank/ralph",
+      "description": "Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete.",
+      "language": "TypeScript",
+      "total_stars": "",
+      "stars_today": "463 stars today",
+      "source": "GitHub Trending",
+      "period": "daily"
+    },
+    {
+      "repo": "TapXWorld/ChinaTextbook",
+      "url": "https://github.com/TapXWorld/ChinaTextbook",
+      "description": "所有小初高、大学PDF教材。",
+      "language": "Roff",
+      "total_stars": "",
+      "stars_today": "454 stars today",
+      "source": "GitHub Trending",
+      "period": "daily"
+    }
+  ],
+  "Reddit": [],
+  "Product Hunt": [],
+  "Twitter/X": [
+    {
+      "title": "#AEWDynasty",
+      "url": "https://twitter.com/search?q=%23AEWDynasty",
+      "source": "Twitter/X 趋势"
+    },
+    {
+      "title": "Corinthians",
+      "url": "https://twitter.com/search?q=Corinthians",
+      "source": "Twitter/X 趋势"
+    },
+    {
+      "title": "Hungary",
+      "url": "https://twitter.com/search?q=Hungary",
+      "source": "Twitter/X 趋势"
+    },
+    {
+      "title": "Orban",
+      "url": "https://twitter.com/search?q=Orban",
+      "source": "Twitter/X 趋势"
+    },
+    {
+      "title": "Rory",
+      "url": "https://twitter.com/search?q=Rory",
+      "source": "Twitter/X 趋势"
+    },
+    {
+      "title": "#ري_عط",
+      "url": "https://twitter.com/search?q=%23ري_عط",
+      "source": "Twitter/X 趋势"
+    },
+    {
+      "title": "#OUR_BOND_IS_7",
+      "url": "https://twitter.com/search?q=%23OUR_BOND_IS_7",
+      "source": "Twitter/X 趋势"
+    },
+    {
+      "title": "#HEAL_THE_GAP_BELIFT",
+      "url": "https://twitter.com/search?q=%23HEAL_THE_GAP_BELIFT",
+      "source": "Twitter/X 趋势"
+    },
+    {
+      "title": "#ピザーラクォーター",
+      "url": "https://twitter.com/search?q=%23ピザーラクォーター",
+      "source": "Twitter/X 趋势"
+    },
+    {
+      "title": "Yuri Alberto",
+      "url": "https://twitter.com/search?q=Yuri Alberto",
+      "source": "Twitter/X 趋势"
+    },
+    {
+      "title": "Hungría",
+      "url": "https://twitter.com/search?q=Hungría",
+      "source": "Twitter/X 趋势"
+    },
+    {
+      "title": "André",
+      "url": "https://twitter.com/search?q=André",
+      "source": "Twitter/X 趋势"
+    },
+    {
+      "title": "Colidio",
+      "url": "https://twitter.com/search?q=Colidio",
+      "source": "Twitter/X 趋势"
+    },
+    {
+      "title": "Felipe Anderson",
+      "url": "https://twitter.com/search?q=Felipe Anderson",
+      "source": "Twitter/X 趋势"
+    },
+    {
+      "title": "Keiko",
+      "url": "https://twitter.com/search?q=Keiko",
+      "source": "Twitter/X 趋势"
+    }
+  ],
+  "Lobsters": [],
+  "Dev.to": [
+    {
+      "title": "Building a Football Analytics Pipeline: Patterns, Tradeoffs, and What Production Would Look Like",
+      "url": "https://dev.to/ayoabass777/building-a-football-analytics-pipeline-patterns-tradeoffs-and-what-production-would-look-like-n66",
+      "description": "Football is the most watched sport on the planet. Millions of fans follow their teams across leagues,...",
+      "author": "ayoabass777",
+      "reactions": 3,
+      "comments": 1,
+      "tags": [
+        "dataengineering",
+        "python",
+        "aws",
+        "dbt"
+      ],
+      "reading_time": 9,
+      "source": "Dev.to",
+      "published": "2026-04-12T02:50:39Z"
+    },
+    {
+      "title": "How to Programmatically Install Firefox Extensions (And Why It Breaks)",
+      "url": "https://dev.to/alanwest/how-to-programmatically-install-firefox-extensions-and-why-it-breaks-2b01",
+      "description": "A deep dive into programmatically installing Firefox extensions, why naive approaches fail, and the right way to automate browser extension management for dev environments.",
+      "author": "Alan West",
+      "reactions": 8,
+      "comments": 1,
+      "tags": [
+        "firefox",
+        "webdev",
+        "automation",
+        "testing"
+      ],
+      "reading_time": 5,
+      "source": "Dev.to",
+      "published": "2026-04-12T02:49:42Z"
+    },
+    {
+      "title": "How We Ran Two Portals on the Same Domain During a React Migration (Without Users Noticing)",
+      "url": "https://dev.to/gustav_lotz_5628d28bc9eac/how-we-ran-two-portals-on-the-same-domain-during-a-react-migration-without-users-noticing-28g0",
+      "description": "Imagine going live with your rewritten app and within an hour support tickets start flooding in. You...",
+      "author": "gustav lotz",
+      "reactions": 1,
+      "comments": 1,
+      "tags": [
+        "webdev",
+        "typescript",
+        "angular",
+        "react"
+      ],
+      "reading_time": 3,
+      "source": "Dev.to",
+      "published": "2026-04-12T07:37:46Z"
+    },
+    {
+      "title": "Health Checks in ASP.NET Core: Beyond the Basic /health Endpoint",
+      "url": "https://dev.to/adrianbailador/health-checks-in-aspnet-core-beyond-the-basic-health-endpoint-2bpn",
+      "description": "A service returning 200 OK on /health doesn't mean it's healthy. It means the process is alive and...",
+      "author": "Adrián Bailador",
+      "reactions": 0,
+      "comments": 0,
+      "tags": [
+        "dotnet",
+        "csharp",
+        "kubernetes",
+        "devops"
+      ],
+      "reading_time": 9,
+      "source": "Dev.to",
+      "published": "2026-04-12T11:09:54Z"
+    },
+    {
+      "title": "Why 1100 / 1.1 = 999.9999… Is a Tax Calculator Bug, and Two Ways to Fix It",
+      "url": "https://dev.to/sendotltd/why-1100-11-9999999-is-a-tax-calculator-bug-and-two-ways-to-fix-it-3d38",
+      "description": "Why 1100 / 1.1 = 999.9999… Is a Tax Calculator Bug, and Two Ways to Fix It    Japan has a...",
+      "author": "SEN LLC",
+      "reactions": 0,
+      "comments": 1,
+      "tags": [
+        "javascript",
+        "webdev",
+        "math",
+        "tutorial"
+      ],
+      "reading_time": 4,
+      "source": "Dev.to",
+      "published": "2026-04-12T07:49:02Z"
+    },
+    {
+      "title": "DualClip - Update_2026.04.12.",
+      "url": "https://dev.to/rakkunn/dualclip-update20260412-4pb7",
+      "description": "Last week, I shared the first round of updates for DualClip, my open-source macOS clipboard manager....",
+      "author": "Im Woojin",
+      "reactions": 6,
+      "comments": 0,
+      "tags": [
+        "opensource",
+        "swift"
+      ],
+      "reading_time": 3,
+      "source": "Dev.to",
+      "published": "2026-04-12T07:48:23Z"
+    },
+    {
+      "title": "I built a Telegram bot that reads 70 arXiv papers a day so I don't have to",
+      "url": "https://dev.to/landigf/i-built-a-telegram-bot-that-reads-70-arxiv-papers-a-day-so-i-dont-have-to-19b5",
+      "description": "I built a Telegram bot that reads 70 arXiv papers a day so I don't have to            The...",
+      "author": "landigf",
+      "reactions": 0,
+      "comments": 1,
+      "tags": [
+        "telegram",
+        "gemini",
+        "ai",
+        "indiehackers"
+      ],
+      "reading_time": 6,
+      "source": "Dev.to",
+      "published": "2026-04-11T22:18:52Z"
+    },
+    {
+      "title": "Sentinel Diary #2: the day the dashboard lied (and other honest bugs)",
+      "url": "https://dev.to/boccato85/diario-sentinel-o-dia-que-o-dashboard-mentiu-e-outros-bugs-honestos-38n8",
+      "description": "Series: vibe coding with Claude Code + Kubernetes   Today was one of those days where you sit down...",
+      "author": "Marcel Boccato",
+      "reactions": 0,
+      "comments": 0,
+      "tags": [
+        "claudecode",
+        "kubernetes",
+        "devops",
+        "finops"
+      ],
+      "reading_time": 13,
+      "source": "Dev.to",
+      "published": "2026-04-12T03:07:42Z"
+    },
+    {
+      "title": "I built a pixel-perfect, printer-independent report designer with Avalonia UI",
+      "url": "https://dev.to/maskedridersystem/i-built-a-pixel-perfect-printer-independent-report-designer-with-avalonia-ui-4dke",
+      "description": "I’ve released ACR Designer, a WYSIWYG report designer for the ACR (Across Report Renderer)...",
+      "author": "Hisa Araki",
+      "reactions": 0,
+      "comments": 1,
+      "tags": [
+        "csharp",
+        "dotnet",
+        "rust",
+        "webdev"
+      ],
+      "reading_time": 1,
+      "source": "Dev.to",
+      "published": "2026-04-12T06:09:25Z"
+    },
+    {
+      "title": "GitHub Actions Supabase で技術記事投稿を自動化した話 — 1日に21本をQiita/dev.toへ",
+      "url": "https://dev.to/kanta13jp1/github-actions-x-supabase-deji-shu-ji-shi-tou-gao-wozi-dong-hua-sitahua-1ri-ni21ben-woqiitadevtohe-4fb3",
+      "description": "GitHub Actions × Supabase で技術記事投稿を自動化した話 — 1日に21本をQiita/dev.toへ           ...",
+      "author": "kanta13jp1",
+      "reactions": 0,
+      "comments": 0,
+      "tags": [
+        "github",
+        "supabase",
+        "githubactions",
+        "buildinpublic"
+      ],
+      "reading_time": 2,
+      "source": "Dev.to",
+      "published": "2026-04-12T07:48:11Z"
+    }
+  ],
+  "V2EX": [
+    {
+      "title": "[合肥] 初级小程序全栈工程师",
+      "url": "https://www.v2ex.com/t/1205233",
+      "author": "yujiehan2002",
+      "node": "酷工作",
+      "replies": 54,
+      "source": "V2EX",
+      "created": 1775961331
+    },
+    {
+      "title": "咸鱼 codex 模型注水，用千问 0.6b 代替 codex5.4",
+      "url": "https://www.v2ex.com/t/1205234",
+      "author": "bingoso",
+      "node": "分享发现",
+      "replies": 52,
+      "source": "V2EX",
+      "created": 1775962286
+    },
+    {
+      "title": "Vex——更现代的 V2EX ios 客户端",
+      "url": "https://www.v2ex.com/t/1205310",
+      "author": "Fike",
+      "node": "iOS",
+      "replies": 47,
+      "source": "V2EX",
+      "created": 1775989983
+    },
+    {
+      "title": "[ Codex 中转站 | 纯 plus 号池] 开了一个多月的站子， token 烧了 2599 亿，我决定给大伙发福利了",
+      "url": "https://www.v2ex.com/t/1205340",
+      "author": "LMark",
+      "node": "推广",
+      "replies": 47,
+      "source": "V2EX",
+      "created": 1776001678
+    },
+    {
+      "title": "爱上合租妹子 2 - 看电影",
+      "url": "https://www.v2ex.com/t/1205228",
+      "author": "aaa0009",
+      "node": "生活",
+      "replies": 47,
+      "source": "V2EX",
+      "created": 1775960217
+    },
+    {
+      "title": "从 IOS 想转到安卓阵营，是用国内系统 ROOT 好还是刷国际版好，问问大伙意见",
+      "url": "https://www.v2ex.com/t/1205293",
+      "author": "conpress",
+      "node": "Android",
+      "replies": 40,
+      "source": "V2EX",
+      "created": 1775984702
+    },
+    {
+      "title": "2026 年， V 友们认为最省内存的浏览器是哪个呢？你目前在用的是什么浏览器？",
+      "url": "https://www.v2ex.com/t/1205227",
+      "author": "Astralume",
+      "node": "浏览器",
+      "replies": 40,
+      "source": "V2EX",
+      "created": 1775960134
+    },
+    {
+      "title": "Gemini 访问不了，换了台湾家宽也不行，用什么梯子能访问啊？",
+      "url": "https://www.v2ex.com/t/1205253",
+      "author": "walterggg",
+      "node": "Google Gemini",
+      "replies": 39,
+      "source": "V2EX",
+      "created": 1775970422
+    },
+    {
+      "title": "注册尼日利亚区域的方法，包括如何更改区域",
+      "url": "https://www.v2ex.com/t/1205255",
+      "author": "yuhui0531",
+      "node": "Claude",
+      "replies": 38,
+      "source": "V2EX",
+      "created": 1775970747
+    },
+    {
+      "title": "燃气公司有权因为热水器超过 8 年而给家里停气吗？",
+      "url": "https://www.v2ex.com/t/1205311",
+      "author": "football",
+      "node": "生活",
+      "replies": 30,
+      "source": "V2EX",
+      "created": 1775989994
+    }
+  ],
+  "RSS聚合": [
+    {
+      "title": "Trump officials may be encouraging banks to test Anthropic’s Mythos model",
+      "url": "https://techcrunch.com/2026/04/12/trump-officials-may-be-encouraging-banks-to-test-anthropics-mythos-model/",
+      "summary": "The report is particularly surprising since the Department of Defense recently declared Anthropic a supply-chain risk.",
+      "author": "Anthony Ha",
+      "published": "Sun, 12 Apr 2026 21:14:38 +0000",
+      "source": "techcrunch"
+    },
+    {
+      "title": "Apple reportedly testing four designs for upcoming smart glasses",
+      "url": "https://techcrunch.com/2026/04/12/apple-reportedly-testing-four-designs-for-upcoming-smart-glasses/",
+      "summary": "These glasses are a step back from an ambitious plan that once called for Apple to launch a variety of mixed and augmented reality devices.",
+      "author": "Anthony Ha",
+      "published": "Sun, 12 Apr 2026 19:58:42 +0000",
+      "source": "techcrunch"
+    },
+    {
+      "title": "X says it’s reducing payments to clickbait accounts",
+      "url": "https://techcrunch.com/2026/04/12/x-says-its-reducing-payments-to-clickbait-accounts/",
+      "summary": "X is cutting back on payments to accounts that are “flooding the timeline” with clickbait and rapid-fire news aggregation, according to its head of product Nikita Bier",
+      "author": "Anthony Ha",
+      "published": "Sun, 12 Apr 2026 17:02:20 +0000",
+      "source": "techcrunch"
+    },
+    {
+      "title": "TechCrunch Mobility: Who is poaching all the self-driving vehicle talent?",
+      "url": "https://techcrunch.com/2026/04/12/techcrunch-mobility-who-is-poaching-all-the-self-driving-vehicle-talent/",
+      "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part.",
+      "author": "Kirsten Korosec",
+      "published": "Sun, 12 Apr 2026 16:06:00 +0000",
+      "source": "techcrunch"
+    },
+    {
+      "title": "From LLMs to hallucinations, here’s a simple guide to common AI terms",
+      "url": "https://techcrunch.com/2026/04/12/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+      "author": "Natasha Lomas, Romain Dillet, Kyle Wiggers, Lucas Ropek",
+      "published": "Sun, 12 Apr 2026 15:07:08 +0000",
+      "source": "techcrunch"
+    },
+    {
+      "title": "At the HumanX conference, everyone was talking about Claude",
+      "url": "https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/",
+      "summary": "Anthropic was the star of the show at San Francisco's AI-centric conference.",
+      "author": "Lucas Ropek",
+      "published": "Sun, 12 Apr 2026 15:00:00 +0000",
+      "source": "techcrunch"
+    },
+    {
+      "title": "Slate Auto: Everything you need to know about the Bezos-backed EV startup",
+      "url": "https://techcrunch.com/2026/04/12/slate-auto-everything-you-need-to-know-about-the-bezos-backed-ev-startup/",
+      "summary": "Slate auto burst onto the scene in April 2025. Here is a timeline that covers its origins, backers, product, and other new details.",
+      "author": "Sean O'Kane",
+      "published": "Sun, 12 Apr 2026 14:00:00 +0000",
+      "source": "techcrunch"
+    },
+    {
+      "title": "Walmart-owned Flipkart, Amazon are squeezing India’s quick commerce startups",
+      "url": "https://techcrunch.com/2026/04/11/walmart-owned-flipkart-amazon-are-squeezing-indias-quick-commerce-startups/",
+      "summary": "Flipkart's ongoing expansion beyond major cities and heavy discounting is raising risks for India's quick commerce startups, analysts say.",
+      "author": "Jagmeet Singh",
+      "published": "Sun, 12 Apr 2026 03:00:00 +0000",
+      "source": "techcrunch"
+    },
+    {
+      "title": "Kalshi wins temporary pause in Arizona criminal case",
+      "url": "https://techcrunch.com/2026/04/11/kalshi-wins-temporary-pause-in-arizona-criminal-case/",
+      "summary": "The Commodity Futures Trading Commission announced Friday that it has won a temporary restraining order preventing Arizona from pursuing its criminal case against Kalshi.",
+      "author": "Anthony Ha",
+      "published": "Sat, 11 Apr 2026 21:20:24 +0000",
+      "source": "techcrunch"
+    },
+    {
+      "title": "AMC will stream ‘The Audacity’ premiere in 21 parts on TikTok",
+      "url": "https://techcrunch.com/2026/04/11/amc-will-stream-the-audacity-premiere-in-21-parts-on-tiktok/",
+      "summary": "Is this a smart way to build buzz, or just an odd attempt to recreate Quibi?",
+      "author": "Anthony Ha",
+      "published": "Sat, 11 Apr 2026 20:32:23 +0000",
+      "source": "techcrunch"
+    },
+    {
+      "title": "Room for the Moon is thrillingly weird experimental pop",
+      "url": "https://www.theverge.com/entertainment/910826/room-for-the-moon-is-thrillingly-weird-experimental-pop",
+      "summary": "For obvious reasons, I've had Moon on the mind all week. So I was trying to figure out what I should recommend this week that would thematically fit. Brian Eno's Apollo: Atmospheres and Soundtracks is incredible, and if you haven't listened to it, go do that now. But it also seemed a bit on the [&#8230;]",
+      "author": "Terrence O’Brien",
+      "published": "2026-04-12T16:00:00-04:00",
+      "source": "theverge"
+    },
+    {
+      "title": "Rockstar Games says hack will have ‘no impact’",
+      "url": "https://www.theverge.com/games/910815/rockstar-games-says-hack-will-have-no-impact",
+      "summary": "Rockstar confirmed on Saturday that some of its data was compromised in a breach of a third-party provider. The group ShinyHunters claimed responsibility, saying it had gained access to the company's Snowflake instances (a cloud-hosting provider popular with enterprise customers) via Anodot, a cost-monitoring and analytics service. The group is demanding a ransom by April [&#8230;]",
+      "author": "Terrence O’Brien",
+      "published": "2026-04-12T13:02:00-04:00",
+      "source": "theverge"
+    },
+    {
+      "title": "You can save $20 on the Super Mario Galaxy game bundle when you buy a Nintendo Switch 2",
+      "url": "https://www.theverge.com/gadgets/909928/nintendo-switch-2-super-mario-galaxy-bundle-deal-sale",
+      "summary": "In celebration of The Super Mario Galaxy Movie coming to theaters, Nintendo is making it a little cheaper to get both Super Mario Galaxy games when you buy a $449.99 Nintendo Switch 2 console. Now through May 9th, you can buy a Switch 2 with Super Mario Galaxy + Super Mario Galaxy 2 for $499.99 [&#8230;]",
+      "author": "Sheena Vasani",
+      "published": "2026-04-12T12:00:00-04:00",
+      "source": "theverge"
+    },
+    {
+      "title": "You can grab a refurbished 2021 Kindle Paperwhite starting at just $49.99",
+      "url": "https://www.theverge.com/gadgets/910482/2021-amazon-kindle-paperwhite-signature-edition-refurbished-woot-deal-sale",
+      "summary": "We spend a lot of time at The Verge waxing poetic about the latest gadgets, but sometimes it’s the last-gen devices from several years ago that offer the better value. The 2021 Kindle Paperwhite is a great case in point — especially since you can grab it at Woot in refurbished condition with lockscreen ads, [&#8230;]",
+      "author": "Brandon Widder",
+      "published": "2026-04-12T10:32:11-04:00",
+      "source": "theverge"
+    },
+    {
+      "title": "The Hisense UR9 is a great first shot against OLED’s bow",
+      "url": "https://www.theverge.com/tech/910537/hisense-ur9-rgb-led-tv-review",
+      "summary": "RGB LED TVs have been the talk of the TV world this year, with models coming from all the manufacturers, and the first one of 2026 is here - the Hisense UR9. It's the first look at the viability of the new backlight technology outside of demo rooms, and it's a step above the traditional [&#8230;]",
+      "author": "John.Higgins",
+      "published": "2026-04-12T09:30:00-04:00",
+      "source": "theverge"
+    },
+    {
+      "title": "How AT&#038;T created the most iconic phone ever",
+      "url": "https://www.theverge.com/podcast/910725/western-electric-500-att-version-history",
+      "summary": "For years, even decades, virtually everyone in the United States had the same phone. Nobody really thought about it, it didn't even matter what it was called - it was just The Phone. Well, The Phone was called the Western Electric 500, and when landline phones ruled the world, the Western Electric 500 ruled the [&#8230;]",
+      "author": "David Pierce",
+      "published": "2026-04-12T09:28:46-04:00",
+      "source": "theverge"
+    },
+    {
+      "title": "The AI code wars are heating up",
+      "url": "https://www.theverge.com/column/910019/ai-coding-wars-openai-google-anthropic",
+      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the AI coding and vibe-coding booms, follow David Pierce. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Writing code was a killer app for AI [&#8230;]",
+      "author": "David Pierce",
+      "published": "2026-04-12T08:00:00-04:00",
+      "source": "theverge"
+    },
+    {
+      "title": "Allow me to explain why I love this camera that can’t shoot color",
+      "url": "https://www.theverge.com/tech/910061/ricoh-gr-iv-monochrome-review",
+      "summary": "I love black-and-white photography. I also adore compact cameras you can always have by your side. So I'm a total mark for the Ricoh GR IV Monochrome, a fixed-lens camera that can't zoom and can't record color - at all. It's a formula that makes the average person ask, \"Why?\" I've tested the GR IV [&#8230;]",
+      "author": "Antonio G. Di Benedetto",
+      "published": "2026-04-12T07:00:00-04:00",
+      "source": "theverge"
+    },
+    {
+      "title": "The Netherlands is the first European country to approve Tesla’s supervised Full Self-Driving",
+      "url": "https://www.theverge.com/transportation/910717/netherlands-tesla-supervised-full-self-driving",
+      "summary": "Dutch regulators, the RDW, announced that after over a year and a half of testing, it has officially approved Tesla's Full-Self Driving (FSD) Supervised. This makes the Netherlands the first European country to authorize the use of FSD on its roads. This could open the door to wider adoption throughout the EU. Tesla's European headquarters [&#8230;]",
+      "author": "Terrence O’Brien",
+      "published": "2026-04-11T19:22:15-04:00",
+      "source": "theverge"
+    },
+    {
+      "title": "Google says Polymarket bets showing up in News was an ‘error’",
+      "url": "https://www.theverge.com/tech/910691/google-news-polymarket-bets-error",
+      "summary": "Polymarket bets started popping up in Google News alongside legitimate news articles. But now those results aren't showing, and Google says they were never supposed to. Spokesperson Ned Adriance told The Verge that \"Google News is designed to show sources that create content about current issues, events, and important topics, and we have policies for [&#8230;]",
+      "author": "Terrence O’Brien",
+      "published": "2026-04-11T11:07:47-04:00",
+      "source": "theverge"
+    },
+    {
+      "title": "Shock from Iran war has Trump's vision for US energy dominance flailing",
+      "url": "https://arstechnica.com/science/2026/04/shock-from-iran-war-has-trumps-vision-for-us-energy-dominance-flailing/",
+      "summary": "Record domestic oil and gas production hasn't saved US drivers from price spikes.",
+      "author": "Marianne Lavalle, Inside Climate News",
+      "published": "Sun, 12 Apr 2026 11:17:26 +0000",
+      "source": "ars"
+    },
+    {
+      "title": "AI models are terrible at betting on soccer—especially xAI Grok",
+      "url": "https://arstechnica.com/ai/2026/04/ai-models-are-terrible-at-betting-on-soccer-especially-xai-grok/",
+      "summary": "Systems from Google, OpenAI, Anthropic, and xAI struggle with the Premier League.",
+      "author": "Tim Bradshaw, Financial Times",
+      "published": "Sat, 11 Apr 2026 11:15:17 +0000",
+      "source": "ars"
+    },
+    {
+      "title": "The Artemis II mission has ended. Where does NASA go from here?",
+      "url": "https://arstechnica.com/space/2026/04/the-artemis-ii-mission-has-ended-where-does-nasa-go-from-here/",
+      "summary": "\"The work ahead is greater than the work behind us.\"",
+      "author": "Eric Berger",
+      "published": "Sat, 11 Apr 2026 03:24:21 +0000",
+      "source": "ars"
+    },
+    {
+      "title": "Four astronauts are back home after a daring ride around the Moon",
+      "url": "https://arstechnica.com/space/2026/04/four-astronauts-are-back-home-after-a-daring-ride-around-the-moon/",
+      "summary": "\"I can't imagine a better crew that just completed a perfect mission right now.\"",
+      "author": "Stephen Clark",
+      "published": "Sat, 11 Apr 2026 01:21:10 +0000",
+      "source": "ars"
+    },
+    {
+      "title": "Californians sue over AI tool that records doctor visits",
+      "url": "https://arstechnica.com/tech-policy/2026/04/californians-sue-over-ai-tool-that-records-doctor-visits/",
+      "summary": "Plaintiffs say transcription tool processed confidential chats offsite.",
+      "author": "Cyrus Farivar",
+      "published": "Fri, 10 Apr 2026 21:43:33 +0000",
+      "source": "ars"
+    },
+    {
+      "title": "New paper argues history, not mantle plume, powers Yellowstone",
+      "url": "https://arstechnica.com/science/2026/04/new-paper-argues-history-not-mantle-plume-powers-yellowstone/",
+      "summary": "A now-vanished plate under North America may open the crust below Yellowstone.",
+      "author": "John Timmer",
+      "published": "Fri, 10 Apr 2026 20:06:39 +0000",
+      "source": "ars"
+    },
+    {
+      "title": "F1 moves a step closer to fixing its 2026 hybrid problem",
+      "url": "https://arstechnica.com/cars/2026/04/f1-moves-a-step-closer-to-fixing-its-2026-hybrid-problem/",
+      "summary": "Algorithms, not drivers, are deciding how hard to accelerate, and that's no good.",
+      "author": "Jonathan M. Gitlin",
+      "published": "Fri, 10 Apr 2026 19:07:46 +0000",
+      "source": "ars"
+    },
+    {
+      "title": "Report: US demands Reddit unmask ICE critic, summons firm to grand jury",
+      "url": "https://arstechnica.com/tech-policy/2026/04/trump-admin-hounds-reddit-to-reveal-identity-of-user-who-criticized-ice/",
+      "summary": "Trump admin reportedly gets grand jury involved in attempt to identify Redditor.",
+      "author": "Jon Brodkin",
+      "published": "Fri, 10 Apr 2026 18:43:25 +0000",
+      "source": "ars"
+    },
+    {
+      "title": "Microsoft's \"commitment to Windows quality\" starts with overhaul of beta program",
+      "url": "https://arstechnica.com/gadgets/2026/04/microsoft-makes-it-easier-for-windows-insider-testers-to-actually-get-new-features/",
+      "summary": "Windows Insider builds remain confusing, but they should be more predictable.",
+      "author": "Andrew Cunningham",
+      "published": "Fri, 10 Apr 2026 18:00:44 +0000",
+      "source": "ars"
+    },
+    {
+      "title": "\"Oobleck\" still holds some surprises",
+      "url": "https://arstechnica.com/science/2026/04/oobleck-still-holds-some-surprises/",
+      "summary": "Dense drops of oobleck with high shear rates spread out like a liquid before stiffening into a solid.",
+      "author": "Jennifer Ouellette",
+      "published": "Fri, 10 Apr 2026 17:57:21 +0000",
+      "source": "ars"
+    },
+    {
+      "title": "‘The Audacity’ Is the Broligarchy Takedown You Were Waiting For",
+      "url": "https://www.wired.com/story/the-audacity-is-the-broligarchy-takedown-you-were-waiting-for/",
+      "summary": "AMC’s new black comedy about a manchild tech titan spinning out of control is a skewering Silicon Valley’s billionaire class deserves.",
+      "author": "Miles Klee",
+      "published": "Sun, 12 Apr 2026 12:00:00 +0000",
+      "source": "wired"
+    },
+    {
+      "title": "Why Is It So Hard to Fix an Electric Bike? (2026)",
+      "url": "https://www.wired.com/story/why-is-it-so-hard-to-fix-an-electric-bike/",
+      "summary": "Bike shop mechanics have lost fingers and their shirts while repairing ebikes of dubious origins. Make sure yours is repairable and third-party certified.",
+      "author": "Stephanie Pearson",
+      "published": "Sun, 12 Apr 2026 12:00:00 +0000",
+      "source": "wired"
+    },
+    {
+      "title": "Best 2-in-1 Laptops (2026): Microsoft, Lenovo, and the iPad",
+      "url": "https://www.wired.com/story/best-2-in-1-laptops/",
+      "summary": "Whether you want a detachable tablet or a laptop screen that spins, these 2-in-1 devices manage to balance being both a tablet and a laptop.",
+      "author": "Luke Larsen",
+      "published": "Sun, 12 Apr 2026 11:30:00 +0000",
+      "source": "wired"
+    },
+    {
+      "title": "There’s a Secret Ingredient to Making Luxury Ice at Home",
+      "url": "https://www.wired.com/story/secret-ingredient-to-making-luxury-ice-at-home/",
+      "summary": "Nice ice is big business, but you can get perfectly clear cubes at home without freezing your assets.",
+      "author": "Jeremy White",
+      "published": "Sun, 12 Apr 2026 11:00:00 +0000",
+      "source": "wired"
+    },
+    {
+      "title": "The Screen Time Maximalists Who Spend an Ungodly Amount of Time on Their Phones",
+      "url": "https://www.wired.com/story/the-screenmaxxers-who-spend-every-waking-hour-on-their-phones/",
+      "summary": "As debates over social media addiction rage, people with extreme screen times tell WIRED they have no plans to cut back.",
+      "author": "Miles Klee",
+      "published": "Sun, 12 Apr 2026 10:30:00 +0000",
+      "source": "wired"
+    },
+    {
+      "title": "Mammotion Spino E1 Review: A Budget Pool Bot That Comes Up Short",
+      "url": "https://www.wired.com/review/mammotion-spino-e1-pool-robot/",
+      "summary": "This compact pool robot keeps its price down, but its performance doesn’t match that of more capable cleaners.",
+      "author": "Christopher Null",
+      "published": "Sun, 12 Apr 2026 10:05:00 +0000",
+      "source": "wired"
+    },
+    {
+      "title": "The 3 Best Mug Warmers of 2026: Better Than the Ember Mug?",
+      "url": "https://www.wired.com/story/best-coffee-warmers-and-mug-warmers/",
+      "summary": "The first rule of coffee is that it must stay hot. After weeks or even years of testing, these are the three coffee warmers that will best keep it that way.",
+      "author": "Matthew Korfhage",
+      "published": "Sun, 12 Apr 2026 09:36:00 +0000",
+      "source": "wired"
+    },
+    {
+      "title": "‘Crimson Desert’ Is a Cat Dad Simulator",
+      "url": "https://www.wired.com/story/crimson-desert-is-a-cat-dad-simulator/",
+      "summary": "Step into the shoes of the strongest, goodest boy in a game that is beautiful, baffling, and impossible to put down.",
+      "author": "",
+      "published": "Sat, 11 Apr 2026 12:30:00 +0000",
+      "source": "wired"
+    },
+    {
+      "title": "Zuvi ColorBox Review: A Hair Dye Printer That Struggles",
+      "url": "https://www.wired.com/review/zuvi-colorbox/",
+      "summary": "This hair dye printer promises hundreds of shades. It couldn't even manage two.",
+      "author": "Louryn Strampe",
+      "published": "Sat, 11 Apr 2026 12:11:00 +0000",
+      "source": "wired"
+    },
+    {
+      "title": "MacBook Neo vs. MacBook Air: Which One Should You Buy?",
+      "url": "https://www.wired.com/story/macbook-neo-vs-macbook-air/",
+      "summary": "After conducting long-term testing on both the MacBook Neo and MacBook Air, I have a good idea who should buy which laptop.",
+      "author": "Luke Larsen",
+      "published": "Sat, 11 Apr 2026 11:30:00 +0000",
+      "source": "wired"
+    },
+    {
+      "title": "Police report: Sam Altman's home appears to have been targeted in a second attack after a gun appeared to have been fired at his home from a car early Sunday (Jonah Owen Lamb/The San Francisco ...)",
+      "url": "http://www.techmeme.com/260412/p10#a260412p10",
+      "summary": "Jonah Owen Lamb / The San Francisco Standard: Police report: Sam Altman's home appears to have been targeted in a second attack after a gun appeared to have been fired at his home from a car early Sunday&nbsp; &mdash;&nbsp; OpenAI CEO Sam Altman's home appears to have been the target of a second attack Sunday morning, a mere two days &hellip;",
+      "author": "",
+      "published": "Sun, 12 Apr 2026 18:50:29 -0400",
+      "source": "techmeme"
+    },
+    {
+      "title": "A look at the escalating global AI arms race, as the US, China, Russia, and others rush to build AI-backed autonomous weapons and defense systems (New York Times)",
+      "url": "http://www.techmeme.com/260412/p9#a260412p9",
+      "summary": "New York Times: A look at the escalating global AI arms race, as the US, China, Russia, and others rush to build AI-backed autonomous weapons and defense systems&nbsp; &mdash;&nbsp; China, the U.S., Russia and others have ramped up their contest over artificial-intelligence-backed weapons and military systems.",
+      "author": "",
+      "published": "Sun, 12 Apr 2026 18:05:42 -0400",
+      "source": "techmeme"
+    },
+    {
+      "title": "A deep dive into the debate about Claude Mythos Preview, the model's capabilities, attempts to refute Anthropic's claims, and what it means for the future of AI (Zvi Mowshowitz/Don't Worry About the Vase)",
+      "url": "http://www.techmeme.com/260412/p8#a260412p8",
+      "summary": "Zvi Mowshowitz / Don't Worry About the Vase: A deep dive into the debate about Claude Mythos Preview, the model's capabilities, attempts to refute Anthropic's claims, and what it means for the future of AI&nbsp; &mdash;&nbsp; Anthropic is not going to release its new most capable model, Claude Mythos, to the public any time soon.",
+      "author": "",
+      "published": "Sun, 12 Apr 2026 16:30:04 -0400",
+      "source": "techmeme"
+    },
+    {
+      "title": "As weather betting grows on prediction markets, climate experts are debating whether it improves forecasts by aggregating knowledge or is simply a zero-sum game (Bloomberg)",
+      "url": "http://www.techmeme.com/260412/p7#a260412p7",
+      "summary": "Bloomberg: As weather betting grows on prediction markets, climate experts are debating whether it improves forecasts by aggregating knowledge or is simply a zero-sum game&nbsp; &mdash;&nbsp; From Kalshi and Polymarket to niche scientific platforms, traders are predicting the weather &mdash; and climate experts are debating the results.",
+      "author": "",
+      "published": "Sun, 12 Apr 2026 14:10:01 -0400",
+      "source": "techmeme"
+    },
+    {
+      "title": "Sources: UK regulators plan to warn banks, insurers, and exchanges about security risks exposed by Claude Mythos Preview at a meeting within the next two weeks (Martin Arnold/Financial Times)",
+      "url": "http://www.techmeme.com/260412/p6#a260412p6",
+      "summary": "Martin Arnold / Financial Times: Sources: UK regulators plan to warn banks, insurers, and exchanges about security risks exposed by Claude Mythos Preview at a meeting within the next two weeks&nbsp; &mdash;&nbsp; Leading banks, insurers and exchanges to be warned over cyber security vulnerabilities exposed by Claude Mythos",
+      "author": "",
+      "published": "Sun, 12 Apr 2026 12:15:01 -0400",
+      "source": "techmeme"
+    },
+    {
+      "title": "Sources: Apple is testing four AI glasses designs with rectangular and oval frames, multiple colors, and a camera system with vertically oriented oval lenses (Mark Gurman/Bloomberg)",
+      "url": "http://www.techmeme.com/260412/p5#a260412p5",
+      "summary": "Mark Gurman / Bloomberg: Sources: Apple is testing four AI glasses designs with rectangular and oval frames, multiple colors, and a camera system with vertically oriented oval lenses&nbsp; &mdash;&nbsp; Also: The latest on the foldable iPhone.&nbsp; &mdash;&nbsp; Apple is working on several frame styles and a unique camera design for its first smart glasses.",
+      "author": "",
+      "published": "Sun, 12 Apr 2026 10:35:01 -0400",
+      "source": "techmeme"
+    },
+    {
+      "title": "Flipkart and Amazon's quick commerce push in India is intensifying competition in an already crowded space where profitability remains under pressure (Jagmeet Singh/TechCrunch)",
+      "url": "http://www.techmeme.com/260412/p4#a260412p4",
+      "summary": "Jagmeet Singh / TechCrunch: Flipkart and Amazon's quick commerce push in India is intensifying competition in an already crowded space where profitability remains under pressure&nbsp; &mdash;&nbsp; India's quick commerce market is booming, with demand more than doubling for some players.&nbsp; But the fast-delivery push by Flipkart &hellip;",
+      "author": "",
+      "published": "Sun, 12 Apr 2026 07:00:33 -0400",
+      "source": "techmeme"
+    },
+    {
+      "title": "A journalist recounts how he used ChatGPT to develop a fitness plan to prepare for the Paris Marathon, resulting in a 20-pound weight loss and faster race times (Derek Wallbank/Bloomberg)",
+      "url": "http://www.techmeme.com/260412/p3#a260412p3",
+      "summary": "Derek Wallbank / Bloomberg: A journalist recounts how he used ChatGPT to develop a fitness plan to prepare for the Paris Marathon, resulting in a 20-pound weight loss and faster race times&nbsp; &mdash;&nbsp; Six months of pain and progress, 20 pounds lost and a trial-and-error test of what AI can &mdash; and cannot &mdash; do.",
+      "author": "",
+      "published": "Sun, 12 Apr 2026 02:00:34 -0400",
+      "source": "techmeme"
+    },
+    {
+      "title": "The Linux Kernel Organization now lets developers submit AI-generated code, as long as it complies with the guidelines, licensing, and attribution requirements (Simon Batt/XDA Developers)",
+      "url": "http://www.techmeme.com/260412/p2#a260412p2",
+      "summary": "Simon Batt / XDA Developers: The Linux Kernel Organization now lets developers submit AI-generated code, as long as it complies with the guidelines, licensing, and attribution requirements&nbsp; &mdash;&nbsp; - Linux allows AI-generated kernel code, but the community will treat it as your own contribution.",
+      "author": "",
+      "published": "Sun, 12 Apr 2026 01:05:01 -0400",
+      "source": "techmeme"
+    },
+    {
+      "title": "Analysts and researchers say Google's TurboQuant compression algorithm to make LLMs more efficient is more likely to expand memory chip demand than reduce it (Daniel Tudor/Financial Times)",
+      "url": "http://www.techmeme.com/260412/p1#a260412p1",
+      "summary": "Daniel Tudor / Financial Times: Analysts and researchers say Google's TurboQuant compression algorithm to make LLMs more efficient is more likely to expand memory chip demand than reduce it&nbsp; &mdash;&nbsp; More efficient artificial intelligence could mean even greater need for semiconductors, say experts",
+      "author": "",
+      "published": "Sun, 12 Apr 2026 00:50:01 -0400",
+      "source": "techmeme"
+    },
+    {
+      "title": "36氪首发｜港中文博士和前大疆智能制造负责人创业，要做AI时代的“个性化乐高”",
+      "url": "https://36kr.com/p/3763919765226240?f=rss",
+      "summary": "作者&nbsp;|&nbsp;张子怡 编辑&nbsp;|&nbsp;袁斯来 36氪获悉，个性化制造品牌UNICUS（原方仔照相馆，深圳千帜科技有限公司）于近日完成新一轮融资。融资金额达数百万美金。本轮由线性资本领投，九坤创投、天际资本跟投，元一资本担任独家财务顾问。公司创始团队及Maker赛道头部公司创始人以个人身份参与跟投。 本轮资金将主要用于积木生成大模型训练、AI Agent的研发以及海外市场的拓展，持续构建“AI驱动的个性化制造”核心能力体系。 过去两年，生成式AI的爆发大多集中在数字世界，而UNICUS选择让AI走进物理工厂。基于自研的全自动化设计及生产系统，UNICUS率先探索出一套由技术驱动的定制化玩具规模量产路径。 长期以来，全球积木市场由乐高（LEGO）等巨头主导，年营收规模已达700亿元。然而，传统积木本质上是“IP驱动的标准化工业”，无论是迪士尼城堡还是星球大战系列，用户购买的是既定框架内的文化符号。 在UNICUS创始人兼CEO徐豪看来，每个人生命中的高光时刻、难忘回忆，以及与家人和宠物相伴的珍贵瞬间，才是最真实、也最独特的“个人IP”。 （图源/企业） 只是，",
+      "author": "",
+      "published": "2026-04-13 09:00:26  +0800",
+      "source": "36kr"
+    },
+    {
+      "title": "智能体“军团”进入临床试验，北大校友四个月融了2亿美金、估值翻6倍",
+      "url": "https://36kr.com/p/3757975636050695?f=rss",
+      "summary": "文｜胡香赟 编辑｜海若镜 “医疗健康产业正在经历它们的chatGPT时刻。”3月结束2026GTC大会上，黄仁勋再次提及AI落地新药开发场景，正带来巨大机会。 近日，据外媒报道百图生科、华深智药已启动IPO进程；中国创新药产业链上，拿到阶段性结果的“AI原生公司”受到资本青睐。其中，AI临床研发服务公司深度智耀的融资节奏更引关注。 去年12月至今年3月，这家公司接连官宣3笔D轮系列融资，累计募资接近2亿美元。据了解，当前深度智耀估值已达到数十亿美金，与去年年中相比，估值涨幅超6倍；且正在推进新一轮Pre-IPO融资。 另据公司介绍，公司近两年拿单量、业绩增速很快。2025年以来，销售订单额已近10亿元；2026年前两个月的订单已超过了25年全年。且公司已连续多年实现盈利。近期的融资中，红杉、鼎晖百孚、新鼎资本等老股东几乎全员加注，每一轮都“实现超募、交割迅速”。 在药物早期发现环节，用AI优化药物分子结构，已广泛嵌入药企研发的工作流。为了提高药物开发成功率，业内渴求AI能在中后期的临床试验环节发力。时至今日，AI智能体的技术与能力，让行业感受到了“硅基科学家”加速临床试验的潜能。 深度",
+      "author": "",
+      "published": "2026-04-13 08:30:00  +0800",
+      "source": "36kr"
+    },
+    {
+      "title": "8点1氪丨海底捞通报员工被强制自费买礼物；王石否认被抓；何超蕸去世，信德集团官网已变黑白",
+      "url": "https://36kr.com/p/3764503979328001?f=rss",
+      "summary": "今日热点导览 特朗普政府将打击赴美生子 闪迪股价1年暴涨2500%，华尔街分析师强烈看涨闪迪 蜜雪冰城南美首店开业价格曝光：柠檬水8元人民币一杯 欧盟航空燃油三周后或系统性短缺 &nbsp;YouTube近三年来首次在美国上调订阅价格 TOP3大新闻 海底捞通报员工被强制自费买礼物：已通知一千多家门店内部排查 近日，有消费者爆料称，海底捞门店赠送给顾客的玩具和礼物并非公司统一配发，而是由员工自掏腰包购买。 4月11日，海底捞火锅发布了关于“海底捞伙伴因顾客投诉被强制自费买礼物事件”的说明，表示“郑重承诺一定依法对该伙伴进行赔偿，并当面或按照该伙伴的意愿通过其他渠道致以诚挚的歉意。” 并称：由于我们担心在其它门店存在类似情况，在4月10号早上10点，我们通知一千多家门店进行内部排查，相关排查工作仍在持续进行中，一旦发现类似情况，我们一定依法妥善处理。（封面新闻） 王石否认被抓：一切安好，造谣者交给法律 4月12日，网传“王石被抓”一事引发关注。对此，田朴珺回应：这是法治社会，造谣不需要付出代价吗？随后，王石发博：看来大家比我本人还关心我的动态。一切安好，造谣者交给法律。 记者注意到，王石",
+      "author": "",
+      "published": "2026-04-13 08:13:48  +0800",
+      "source": "36kr"
+    },
+    {
+      "title": "为什么有钱人也不买GUCCI了？",
+      "url": "https://36kr.com/p/3762200670077448?f=rss",
+      "summary": "曾经一只酒神包便能掀起排队热潮的GUCCI（古驰），如今似乎正通过关店、降价来重新找回市场。 3月底，GUCCI上海环贸iapm旗舰店关闭。此前，该品牌已撤掉上海芮欧百货和新世界大丸百货两家标志性门店——仅两年内一个城市内就关了三家店，关店数量占了总数的三分之一。 但另一边，开进奥莱的GUCCI热闹非凡，成了排队王中的“当红炸子鸡”。只要去奥莱，大部分消费者首奔的店都是GUCCI，因为在那里可以淘到5折甚至2.5折的货品。 GUCCI奥莱门店 | 图 王涵艺摄 正价店卖不动，奥莱店“抢疯”。曾经的顶奢品牌GUCCI，到底怎么了？ GUCCI为何卖不动？ 开云集团2025年财报显示，GUCCI营收同比暴跌22%至59.92亿欧元，营业利润腰斩至9.66亿欧元。 这样的下滑势头，已持续近3年。2024年，GUCCI营收已经同比上一年下降了23%；2023年，GUCCI营收也同比单位数下跌。 可供对比的是，在2022年，GUCCI的年销售额曾突破100亿欧元大关。 有人说，这是奢侈品行业的寒流，所有品牌都不好过。 但事实是，同属顶奢阵营的爱马仕、LV、香奈儿虽有业绩波动，却未陷入连续下滑的泥",
+      "author": "",
+      "published": "2026-04-11 17:16:09  +0800",
+      "source": "36kr"
+    },
+    {
+      "title": "拿下豪华种子轮，一家明星AI公司宣布倒闭",
+      "url": "https://36kr.com/p/3762088319484419?f=rss",
+      "summary": "作者/吴琼 报道/投资界PEdaily 唏嘘一幕。 近日，知名AI创业公司Yupp宣布：将停止服务，于4月15日正式关闭。要知道，这距离Yupp产品上线才不到一年时间。 曾经，Yupp的故事颇具前景：瞄准AI模型评测赛道——通过免费模型服务吸引用户评测，再将测评数据卖给模型厂商。犹记得2024年，公司拿下3300万美元（约合2.2亿元）的豪华种子轮，身后聚集a16z合伙人、Google首席科学家、Twitter联合创始人等超45位天使投资人。 只是，Yupp却以极为荒诞的方式失败：投资人的钱还没花完，AI技术的演进就让其市场不复存在。而这一切，就发生在短短几个月之间。 拿下豪华种子轮，一家明星AI公司宣布倒闭 从成立到关门，Yupp只存活了22个月。 故事始于一支精英团队；创始人兼CEO Pankaj Gupta职业生涯遍布Twitter、Google，Coinbase等硅谷最顶尖的科技公司，且此前就有成功创业经验；联合创始人兼AI负责人Gilad Mishne曾是GoogleX的机器学习负责人；首席科学家Jimmy Lin是麻省理工学院博士、滑铁卢大学教授。 早在2010年，三人于T",
+      "author": "",
+      "published": "2026-04-11 15:20:09  +0800",
+      "source": "36kr"
+    },
+    {
+      "title": "奥特曼家被炸了！",
+      "url": "https://36kr.com/p/3762027785224707?f=rss",
+      "summary": "奥特曼家被炸了 【导读】当地时间周五清晨，奥特曼家被炸了。奥特曼发出家人和孩子的照片，并且发出长文表示，AGI如今已经如同魔戒一般，让人做出疯狂的举动。 奥特曼家被炸了！ 就在当地时间周五清晨，一名20岁男子向奥特曼旧金山中投掷了燃烧弹，引起火灾。 这栋豪宅价值2700万美元。 凌晨4点12分，警方接到报警，调查后发现无人受伤，火势已被控制。但嫌疑人已经徒步逃跑，体貌特征已被通报。 凌晨5点07分左右，警方又接到报警称，OpenAI办公楼外，一名身份不明的男子扬言要烧毁大楼。 警员很快发现，该男子与向奥特曼家中投掷燃烧弹的嫌疑人特征相符，应为同一人，警方立即将其拘留。 现在，旧金山警察局已经在X上发布通报。目前调查仍在进行中，尚未正式提出指控。 旧金山警察局已经在X上发布通报 面对这起事件，奥特曼愤怒了！他罕见地公开全家福，并且深夜发表了一篇长文。 奥特曼发长文 奥特曼发长文 奥特曼表示，「我爱我的家人胜过一切」 在这篇文章中，奥特曼首次深刻地回应了公众对AI的极度焦虑。他坦诚这种恐惧是合理的，呼吁通过全社会的政策响应和AI民主化来应对，坚决反对少数实验室独占未来控制权。 同时，他也进",
+      "author": "",
+      "published": "2026-04-11 14:17:09  +0800",
+      "source": "36kr"
+    },
+    {
+      "title": "那个“爱马仕”，想拯救“智障”小龙虾",
+      "url": "https://36kr.com/p/3761883183530502?f=rss",
+      "summary": "文｜Lambda 编辑｜晓静 4月初，Hermes Agent 火了。这个名字直接让人联想到奢侈品牌爱马仕，所以也被戏称为“爱马仕Agent”。 它由 Nous Research 在 2 月发布，定位是「The agent that grows with you」。核心卖点是一个闭环学习系统：Agent 完成复杂任务后，自动把经验固化成 Skill，下次遇到类似任务直接复用，还能在使用过程中持续改进。Skill 自动生成、越用越强——这是 Agent 领域目前最有吸引力的叙事之一。 但这个叙事遮蔽了一个更基本的问题：Skill 真的是当前 Agent 落地的主要瓶颈吗？ 图片由AI生成 01 Skill 很性感，但它可能不是最重要的问题 一个容易被忽略的事实是：目前公认体验最好的编程 Agent 产品之一——Claude Code，它好用的基石并不是 Skill 的自动进化，而是背后大量扎实的 CLI 工具支撑。 用 GlobTool 找候选文件，用 GrepTool 定位相关代码片段，用 FileReadTool 查看实现细节，用 LSPTool 做代码符号跳转和引用分析。每一个都是",
+      "author": "",
+      "published": "2026-04-11 11:47:59  +0800",
+      "source": "36kr"
+    },
+    {
+      "title": "雷军投的\"红娘\"要去IPO了",
+      "url": "https://36kr.com/p/3761856919093768?f=rss",
+      "summary": "伊达母公司米连科技向港交所递交招股书 作者 | 王涛编辑 | 吾人 来源 |&nbsp;融中财经 又一个“红娘平台”要去IPO了。 前不久，伊达母公司米连科技向港交所递交招股书，由华泰国际担任独家保荐人。这也是继去年9月米连首次递表失效后的第二轮冲刺。 据悉，米连在海内外运营有多款在线情感社交平台。其中，2017年上线的伊对APP是米连科技的核心产品，更新后的招股书显示，其开创的主持人用户引导的三方互动，以及收入分成模式，在2025年共计为母公司带来了33.67亿元营收，占总营收比例约八成。 与互联网企业常见的“赔本赚吆喝”的套路不同，米连的财报十分亮眼。招股书披露其在2025年全年营收41.22亿元，净利润5.19亿元，同比暴涨256%。 赚钱的秘诀在于其不是传统社交平台的路数，而是搭了一个“线上红娘”的场子。超过19万名红娘活跃在平台上，靠撮合用户互动、引导虚拟礼物消费来赚分成。招股书显示，去年光是红娘分成这一项支出就超过18亿元。 这样的打法可以很好地帮助那些不太擅长社交的普通消费者，独特的“视频相亲+红娘撮合”的方式成了其独特壁垒。据披露，此前米连科技已经连续完成多轮融资，投资",
+      "author": "",
+      "published": "2026-04-11 11:19:31  +0800",
+      "source": "36kr"
+    },
+    {
+      "title": "低空经济第一股，来了",
+      "url": "https://36kr.com/p/3761810181210633?f=rss",
+      "summary": "作者丨韦香惠 来源丨东四十条资本 拿下开年低空经济最大一笔融资后，仅隔不到两个月，沃飞长空便迅速启动IPO进程，直指A股“低空经济第一股”。 就在签署上市辅导协议前一天，公司完成股份制改造，由“有限责任公司”整体变更为“股份有限公司”，注册资本由约1.77亿元提升至3.6亿元；与此同时，吉利科技集团CEO徐志豪接任董事长，标志着这家吉利系低空企业在治理结构与战略层面进一步向集团化、产业化靠拢。 从融资节奏来看，沃飞长空已累计完成五轮市场化融资，最新一轮金额近10亿元，刷新2026年开年以来低空经济领域最大单笔融资纪录。但在资本加速涌入的同时，公司核心机型AE200仍处于适航审定阶段，尚未实现取证与量产，其位于成都的全球总部基地一期也预计要到2026年下半年方可投产。 这意味着，资本的热度，与产业兑现节奏之间，仍存在时间差，而这也是整个低空经济行业的缩影。 根据《低空经济发展报告（2025-2026）》，我国低空经济已完成顶层框架搭建，正迈向“实质运营”阶段。但在产业真正起飞之前，如何在安全监管与规模化发展之间取得平衡，仍是一道必须跨越的关键门槛。 融资落袋两个月，直奔IPO 4月3日，",
+      "author": "",
+      "published": "2026-04-11 10:31:48  +0800",
+      "source": "36kr"
+    },
+    {
+      "title": "Claude新模型危险，鲍威尔召集华尔街紧急开会！全美安全股暴跌2万亿",
+      "url": "https://36kr.com/p/3761709375521288?f=rss",
+      "summary": "【导读】刚刚，华尔街巨头被紧急召往华盛顿！Mythos这个模型让美国财长和美联储主席都恐慌了，向全美金融业CEO发出警告。短短一年内，SaaS市场经历了一场浩劫，2万亿美元直接蒸发。 就在这周二，鲍威尔和贝森特紧急召见华尔街，向所有人发出警告—— Anthropic的最新模型Mythos，可能对金融业造成重大风险！ 从蒸发2万亿美元，到紧急召集CEO进华盛顿——Anthropic的AI，正在触碰金融世界最敏感的神经。 就在今天，这个新闻已经在全网刷屏了。 Anthropic Anthropic 本周二，一场没有提前预告、没有公开议程的会议，在华盛顿财政部悄然举行。 出席者不是普通官员，而是美国金融体系的核心人物，及华尔街最顶级银行的CEO们。 美国财长贝森特与美联储主席鲍威尔，这两位掌控全球金融命脉的「巨头」，联手发出了一道紧急召集令。 美国财长贝森特与美联储主席鲍威尔 花旗、大摩、美银、富国银行、高盛的CEO们，此刻脸上都写满了严峻。 他们怕的不是通胀，不是加息，而是Claude Mythos。 这只在Anthropic实验室里诞生的怪兽，被认为足以瞬间瘫痪全球的数字金融基础设施！ ",
+      "author": "",
+      "published": "2026-04-11 09:25:41  +0800",
+      "source": "36kr"
+    },
+    {
+      "title": "Uber Hive联邦架构：1.6万数据集、10PB数据去中心化，支撑大规模分析零停机",
+      "url": "https://www.infoq.cn/article/bFwjzUqLXLZCmqz7pBNJ?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "author": "作者：Leela Kumili",
+      "published": "Sun, 12 Apr 2026 15:00:00 GMT",
+      "source": "infoq"
+    },
+    {
+      "title": "首席工程师之路：培养领导力",
+      "url": "https://www.infoq.cn/article/Bbmfyay4kg5Hx2ATMdMC?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "author": "Ben Linders",
+      "published": "Sun, 12 Apr 2026 14:00:00 GMT",
+      "source": "infoq"
+    },
+    {
+      "title": "Aspire 13.2 正式发布，带来扩展版 CLI、预览版 TypeScript AppHost 及仪表盘改进",
+      "url": "https://www.infoq.cn/article/gXDZZmbAobi5TfwKUxLH?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "author": "作者：Almir Vuk",
+      "published": "Sun, 12 Apr 2026 11:00:00 GMT",
+      "source": "infoq"
+    },
+    {
+      "title": "谷歌开源 Colab MCP Server，AI 智能体可云端运行代码",
+      "url": "https://www.infoq.cn/article/Z71AB0lSu0DcEhSNFXqQ?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "author": "作者：Robert Krzaczyński",
+      "published": "Sun, 12 Apr 2026 10:00:00 GMT",
+      "source": "infoq"
+    },
+    {
+      "title": "可复制的 AI Coding 全栈实战：比 OpenSpec 更轻量、更丝滑｜QCon北京",
+      "url": "https://www.infoq.cn/article/4wNXLbIeHGEWrGNUwOjc?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "author": "QCon全球软件开发大会",
+      "published": "Sun, 12 Apr 2026 10:00:00 GMT",
+      "source": "infoq"
+    },
+    {
+      "title": "Cloudflare 推出 EmDash，瞄准 WordPress 的下一个十年",
+      "url": "https://www.infoq.cn/article/17v8NjjI4NFp0uwMr27S?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "author": "作者：Renato Losio",
+      "published": "Sun, 12 Apr 2026 08:00:00 GMT",
+      "source": "infoq"
+    },
+    {
+      "title": "Tailwind CSS 4.2 发布 Webpack 插件、新配色方案以及逻辑属性工具类",
+      "url": "https://www.infoq.cn/article/50T48b3TOSJZRAa4GGx9?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "author": "作者：Daniel Curtis",
+      "published": "Sat, 11 Apr 2026 15:00:00 GMT",
+      "source": "infoq"
+    },
+    {
+      "title": "GitHub Actions 正式发布自定义 Runner 镜像",
+      "url": "https://www.infoq.cn/article/z7y47sADu9SrwgSgr3V1?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "author": "作者：Claudio Masolo",
+      "published": "Sat, 11 Apr 2026 14:00:00 GMT",
+      "source": "infoq"
+    },
+    {
+      "title": "MCP开发者峰会观察：网关、无状态请求与企业级落地路径",
+      "url": "https://www.infoq.cn/article/f4df9bE6zm1wy9pI1xKA?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "author": "作者：Andrew Hoblitzell",
+      "published": "Sat, 11 Apr 2026 12:10:45 GMT",
+      "source": "infoq"
+    },
+    {
+      "title": "Cloudflare 与苏黎世联邦理工学院概述了基于 AI 的缓存优化方法",
+      "url": "https://www.infoq.cn/article/e6qh5DKlDApGZGxxgKZO?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "author": "作者：Leela Kumili",
+      "published": "Sat, 11 Apr 2026 11:00:00 GMT",
+      "source": "infoq"
+    }
+  ]
+}

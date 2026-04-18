@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026-04-13 - Daily Digest</title>
+  <style>
+:root {
+  --bg: #0d1117;
+  --bg-card: #161b22;
+  --bg-hover: #1c2333;
+  --text: #e6edf3;
+  --text-muted: #8b949e;
+  --accent: #58a6ff;
+  --accent-green: #3fb950;
+  --border: #30363d;
+  --orange: #f0883e;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px 30px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+  background: linear-gradient(135deg, var(--accent), #a371f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+/* 导航 */
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.nav-list a {
+  color: var(--text-muted);
+  text-decoration: none;
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+
+.nav-list a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+/* 日期列表页 */
+.date-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.date-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px 24px;
+  text-decoration: none;
+  color: var(--text);
+  transition: all 0.2s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date-card:hover {
+  background: var(--bg-hover);
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.date-card .date {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.date-card .meta {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+/* 文章页 */
+article h1 {
+  font-size: 1.6rem;
+  margin: 30px 0 10px;
+}
+
+article h2 {
+  font-size: 1.3rem;
+  margin: 35px 0 15px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+  color: var(--accent);
+}
+
+article h3 {
+  font-size: 1.1rem;
+  margin: 25px 0 10px;
+}
+
+article p {
+  margin: 10px 0;
+  color: var(--text);
+}
+
+article a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+article a:hover {
+  text-decoration: underline;
+}
+
+article blockquote {
+  border-left: 3px solid var(--accent);
+  padding: 10px 15px;
+  margin: 15px 0;
+  background: var(--bg-card);
+  border-radius: 0 8px 8px 0;
+  color: var(--text-muted);
+}
+
+article ul, article ol {
+  padding-left: 25px;
+  margin: 10px 0;
+}
+
+article li {
+  margin: 6px 0;
+  color: var(--text);
+}
+
+article li a {
+  color: var(--accent);
+}
+
+article hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 25px 0;
+}
+
+article code {
+  background: var(--bg-card);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+article details {
+  margin: 15px 0;
+}
+
+article summary {
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  padding: 8px 0;
+}
+
+article details[open] summary {
+  margin-bottom: 10px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  background: rgba(88,166,255,0.15);
+  color: var(--accent);
+}
+
+/* 返回顶部 */
+.back-link {
+  display: inline-block;
+  margin: 20px 0;
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.back-link:hover { color: var(--accent); }
+
+/* 页脚 */
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  border-top: 1px solid var(--border);
+  margin-top: 40px;
+}
+
+/* 响应式 */
+@media (max-width: 600px) {
+  .container { padding: 15px; }
+  header h1 { font-size: 1.5rem; }
+  article h2 { font-size: 1.1rem; }
+  .date-card { padding: 15px; }
+}
+</style>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📰</text></svg>">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📰 Daily Digest</h1>
+      <p>每日科技热点聚合 · AI 驱动的新闻日报</p>
+    </header>
+    
+    <main>
+      
+    <a class="back-link" href="index.html">← 返回所有日报</a>
+    <article>
+      <p><h1>Daily Digest - 2026-04-13</h1></p><p>> 自动生成于 2026-04-13 09:07 CST
+> 数据源：9 个平台，共 139 条内容</p><p>---</p><p><h2>📌 今日要点</h2></p><p><h2>今日要点</h2></p><p>各平台热门内容已聚合，详见下方各板块。</p><p>---</p><p><h2>📰 RSS聚合</h2></p><p><li><strong>Trump officials may be encouraging banks to test Anthropic’s Mythos model</strong></li>
+  https://techcrunch.com/2026/04/12/trump-officials-may-be-encouraging-banks-to-test-anthropics-mythos-model/
+<li><strong>Apple reportedly testing four designs for upcoming smart glasses</strong></li>
+  https://techcrunch.com/2026/04/12/apple-reportedly-testing-four-designs-for-upcoming-smart-glasses/
+<li><strong>X says it’s reducing payments to clickbait accounts</strong></li>
+  https://techcrunch.com/2026/04/12/x-says-its-reducing-payments-to-clickbait-accounts/
+<li><strong>TechCrunch Mobility: Who is poaching all the self-driving vehicle talent?</strong></li>
+  https://techcrunch.com/2026/04/12/techcrunch-mobility-who-is-poaching-all-the-self-driving-vehicle-talent/
+<li><strong>From LLMs to hallucinations, here’s a simple guide to common AI terms</strong></li>
+  https://techcrunch.com/2026/04/12/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/
+<li><strong>At the HumanX conference, everyone was talking about Claude</strong></li>
+  https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/
+<li><strong>Slate Auto: Everything you need to know about the Bezos-backed EV startup</strong></li>
+  https://techcrunch.com/2026/04/12/slate-auto-everything-you-need-to-know-about-the-bezos-backed-ev-startup/
+<li><strong>Walmart-owned Flipkart, Amazon are squeezing India’s quick commerce startups</strong></li>
+  https://techcrunch.com/2026/04/11/walmart-owned-flipkart-amazon-are-squeezing-indias-quick-commerce-startups/
+<li><strong>Kalshi wins temporary pause in Arizona criminal case</strong></li>
+  https://techcrunch.com/2026/04/11/kalshi-wins-temporary-pause-in-arizona-criminal-case/
+<li><strong>AMC will stream ‘The Audacity’ premiere in 21 parts on TikTok</strong></li>
+  https://techcrunch.com/2026/04/11/amc-will-stream-the-audacity-premiere-in-21-parts-on-tiktok/</p><p><details>
+<summary>📋 完整列表 (70 条)</summary></p><p><li><a href="https://techcrunch.com/2026/04/12/trump-officials-may-be-encouraging-banks-to-test-anthropics-mythos-model/">Trump officials may be encouraging banks to test Anthropic’s Mythos model</a> — The report is particularly surprising since the Department of Defense recently declared Anthropic a </li>
+<li><a href="https://techcrunch.com/2026/04/12/apple-reportedly-testing-four-designs-for-upcoming-smart-glasses/">Apple reportedly testing four designs for upcoming smart glasses</a> — These glasses are a step back from an ambitious plan that once called for Apple to launch a variety </li>
+<li><a href="https://techcrunch.com/2026/04/12/x-says-its-reducing-payments-to-clickbait-accounts/">X says it’s reducing payments to clickbait accounts</a> — X is cutting back on payments to accounts that are “flooding the timeline” with clickbait and rapid-</li>
+<li><a href="https://techcrunch.com/2026/04/12/techcrunch-mobility-who-is-poaching-all-the-self-driving-vehicle-talent/">TechCrunch Mobility: Who is poaching all the self-driving vehicle talent?</a> — Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ev</li>
+<li><a href="https://techcrunch.com/2026/04/12/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/">From LLMs to hallucinations, here’s a simple guide to common AI terms</a> — The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions </li>
+<li><a href="https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/">At the HumanX conference, everyone was talking about Claude</a> — Anthropic was the star of the show at San Francisco's AI-centric conference.</li>
+<li><a href="https://techcrunch.com/2026/04/12/slate-auto-everything-you-need-to-know-about-the-bezos-backed-ev-startup/">Slate Auto: Everything you need to know about the Bezos-backed EV startup</a> — Slate auto burst onto the scene in April 2025. Here is a timeline that covers its origins, backers, </li>
+<li><a href="https://techcrunch.com/2026/04/11/walmart-owned-flipkart-amazon-are-squeezing-indias-quick-commerce-startups/">Walmart-owned Flipkart, Amazon are squeezing India’s quick commerce startups</a> — Flipkart's ongoing expansion beyond major cities and heavy discounting is raising risks for India's </li>
+<li><a href="https://techcrunch.com/2026/04/11/kalshi-wins-temporary-pause-in-arizona-criminal-case/">Kalshi wins temporary pause in Arizona criminal case</a> — The Commodity Futures Trading Commission announced Friday that it has won a temporary restraining or</li>
+<li><a href="https://techcrunch.com/2026/04/11/amc-will-stream-the-audacity-premiere-in-21-parts-on-tiktok/">AMC will stream ‘The Audacity’ premiere in 21 parts on TikTok</a> — Is this a smart way to build buzz, or just an odd attempt to recreate Quibi?</li>
+<li><a href="https://www.theverge.com/entertainment/910826/room-for-the-moon-is-thrillingly-weird-experimental-pop">Room for the Moon is thrillingly weird experimental pop</a> — For obvious reasons, I've had Moon on the mind all week. So I was trying to figure out what I should</li>
+<li><a href="https://www.theverge.com/games/910815/rockstar-games-says-hack-will-have-no-impact">Rockstar Games says hack will have ‘no impact’</a> — Rockstar confirmed on Saturday that some of its data was compromised in a breach of a third-party pr</li>
+<li><a href="https://www.theverge.com/gadgets/909928/nintendo-switch-2-super-mario-galaxy-bundle-deal-sale">You can save $20 on the Super Mario Galaxy game bundle when you buy a Nintendo Switch 2</a> — In celebration of The Super Mario Galaxy Movie coming to theaters, Nintendo is making it a little ch</li>
+<li><a href="https://www.theverge.com/gadgets/910482/2021-amazon-kindle-paperwhite-signature-edition-refurbished-woot-deal-sale">You can grab a refurbished 2021 Kindle Paperwhite starting at just $49.99</a> — We spend a lot of time at The Verge waxing poetic about the latest gadgets, but sometimes it’s the l</li>
+<li><a href="https://www.theverge.com/tech/910537/hisense-ur9-rgb-led-tv-review">The Hisense UR9 is a great first shot against OLED’s bow</a> — RGB LED TVs have been the talk of the TV world this year, with models coming from all the manufactur</li></p><p></details></p><p>---</p><p><h2>🟠 Hacker News</h2></p><p><li><strong>Taking on CUDA with ROCm: 'One Step After Another'</strong> (↑35)</li>
+  https://www.eetimes.com/taking-on-cuda-with-rocm-one-step-after-another/
+<li><strong>Bring Back Idiomatic Design</strong> (↑447)</li>
+  https://essays.johnloeber.com/p/4-bring-back-idiomatic-design
+<li><strong>DIY Soft Drinks</strong> (↑235)</li>
+  https://blinry.org/diy-soft-drinks/
+<li><strong>Ask HN: What Are You Working On? (April 2026)</strong> (↑120)</li>
+  https://news.ycombinator.com/item?id=47741527
+<li><strong>Most people can't juggle one ball</strong> (↑225)</li>
+  https://www.lesswrong.com/posts/jTGbKKGqs5EdyYoRc/most-people-can-t-juggle-one-ball
+<li><strong>A Perfectable Programming Language</strong> (↑43)</li>
+  https://alok.github.io/lean-pages/perfectable-lean/
+<li><strong>I gave every train in New York an instrument</strong> (↑198)</li>
+  https://www.trainjazz.com/
+<li><strong>Google removes "Doki Doki Literature Club" from Google Play</strong> (↑278)</li>
+  https://bsky.app/profile/serenityforge.com/post/3mj3r4nbiws2t
+<li><strong>Show HN: Oberon System 3 runs natively on Raspberry Pi 3 (with ready SD card)</strong> (↑162)</li>
+  https://github.com/rochus-keller/OberonSystem3Native/releases
+<li><strong>The peril of laziness lost</strong> (↑299)</li>
+  https://bcantrill.dtrace.org/2026/04/12/the-peril-of-laziness-lost/</p><p><details>
+<summary>📋 完整列表 (20 条)</summary></p><p><li><a href="https://www.eetimes.com/taking-on-cuda-with-rocm-one-step-after-another/">Taking on CUDA with ROCm: 'One Step After Another'</a> <code>↑35</code></li>
+<li><a href="https://essays.johnloeber.com/p/4-bring-back-idiomatic-design">Bring Back Idiomatic Design</a> <code>↑447</code></li>
+<li><a href="https://blinry.org/diy-soft-drinks/">DIY Soft Drinks</a> <code>↑235</code></li>
+<li><a href="https://news.ycombinator.com/item?id=47741527">Ask HN: What Are You Working On? (April 2026)</a> <code>↑120</code></li>
+<li><a href="https://www.lesswrong.com/posts/jTGbKKGqs5EdyYoRc/most-people-can-t-juggle-one-ball">Most people can't juggle one ball</a> <code>↑225</code></li>
+<li><a href="https://alok.github.io/lean-pages/perfectable-lean/">A Perfectable Programming Language</a> <code>↑43</code></li>
+<li><a href="https://www.trainjazz.com/">I gave every train in New York an instrument</a> <code>↑198</code></li>
+<li><a href="https://bsky.app/profile/serenityforge.com/post/3mj3r4nbiws2t">Google removes "Doki Doki Literature Club" from Google Play</a> <code>↑278</code></li>
+<li><a href="https://github.com/rochus-keller/OberonSystem3Native/releases">Show HN: Oberon System 3 runs natively on Raspberry Pi 3 (with ready SD card)</a> <code>↑162</code></li>
+<li><a href="https://bcantrill.dtrace.org/2026/04/12/the-peril-of-laziness-lost/">The peril of laziness lost</a> <code>↑299</code></li>
+<li><a href="https://boringbar.app/">Show HN: boringBar – a taskbar-style dock replacement for macOS</a> <code>↑216</code></li>
+<li><a href="https://www.awi.de/en/about-us/service/press/single-view/unkartierte-insel-demnaechst-auf-seekarten-verzeichnet.html">Uncharted island soon to appear on nautical charts</a> <code>↑38</code></li>
+<li><a href="https://news.ycombinator.com/item?id=47738883">Tell HN: docker pull fails in spain due to football cloudflare block</a> <code>↑656</code></li>
+<li><a href="https://www.apollo.com/wealth/the-daily-spark/tech-valuations-back-to-pre-ai-boom-levels">Tech valuations are back to pre-AI boom levels</a> <code>↑98</code></li>
+<li><a href="https://github.com/anthropics/claude-code/issues/46829">Anthropic downgraded cache TTL on March 6th</a> <code>↑469</code></li></p><p></details></p><p>---</p><p><h2>🐦 Twitter/X</h2></p><p><li><strong>#AEWDynasty</strong></li>
+  https://twitter.com/search?q=%23AEWDynasty
+<li><strong>Corinthians</strong></li>
+  https://twitter.com/search?q=Corinthians
+<li><strong>Hungary</strong></li>
+  https://twitter.com/search?q=Hungary
+<li><strong>Orban</strong></li>
+  https://twitter.com/search?q=Orban
+<li><strong>Rory</strong></li>
+  https://twitter.com/search?q=Rory
+<li><strong>#ري_عط</strong></li>
+  https://twitter.com/search?q=%23ري_عط
+<li><strong>#OUR_BOND_IS_7</strong></li>
+  https://twitter.com/search?q=%23OUR_BOND_IS_7
+<li><strong>#HEAL_THE_GAP_BELIFT</strong></li>
+  https://twitter.com/search?q=%23HEAL_THE_GAP_BELIFT
+<li><strong>#ピザーラクォーター</strong></li>
+  https://twitter.com/search?q=%23ピザーラクォーター
+<li><strong>Yuri Alberto</strong></li>
+  https://twitter.com/search?q=Yuri Alberto</p><p><details>
+<summary>📋 完整列表 (15 条)</summary></p><p><li><a href="https://twitter.com/search?q=%23AEWDynasty">#AEWDynasty</a></li>
+<li><a href="https://twitter.com/search?q=Corinthians">Corinthians</a></li>
+<li><a href="https://twitter.com/search?q=Hungary">Hungary</a></li>
+<li><a href="https://twitter.com/search?q=Orban">Orban</a></li>
+<li><a href="https://twitter.com/search?q=Rory">Rory</a></li>
+<li><a href="https://twitter.com/search?q=%23ري_عط">#ري_عط</a></li>
+<li><a href="https://twitter.com/search?q=%23OUR_BOND_IS_7">#OUR_BOND_IS_7</a></li>
+<li><a href="https://twitter.com/search?q=%23HEAL_THE_GAP_BELIFT">#HEAL_THE_GAP_BELIFT</a></li>
+<li><a href="https://twitter.com/search?q=%23ピザーラクォーター">#ピザーラクォーター</a></li>
+<li><a href="https://twitter.com/search?q=Yuri Alberto">Yuri Alberto</a></li>
+<li><a href="https://twitter.com/search?q=Hungría">Hungría</a></li>
+<li><a href="https://twitter.com/search?q=André">André</a></li>
+<li><a href="https://twitter.com/search?q=Colidio">Colidio</a></li>
+<li><a href="https://twitter.com/search?q=Felipe Anderson">Felipe Anderson</a></li>
+<li><a href="https://twitter.com/search?q=Keiko">Keiko</a></li></p><p></details></p><p>---</p><p><h2>⭐ GitHub Trending</h2></p><p><li>****</li>
+  https://github.com/NousResearch/hermes-agent
+<li>****</li>
+  https://github.com/shiyu-coder/Kronos
+<li>****</li>
+  https://github.com/forrestchang/andrej-karpathy-skills
+<li>****</li>
+  https://github.com/microsoft/markitdown
+<li>****</li>
+  https://github.com/multica-ai/multica
+<li>****</li>
+  https://github.com/coleam00/Archon
+<li>****</li>
+  https://github.com/shanraisshan/claude-code-best-practice
+<li>****</li>
+  https://github.com/OpenBMB/VoxCPM
+<li>****</li>
+  https://github.com/thedotmack/claude-mem
+<li>****</li>
+  https://github.com/ahujasid/blender-mcp</p><p><details>
+<summary>📋 完整列表 (14 条)</summary></p><p><li>[](https://github.com/NousResearch/hermes-agent) <code>Python</code> — The agent that grows with you</li>
+<li>[](https://github.com/shiyu-coder/Kronos) <code>Python</code> — Kronos: A Foundation Model for the Language of Financial Markets</li>
+<li>[](https://github.com/forrestchang/andrej-karpathy-skills) — A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations</li>
+<li>[](https://github.com/microsoft/markitdown) <code>Python</code> — Python tool for converting files and office documents to Markdown.</li>
+<li>[](https://github.com/multica-ai/multica) <code>TypeScript</code> — The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, trac</li>
+<li>[](https://github.com/coleam00/Archon) <code>TypeScript</code> — The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.</li>
+<li>[](https://github.com/shanraisshan/claude-code-best-practice) <code>HTML</code> — practice made claude perfect</li>
+<li>[](https://github.com/OpenBMB/VoxCPM) <code>Python</code> — VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-L</li>
+<li>[](https://github.com/thedotmack/claude-mem) <code>TypeScript</code> — A Claude Code plugin that automatically captures everything Claude does during your coding sessions,</li>
+<li>[](https://github.com/ahujasid/blender-mcp) <code>Python</code></li>
+<li>[](https://github.com/rustfs/rustfs) <code>Rust</code> — 🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-perfor</li>
+<li>[](https://github.com/virattt/ai-hedge-fund) <code>Python</code> — An AI Hedge Fund Team</li>
+<li>[](https://github.com/snarktank/ralph) <code>TypeScript</code> — Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete.</li>
+<li>[](https://github.com/TapXWorld/ChinaTextbook) <code>Roff</code> — 所有小初高、大学PDF教材。</li></p><p></details></p><p>---</p><p><h2>👩‍💻 Dev.to</h2></p><p><li><strong>Building a Football Analytics Pipeline: Patterns, Tradeoffs, and What Production Would Look Like</strong> (↑3)</li>
+  https://dev.to/ayoabass777/building-a-football-analytics-pipeline-patterns-tradeoffs-and-what-production-would-look-like-n66
+<li><strong>How to Programmatically Install Firefox Extensions (And Why It Breaks)</strong> (↑8)</li>
+  https://dev.to/alanwest/how-to-programmatically-install-firefox-extensions-and-why-it-breaks-2b01
+<li><strong>How We Ran Two Portals on the Same Domain During a React Migration (Without Users Noticing)</strong> (↑1)</li>
+  https://dev.to/gustav_lotz_5628d28bc9eac/how-we-ran-two-portals-on-the-same-domain-during-a-react-migration-without-users-noticing-28g0
+<li><strong>Health Checks in ASP.NET Core: Beyond the Basic /health Endpoint</strong></li>
+  https://dev.to/adrianbailador/health-checks-in-aspnet-core-beyond-the-basic-health-endpoint-2bpn
+<li><strong>Why 1100 / 1.1 = 999.9999… Is a Tax Calculator Bug, and Two Ways to Fix It</strong></li>
+  https://dev.to/sendotltd/why-1100-11-9999999-is-a-tax-calculator-bug-and-two-ways-to-fix-it-3d38
+<li><strong>DualClip - Update_2026.04.12.</strong> (↑6)</li>
+  https://dev.to/rakkunn/dualclip-update20260412-4pb7
+<li><strong>I built a Telegram bot that reads 70 arXiv papers a day so I don't have to</strong></li>
+  https://dev.to/landigf/i-built-a-telegram-bot-that-reads-70-arxiv-papers-a-day-so-i-dont-have-to-19b5
+<li><strong>Sentinel Diary #2: the day the dashboard lied (and other honest bugs)</strong></li>
+  https://dev.to/boccato85/diario-sentinel-o-dia-que-o-dashboard-mentiu-e-outros-bugs-honestos-38n8
+<li><strong>I built a pixel-perfect, printer-independent report designer with Avalonia UI</strong></li>
+  https://dev.to/maskedridersystem/i-built-a-pixel-perfect-printer-independent-report-designer-with-avalonia-ui-4dke
+<li><strong>GitHub Actions Supabase で技術記事投稿を自動化した話 — 1日に21本をQiita/dev.toへ</strong></li>
+  https://dev.to/kanta13jp1/github-actions-x-supabase-deji-shu-ji-shi-tou-gao-wozi-dong-hua-sitahua-1ri-ni21ben-woqiitadevtohe-4fb3</p><p><details>
+<summary>📋 完整列表 (10 条)</summary></p><p><li><a href="https://dev.to/ayoabass777/building-a-football-analytics-pipeline-patterns-tradeoffs-and-what-production-would-look-like-n66">Building a Football Analytics Pipeline: Patterns, Tradeoffs, and What Production Would Look Like</a> <code>↑3</code> — Football is the most watched sport on the planet. Millions of fans follow their teams across leagues</li>
+<li><a href="https://dev.to/alanwest/how-to-programmatically-install-firefox-extensions-and-why-it-breaks-2b01">How to Programmatically Install Firefox Extensions (And Why It Breaks)</a> <code>↑8</code> — A deep dive into programmatically installing Firefox extensions, why naive approaches fail, and the </li>
+<li><a href="https://dev.to/gustav_lotz_5628d28bc9eac/how-we-ran-two-portals-on-the-same-domain-during-a-react-migration-without-users-noticing-28g0">How We Ran Two Portals on the Same Domain During a React Migration (Without Users Noticing)</a> <code>↑1</code> — Imagine going live with your rewritten app and within an hour support tickets start flooding in. You</li>
+<li><a href="https://dev.to/adrianbailador/health-checks-in-aspnet-core-beyond-the-basic-health-endpoint-2bpn">Health Checks in ASP.NET Core: Beyond the Basic /health Endpoint</a> — A service returning 200 OK on /health doesn't mean it's healthy. It means the process is alive and..</li>
+<li><a href="https://dev.to/sendotltd/why-1100-11-9999999-is-a-tax-calculator-bug-and-two-ways-to-fix-it-3d38">Why 1100 / 1.1 = 999.9999… Is a Tax Calculator Bug, and Two Ways to Fix It</a> — Why 1100 / 1.1 = 999.9999… Is a Tax Calculator Bug, and Two Ways to Fix It    Japan has a...</li>
+<li><a href="https://dev.to/rakkunn/dualclip-update20260412-4pb7">DualClip - Update_2026.04.12.</a> <code>↑6</code> — Last week, I shared the first round of updates for DualClip, my open-source macOS clipboard manager.</li>
+<li><a href="https://dev.to/landigf/i-built-a-telegram-bot-that-reads-70-arxiv-papers-a-day-so-i-dont-have-to-19b5">I built a Telegram bot that reads 70 arXiv papers a day so I don't have to</a> — I built a Telegram bot that reads 70 arXiv papers a day so I don't have to            The...</li>
+<li><a href="https://dev.to/boccato85/diario-sentinel-o-dia-que-o-dashboard-mentiu-e-outros-bugs-honestos-38n8">Sentinel Diary #2: the day the dashboard lied (and other honest bugs)</a> — Series: vibe coding with Claude Code + Kubernetes   Today was one of those days where you sit down..</li>
+<li><a href="https://dev.to/maskedridersystem/i-built-a-pixel-perfect-printer-independent-report-designer-with-avalonia-ui-4dke">I built a pixel-perfect, printer-independent report designer with Avalonia UI</a> — I’ve released ACR Designer, a WYSIWYG report designer for the ACR (Across Report Renderer)...</li>
+<li><a href="https://dev.to/kanta13jp1/github-actions-x-supabase-deji-shu-ji-shi-tou-gao-wozi-dong-hua-sitahua-1ri-ni21ben-woqiitadevtohe-4fb3">GitHub Actions Supabase で技術記事投稿を自動化した話 — 1日に21本をQiita/dev.toへ</a> — GitHub Actions × Supabase で技術記事投稿を自動化した話 — 1日に21本をQiita/dev.toへ           ...</li></p><p></details></p><p>---</p><p><h2>💬 V2EX</h2></p><p><li><strong>[合肥] 初级小程序全栈工程师</strong></li>
+  https://www.v2ex.com/t/1205233
+<li><strong>咸鱼 codex 模型注水，用千问 0.6b 代替 codex5.4</strong></li>
+  https://www.v2ex.com/t/1205234
+<li><strong>Vex——更现代的 V2EX ios 客户端</strong></li>
+  https://www.v2ex.com/t/1205310
+<li><strong>[ Codex 中转站 | 纯 plus 号池] 开了一个多月的站子， token 烧了 2599 亿，我决定给大伙发福利了</strong></li>
+  https://www.v2ex.com/t/1205340
+<li><strong>爱上合租妹子 2 - 看电影</strong></li>
+  https://www.v2ex.com/t/1205228
+<li><strong>从 IOS 想转到安卓阵营，是用国内系统 ROOT 好还是刷国际版好，问问大伙意见</strong></li>
+  https://www.v2ex.com/t/1205293
+<li><strong>2026 年， V 友们认为最省内存的浏览器是哪个呢？你目前在用的是什么浏览器？</strong></li>
+  https://www.v2ex.com/t/1205227
+<li><strong>Gemini 访问不了，换了台湾家宽也不行，用什么梯子能访问啊？</strong></li>
+  https://www.v2ex.com/t/1205253
+<li><strong>注册尼日利亚区域的方法，包括如何更改区域</strong></li>
+  https://www.v2ex.com/t/1205255
+<li><strong>燃气公司有权因为热水器超过 8 年而给家里停气吗？</strong></li>
+  https://www.v2ex.com/t/1205311</p><p><details>
+<summary>📋 完整列表 (10 条)</summary></p><p><li><a href="https://www.v2ex.com/t/1205233">[合肥] 初级小程序全栈工程师</a> <code>↑54</code></li>
+<li><a href="https://www.v2ex.com/t/1205234">咸鱼 codex 模型注水，用千问 0.6b 代替 codex5.4</a> <code>↑52</code></li>
+<li><a href="https://www.v2ex.com/t/1205310">Vex——更现代的 V2EX ios 客户端</a> <code>↑47</code></li>
+<li><a href="https://www.v2ex.com/t/1205340">[ Codex 中转站 | 纯 plus 号池] 开了一个多月的站子， token 烧了 2599 亿，我决定给大伙发福利了</a> <code>↑47</code></li>
+<li><a href="https://www.v2ex.com/t/1205228">爱上合租妹子 2 - 看电影</a> <code>↑47</code></li>
+<li><a href="https://www.v2ex.com/t/1205293">从 IOS 想转到安卓阵营，是用国内系统 ROOT 好还是刷国际版好，问问大伙意见</a> <code>↑40</code></li>
+<li><a href="https://www.v2ex.com/t/1205227">2026 年， V 友们认为最省内存的浏览器是哪个呢？你目前在用的是什么浏览器？</a> <code>↑40</code></li>
+<li><a href="https://www.v2ex.com/t/1205253">Gemini 访问不了，换了台湾家宽也不行，用什么梯子能访问啊？</a> <code>↑39</code></li>
+<li><a href="https://www.v2ex.com/t/1205255">注册尼日利亚区域的方法，包括如何更改区域</a> <code>↑38</code></li>
+<li><a href="https://www.v2ex.com/t/1205311">燃气公司有权因为热水器超过 8 年而给家里停气吗？</a> <code>↑30</code></li></p><p></details></p><p>---</p><p>---</p><p>*Generated by <a href="https://github.com">Daily Digest</a> · Powered by GitHub Actions + AI*</p>
+    </article>
+    <a class="back-link" href="index.html">← 返回所有日报</a>
+    
+    </main>
+    <footer>
+      <p>Powered by GitHub Actions + AI · 自动生成</p>
+      <p>Data from Hacker News, GitHub, Reddit, Twitter/X, Product Hunt, V2EX, and more</p>
+    </footer>
+  </div>
+</body>
+</html>
